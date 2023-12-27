@@ -1,0 +1,7 @@
+2022-11-11 14:13:05,757 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:13:05,760 DEBUG: Task list loaded.
+2022-11-11 14:13:05,765 DEBUG: Total number of tasks: 1
+2022-11-11 14:13:05,765  INFO:  -- START  -- SHELLD2.xml
+2022-11-11 14:13:05,765  INFO:  -- Fri Nov 11 14:13:05 AWST 2022
+2022-11-11 14:13:05,765  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/SHELLD2/raw/import.xml 2:13:05 pm
+2022-11-11 14:13:05,848  INFO: Importing file dbca_SHELLD2_2022-09-07_1802.csv

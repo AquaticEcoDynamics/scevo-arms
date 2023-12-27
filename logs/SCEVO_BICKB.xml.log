@@ -1,0 +1,15 @@
+2022-11-11 13:57:27,871 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 13:57:27,873 DEBUG: Task list loaded.
+2022-11-11 13:57:27,873 DEBUG: Total number of tasks: 1
+2022-11-11 13:57:27,873  INFO:  -- START  -- BICKB.xml
+2022-11-11 13:57:27,873  INFO:  -- Fri Nov 11 13:57:27 AWST 2022
+2022-11-11 13:57:27,873  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/BICKB/raw/import.xml 1:57:27 pm
+2022-11-11 13:57:27,960  INFO: Importing file dbca_BICKB_2022-09-07_1802.csv
+2022-11-11 14:48:53,286 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:48:53,307 DEBUG: Task list loaded.
+2022-11-11 14:48:53,307 DEBUG: Total number of tasks: 1
+2022-11-11 14:48:53,307  INFO:  -- START  -- BICKB.xml
+2022-11-11 14:48:53,308  INFO:  -- Fri Nov 11 14:48:53 AWST 2022
+2022-11-11 14:48:53,308  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/BICKB/raw/import.xml 2:48:53 pm
+2022-11-11 14:48:53,403  INFO: Importing file dbca_BICKB_2022-09-07_1802.csv
+2022-11-11 15:05:48,024  INFO:  -- END  -- Fri Nov 11 15:05:48 AWST 2022

@@ -1,0 +1,7 @@
+2022-11-11 14:13:10,362 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:13:10,363 DEBUG: Task list loaded.
+2022-11-11 14:13:10,363 DEBUG: Total number of tasks: 1
+2022-11-11 14:13:10,363  INFO:  -- START  -- STHNR.xml
+2022-11-11 14:13:10,363  INFO:  -- Fri Nov 11 14:13:10 AWST 2022
+2022-11-11 14:13:10,363  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/STHNR/raw/import.xml 2:13:10 pm
+2022-11-11 14:13:10,452  INFO: Importing file dbca_STHNR_2022-09-07_1802.csv

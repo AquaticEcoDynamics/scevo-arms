@@ -1,0 +1,7 @@
+2022-11-11 14:13:23,390 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:13:23,391 DEBUG: Task list loaded.
+2022-11-11 14:13:23,391 DEBUG: Total number of tasks: 1
+2022-11-11 14:13:23,391  INFO:  -- START  -- SWN2.xml
+2022-11-11 14:13:23,391  INFO:  -- Fri Nov 11 14:13:23 AWST 2022
+2022-11-11 14:13:23,391  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/SWN2/raw/import.xml 2:13:23 pm
+2022-11-11 14:13:23,482  INFO: Importing file dbca_SWN2_2022-09-07_1802.csv

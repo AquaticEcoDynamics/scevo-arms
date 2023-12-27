@@ -1,0 +1,2096 @@
+2023-11-08 10:38:54,041 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-08 10:38:54,042 ERROR: CAUGHT EXCEPTION: Unable to locate and initialise class: cwr.arms.tasks.split wiski data by site
+cwr.arms.tasks.TaskException: Unable to locate and initialise class: cwr.arms.tasks.split wiski data by site
+	at cwr.arms.tasks.TaskList.getTaskFactory(TaskList.java:303)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:273)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-11-08 11:02:34,627 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-08 11:02:34,629 ERROR: CAUGHT EXCEPTION: Unable to locate and initialise class: cwr.arms.tasks.split_wiski_data_by_site
+cwr.arms.tasks.TaskException: Unable to locate and initialise class: cwr.arms.tasks.split_wiski_data_by_site
+	at cwr.arms.tasks.TaskList.getTaskFactory(TaskList.java:303)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:273)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-11-08 11:05:25,004 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-08 11:05:25,006 ERROR: CAUGHT EXCEPTION: Unable to locate and initialise class: cwr.arms.tasks.split_wiski_data_by_site
+cwr.arms.tasks.TaskException: Unable to locate and initialise class: cwr.arms.tasks.split_wiski_data_by_site
+	at cwr.arms.tasks.TaskList.getTaskFactory(TaskList.java:303)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:273)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-11-08 11:10:46,574 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-08 11:10:46,576 DEBUG: Task list loaded.
+2023-11-08 11:10:46,576 DEBUG: Total number of tasks: 1
+2023-11-08 11:10:46,576  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-08 11:10:46,576  INFO:  -- Wed Nov 08 11:10:46 AWST 2023
+2023-11-08 11:10:46,576  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 11:10:46 am
+2023-11-08 11:10:46,576  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-08 11:10:47,418  INFO: $AIRSMD
+2023-11-08 11:10:47,567  INFO: NULL
+2023-11-08 11:10:47,567  INFO: $ASHD
+2023-11-08 11:10:47,567  INFO: NULL
+2023-11-08 11:10:47,567  INFO: $BANNC
+2023-11-08 11:10:47,567  INFO: NULL
+2023-11-08 11:10:47,567  INFO: $BAYMD
+2023-11-08 11:10:47,567  INFO: NULL
+2023-11-08 11:10:47,567  INFO: $BAYMD2
+2023-11-08 11:10:47,567  INFO: NULL
+2023-11-08 11:10:47,567  INFO: $BENNB
+2023-11-08 11:10:47,567  INFO: NULL
+2023-11-08 11:10:47,567  INFO: $BICKB
+2023-11-08 11:10:47,567  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $BLACKC
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $BODD
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $CANND
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $CANNR
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $CBDMD
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $CLAISB
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $ELLENB1
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $ELLENB2
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $ELLISB
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $HELENR
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $HELENR2
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $HENLB
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $JANEB
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $LIMEC
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $MADDD
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $MAYMD
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $MILLMD
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $NEERB
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $SBELMD
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $SHELLD1
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $SHELLD2
+2023-11-08 11:10:47,568  INFO: NULL
+2023-11-08 11:10:47,568  INFO: $STHNR
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $STLEOC
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $SUSANB
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $SWANR
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $WANDC
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $WILMD
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $YULEB
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $ARM
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $BAC
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $BACD500
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $BLA
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $CASMID
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $CAV
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $ELL
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $HEA
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $JBC
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $KEN
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $KMO
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $KS7
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $KS9
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $MAY
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $MEAD
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $MULB
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $NAR
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $NIC
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $NICIN
+2023-11-08 11:10:47,569  INFO: NULL
+2023-11-08 11:10:47,569  INFO: $NIL
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $PAC
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $PO2
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $POL
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $REG
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $RIV
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $SAL
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $SANDBR
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $SCB2
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $SHELL
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $STJ
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $VIT
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $ARM
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $BAC
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $BACD500
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $BLA
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $CASMID
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $CAV
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $ELL
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $HEA
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $JBC
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $KEN
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $KMO
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $KS7
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $KS9
+2023-11-08 11:10:47,570  INFO: NULL
+2023-11-08 11:10:47,570  INFO: $MAY
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $MEAD
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $MULB
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $NAR
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $NIC
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $NICIN
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $NIL
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $PAC
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $PO2
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $POL
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $REG
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $RIV
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $SAL
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $SANDBR
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $SCB2
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $STJ
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $VIT
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $FP1
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $FP2.2
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $FP7
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $FP1
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $FP2.2
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:47,571  INFO: $FP7
+2023-11-08 11:10:47,571  INFO: NULL
+2023-11-08 11:10:48,567  INFO:  -- END  -- Wed Nov 08 11:10:48 AWST 2023
+2023-11-08 11:36:48,873 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-08 11:36:48,874 DEBUG: Task list loaded.
+2023-11-08 11:36:48,874 DEBUG: Total number of tasks: 1
+2023-11-08 11:36:48,874  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-08 11:36:48,874  INFO:  -- Wed Nov 08 11:36:48 AWST 2023
+2023-11-08 11:36:48,875  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 11:36:48 am
+2023-11-08 11:36:48,875  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-08 11:36:49,665  INFO: $AIRSMD
+2023-11-08 11:36:49,813  INFO: NULL
+2023-11-08 11:36:49,813 ERROR: Warning message:
+2023-11-08 11:36:49,813  INFO: $ASHD
+2023-11-08 11:36:49,813 ERROR: In dir.create(importedfolder, recursive = TRUE) :
+2023-11-08 11:36:49,813  INFO: NULL
+2023-11-08 11:36:49,813 ERROR:   cannot create dir '/Data/AED_Harvest/data/2023/harvest_wiski/imported', reason 'Permission denied'
+2023-11-08 11:36:49,813 ERROR: Warning message:
+2023-11-08 11:36:49,813  INFO: $BANNC
+2023-11-08 11:36:49,813 ERROR: In file.rename(filepath, file.path(importedfolder, basename(filepath))) :
+2023-11-08 11:36:49,813  INFO: NULL
+2023-11-08 11:36:49,813 ERROR:   cannot rename file '/Data/AED_Harvest/data/2023/harvest_wiski/DBCA_data_export_2023-10-27.csv' to '/Data/AED_Harvest/data/2023/harvest_wiski/imported//DBCA_data_export_2023-10-27.csv', reason 'No such file or directory'
+2023-11-08 11:36:49,813  INFO: $BAYMD
+2023-11-08 11:36:49,814  INFO: NULL
+2023-11-08 11:36:49,814  INFO: $BAYMD2
+2023-11-08 11:36:49,814  INFO: NULL
+2023-11-08 11:36:49,814  INFO: $BENNB
+2023-11-08 11:36:49,814  INFO: NULL
+2023-11-08 11:36:49,814  INFO: $BICKB
+2023-11-08 11:36:49,814  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $BLACKC
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $BODD
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $CANND
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $CANNR
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $CBDMD
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $CLAISB
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $ELLENB1
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $ELLENB2
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $ELLISB
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $HELENR
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $HELENR2
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $HENLB
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $JANEB
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $LIMEC
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $MADDD
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $MAYMD
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $MILLMD
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $NEERB
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $SBELMD
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $SHELLD1
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $SHELLD2
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $STHNR
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $STLEOC
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $SUSANB
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $SWANR
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $WANDC
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,815  INFO: $WILMD
+2023-11-08 11:36:49,815  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $YULEB
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $ARM
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $BAC
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $BACD500
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $BLA
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $CASMID
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $CAV
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $ELL
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $HEA
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $JBC
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $KEN
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $KMO
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $KS7
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $KS9
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $MAY
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $MEAD
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $MULB
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $NAR
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $NIC
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $NICIN
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $NIL
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $PAC
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,816  INFO: $PO2
+2023-11-08 11:36:49,816  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $POL
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $REG
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $RIV
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $SAL
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $SANDBR
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $SCB2
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $SHELL
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $STJ
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $VIT
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $ARM
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $BAC
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $BACD500
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $BLA
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $CASMID
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $CAV
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $ELL
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $HEA
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $JBC
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $KEN
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $KMO
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $KS7
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $KS9
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $MAY
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $MEAD
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $MULB
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $NAR
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $NIC
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $NICIN
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $NIL
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,817  INFO: $PAC
+2023-11-08 11:36:49,817  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $PO2
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $POL
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $REG
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $RIV
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $SAL
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $SANDBR
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $SCB2
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $STJ
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $VIT
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $FP1
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $FP2.2
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $FP7
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $FP1
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $FP2.2
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: $FP7
+2023-11-08 11:36:49,818  INFO: NULL
+2023-11-08 11:36:49,818  INFO: [1] FALSE
+2023-11-08 11:36:50,813  INFO:  -- END  -- Wed Nov 08 11:36:50 AWST 2023
+2023-11-08 18:00:01,904 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-08 18:00:01,919 DEBUG: Task list loaded.
+2023-11-08 18:00:01,919 DEBUG: Total number of tasks: 1
+2023-11-08 18:00:01,919  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-08 18:00:01,919  INFO:  -- Wed Nov 08 18:00:01 AWST 2023
+2023-11-08 18:00:01,919  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-08 18:00:01,919  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-08 18:00:05,408  INFO:  -- END  -- Wed Nov 08 18:00:05 AWST 2023
+2023-11-09 00:00:01,893 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-09 00:00:01,922 DEBUG: Task list loaded.
+2023-11-09 00:00:01,922 DEBUG: Total number of tasks: 1
+2023-11-09 00:00:01,922  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-09 00:00:01,922  INFO:  -- Thu Nov 09 00:00:01 AWST 2023
+2023-11-09 00:00:01,922  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-09 00:00:01,922  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-09 00:00:04,146  INFO:  -- END  -- Thu Nov 09 00:00:04 AWST 2023
+2023-11-09 06:00:01,893 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-09 06:00:01,900 DEBUG: Task list loaded.
+2023-11-09 06:00:01,900 DEBUG: Total number of tasks: 1
+2023-11-09 06:00:01,900  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-09 06:00:01,900  INFO:  -- Thu Nov 09 06:00:01 AWST 2023
+2023-11-09 06:00:01,901  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-09 06:00:01,901  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-09 06:00:03,211  INFO:  -- END  -- Thu Nov 09 06:00:03 AWST 2023
+2023-11-09 12:00:01,627 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-09 12:00:01,643 DEBUG: Task list loaded.
+2023-11-09 12:00:01,643 DEBUG: Total number of tasks: 1
+2023-11-09 12:00:01,643  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-09 12:00:01,643  INFO:  -- Thu Nov 09 12:00:01 AWST 2023
+2023-11-09 12:00:01,644  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-09 12:00:01,644  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-09 12:00:02,914  INFO:  -- END  -- Thu Nov 09 12:00:02 AWST 2023
+2023-11-09 18:00:01,619 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-09 18:00:01,622 DEBUG: Task list loaded.
+2023-11-09 18:00:01,623 DEBUG: Total number of tasks: 1
+2023-11-09 18:00:01,623  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-09 18:00:01,623  INFO:  -- Thu Nov 09 18:00:01 AWST 2023
+2023-11-09 18:00:01,623  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-09 18:00:01,625  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-09 18:00:02,914  INFO:  -- END  -- Thu Nov 09 18:00:02 AWST 2023
+2023-11-10 00:00:01,620 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-10 00:00:01,624 DEBUG: Task list loaded.
+2023-11-10 00:00:01,624 DEBUG: Total number of tasks: 1
+2023-11-10 00:00:01,624  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-10 00:00:01,625  INFO:  -- Fri Nov 10 00:00:01 AWST 2023
+2023-11-10 00:00:01,625  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-10 00:00:01,625  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-10 00:00:02,999  INFO:  -- END  -- Fri Nov 10 00:00:02 AWST 2023
+2023-11-10 06:00:01,620 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-10 06:00:01,622 DEBUG: Task list loaded.
+2023-11-10 06:00:01,622 DEBUG: Total number of tasks: 1
+2023-11-10 06:00:01,622  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-10 06:00:01,622  INFO:  -- Fri Nov 10 06:00:01 AWST 2023
+2023-11-10 06:00:01,622  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-10 06:00:01,622  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-10 06:00:03,056  INFO:  -- END  -- Fri Nov 10 06:00:03 AWST 2023
+2023-11-10 12:00:01,619 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-10 12:00:01,628 DEBUG: Task list loaded.
+2023-11-10 12:00:01,628 DEBUG: Total number of tasks: 1
+2023-11-10 12:00:01,629  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-10 12:00:01,629  INFO:  -- Fri Nov 10 12:00:01 AWST 2023
+2023-11-10 12:00:01,629  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-10 12:00:01,629  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-10 12:00:04,262  INFO:  -- END  -- Fri Nov 10 12:00:04 AWST 2023
+2023-11-10 18:00:01,356 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-10 18:00:01,381 DEBUG: Task list loaded.
+2023-11-10 18:00:01,381 DEBUG: Total number of tasks: 1
+2023-11-10 18:00:01,381  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-10 18:00:01,381  INFO:  -- Fri Nov 10 18:00:01 AWST 2023
+2023-11-10 18:00:01,381  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-10 18:00:01,381  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-10 18:00:04,246  INFO:  -- END  -- Fri Nov 10 18:00:04 AWST 2023
+2023-11-11 00:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-11 00:00:01,356 DEBUG: Task list loaded.
+2023-11-11 00:00:01,356 DEBUG: Total number of tasks: 1
+2023-11-11 00:00:01,356  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-11 00:00:01,356  INFO:  -- Sat Nov 11 00:00:01 AWST 2023
+2023-11-11 00:00:01,356  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-11 00:00:01,356  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-11 00:00:03,003  INFO:  -- END  -- Sat Nov 11 00:00:03 AWST 2023
+2023-11-11 06:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-11 06:00:01,362 DEBUG: Task list loaded.
+2023-11-11 06:00:01,363 DEBUG: Total number of tasks: 1
+2023-11-11 06:00:01,363  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-11 06:00:01,363  INFO:  -- Sat Nov 11 06:00:01 AWST 2023
+2023-11-11 06:00:01,363  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-11 06:00:01,363  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-11 06:00:02,639  INFO:  -- END  -- Sat Nov 11 06:00:02 AWST 2023
+2023-11-11 12:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-11 12:00:01,355 DEBUG: Task list loaded.
+2023-11-11 12:00:01,355 DEBUG: Total number of tasks: 1
+2023-11-11 12:00:01,355  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-11 12:00:01,355  INFO:  -- Sat Nov 11 12:00:01 AWST 2023
+2023-11-11 12:00:01,355  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-11 12:00:01,355  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-11 12:00:02,750  INFO:  -- END  -- Sat Nov 11 12:00:02 AWST 2023
+2023-11-11 18:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-11 18:00:01,365 DEBUG: Task list loaded.
+2023-11-11 18:00:01,365 DEBUG: Total number of tasks: 1
+2023-11-11 18:00:01,365  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-11 18:00:01,365  INFO:  -- Sat Nov 11 18:00:01 AWST 2023
+2023-11-11 18:00:01,365  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-11 18:00:01,365  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-11 18:00:02,951  INFO:  -- END  -- Sat Nov 11 18:00:02 AWST 2023
+2023-11-12 00:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-12 00:00:01,355 DEBUG: Task list loaded.
+2023-11-12 00:00:01,355 DEBUG: Total number of tasks: 1
+2023-11-12 00:00:01,355  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-12 00:00:01,355  INFO:  -- Sun Nov 12 00:00:01 AWST 2023
+2023-11-12 00:00:01,355  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-12 00:00:01,355  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-12 00:00:02,627  INFO:  -- END  -- Sun Nov 12 00:00:02 AWST 2023
+2023-11-12 06:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-12 06:00:01,385 DEBUG: Task list loaded.
+2023-11-12 06:00:01,385 DEBUG: Total number of tasks: 1
+2023-11-12 06:00:01,385  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-12 06:00:01,385  INFO:  -- Sun Nov 12 06:00:01 AWST 2023
+2023-11-12 06:00:01,385  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-12 06:00:01,385  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-12 06:00:02,707  INFO:  -- END  -- Sun Nov 12 06:00:02 AWST 2023
+2023-11-12 12:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-12 12:00:01,365 DEBUG: Task list loaded.
+2023-11-12 12:00:01,365 DEBUG: Total number of tasks: 1
+2023-11-12 12:00:01,365  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-12 12:00:01,365  INFO:  -- Sun Nov 12 12:00:01 AWST 2023
+2023-11-12 12:00:01,365  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-12 12:00:01,365  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-12 12:00:02,677  INFO:  -- END  -- Sun Nov 12 12:00:02 AWST 2023
+2023-11-12 18:00:01,353 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-12 18:00:01,357 DEBUG: Task list loaded.
+2023-11-12 18:00:01,357 DEBUG: Total number of tasks: 1
+2023-11-12 18:00:01,357  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-12 18:00:01,357  INFO:  -- Sun Nov 12 18:00:01 AWST 2023
+2023-11-12 18:00:01,358  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-12 18:00:01,358  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-12 18:00:02,628  INFO:  -- END  -- Sun Nov 12 18:00:02 AWST 2023
+2023-11-13 00:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-13 00:00:01,363 DEBUG: Task list loaded.
+2023-11-13 00:00:01,363 DEBUG: Total number of tasks: 1
+2023-11-13 00:00:01,363  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-13 00:00:01,363  INFO:  -- Mon Nov 13 00:00:01 AWST 2023
+2023-11-13 00:00:01,363  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-13 00:00:01,363  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-13 00:00:02,655  INFO:  -- END  -- Mon Nov 13 00:00:02 AWST 2023
+2023-11-13 06:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-13 06:00:01,363 DEBUG: Task list loaded.
+2023-11-13 06:00:01,363 DEBUG: Total number of tasks: 1
+2023-11-13 06:00:01,363  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-13 06:00:01,363  INFO:  -- Mon Nov 13 06:00:01 AWST 2023
+2023-11-13 06:00:01,363  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-13 06:00:01,363  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-13 06:00:02,634  INFO:  -- END  -- Mon Nov 13 06:00:02 AWST 2023
+2023-11-13 12:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-13 12:00:01,360 DEBUG: Task list loaded.
+2023-11-13 12:00:01,360 DEBUG: Total number of tasks: 1
+2023-11-13 12:00:01,360  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-13 12:00:01,360  INFO:  -- Mon Nov 13 12:00:01 AWST 2023
+2023-11-13 12:00:01,360  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-13 12:00:01,360  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-13 12:00:02,640  INFO:  -- END  -- Mon Nov 13 12:00:02 AWST 2023
+2023-11-13 18:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-13 18:00:01,364 DEBUG: Task list loaded.
+2023-11-13 18:00:01,364 DEBUG: Total number of tasks: 1
+2023-11-13 18:00:01,364  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-13 18:00:01,364  INFO:  -- Mon Nov 13 18:00:01 AWST 2023
+2023-11-13 18:00:01,364  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-13 18:00:01,364  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-13 18:00:02,633  INFO:  -- END  -- Mon Nov 13 18:00:02 AWST 2023
+2023-11-14 00:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-14 00:00:01,362 DEBUG: Task list loaded.
+2023-11-14 00:00:01,363 DEBUG: Total number of tasks: 1
+2023-11-14 00:00:01,363  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-14 00:00:01,363  INFO:  -- Tue Nov 14 00:00:01 AWST 2023
+2023-11-14 00:00:01,363  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-14 00:00:01,363  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-14 00:00:02,636  INFO:  -- END  -- Tue Nov 14 00:00:02 AWST 2023
+2023-11-14 06:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-14 06:00:01,355 DEBUG: Task list loaded.
+2023-11-14 06:00:01,355 DEBUG: Total number of tasks: 1
+2023-11-14 06:00:01,355  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-14 06:00:01,355  INFO:  -- Tue Nov 14 06:00:01 AWST 2023
+2023-11-14 06:00:01,355  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-14 06:00:01,355  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-14 06:00:02,633  INFO:  -- END  -- Tue Nov 14 06:00:02 AWST 2023
+2023-11-14 12:00:01,355 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-14 12:00:01,359 DEBUG: Task list loaded.
+2023-11-14 12:00:01,359 DEBUG: Total number of tasks: 1
+2023-11-14 12:00:01,359  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-14 12:00:01,359  INFO:  -- Tue Nov 14 12:00:01 AWST 2023
+2023-11-14 12:00:01,359  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-14 12:00:01,359  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-14 12:00:02,961  INFO:  -- END  -- Tue Nov 14 12:00:02 AWST 2023
+2023-11-14 18:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-14 18:00:01,356 DEBUG: Task list loaded.
+2023-11-14 18:00:01,356 DEBUG: Total number of tasks: 1
+2023-11-14 18:00:01,356  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-14 18:00:01,356  INFO:  -- Tue Nov 14 18:00:01 AWST 2023
+2023-11-14 18:00:01,356  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-14 18:00:01,356  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-14 18:00:04,436  INFO:  -- END  -- Tue Nov 14 18:00:04 AWST 2023
+2023-11-15 00:00:01,353 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-15 00:00:01,360 DEBUG: Task list loaded.
+2023-11-15 00:00:01,360 DEBUG: Total number of tasks: 1
+2023-11-15 00:00:01,360  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-15 00:00:01,360  INFO:  -- Wed Nov 15 00:00:01 AWST 2023
+2023-11-15 00:00:01,360  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-15 00:00:01,361  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-15 00:00:02,700  INFO:  -- END  -- Wed Nov 15 00:00:02 AWST 2023
+2023-11-15 06:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-15 06:00:01,367 DEBUG: Task list loaded.
+2023-11-15 06:00:01,367 DEBUG: Total number of tasks: 1
+2023-11-15 06:00:01,367  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-15 06:00:01,367  INFO:  -- Wed Nov 15 06:00:01 AWST 2023
+2023-11-15 06:00:01,367  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-15 06:00:01,367  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-15 06:00:02,685  INFO:  -- END  -- Wed Nov 15 06:00:02 AWST 2023
+2023-11-15 12:00:01,354 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-15 12:00:01,360 DEBUG: Task list loaded.
+2023-11-15 12:00:01,360 DEBUG: Total number of tasks: 1
+2023-11-15 12:00:01,360  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-15 12:00:01,360  INFO:  -- Wed Nov 15 12:00:01 AWST 2023
+2023-11-15 12:00:01,360  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-15 12:00:01,360  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-15 12:00:02,632  INFO:  -- END  -- Wed Nov 15 12:00:02 AWST 2023
+2023-11-15 16:51:59,498 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-15 16:51:59,500 DEBUG: Task list loaded.
+2023-11-15 16:51:59,500 DEBUG: Total number of tasks: 1
+2023-11-15 16:51:59,500  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-15 16:51:59,500  INFO:  -- Wed Nov 15 16:51:59 AWST 2023
+2023-11-15 16:51:59,500  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 4:51:59 pm
+2023-11-15 16:51:59,500  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-15 16:52:01,535  INFO:  -- END  -- Wed Nov 15 16:52:01 AWST 2023
+2023-11-15 17:06:39,355 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-15 17:06:39,362 DEBUG: Task list loaded.
+2023-11-15 17:06:39,362 DEBUG: Total number of tasks: 1
+2023-11-15 17:06:39,362  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-15 17:06:39,362  INFO:  -- Wed Nov 15 17:06:39 AWST 2023
+2023-11-15 17:06:39,362  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 5:06:39 pm
+2023-11-15 17:06:39,362  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-15 17:06:41,384  INFO:  -- END  -- Wed Nov 15 17:06:41 AWST 2023
+2023-11-15 18:00:01,652 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-15 18:00:01,684 DEBUG: Task list loaded.
+2023-11-15 18:00:01,684 DEBUG: Total number of tasks: 1
+2023-11-15 18:00:01,684  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-15 18:00:01,684  INFO:  -- Wed Nov 15 18:00:01 AWST 2023
+2023-11-15 18:00:01,684  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-15 18:00:01,684  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-15 18:00:03,093  INFO:  -- END  -- Wed Nov 15 18:00:03 AWST 2023
+2023-11-16 00:00:01,627 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-16 00:00:01,634 DEBUG: Task list loaded.
+2023-11-16 00:00:01,634 DEBUG: Total number of tasks: 1
+2023-11-16 00:00:01,634  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-16 00:00:01,634  INFO:  -- Thu Nov 16 00:00:01 AWST 2023
+2023-11-16 00:00:01,634  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-16 00:00:01,634  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-16 00:00:03,137  INFO:  -- END  -- Thu Nov 16 00:00:03 AWST 2023
+2023-11-16 06:00:01,628 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-16 06:00:01,639 DEBUG: Task list loaded.
+2023-11-16 06:00:01,639 DEBUG: Total number of tasks: 1
+2023-11-16 06:00:01,639  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-16 06:00:01,639  INFO:  -- Thu Nov 16 06:00:01 AWST 2023
+2023-11-16 06:00:01,639  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-16 06:00:01,639  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-16 06:00:02,913  INFO:  -- END  -- Thu Nov 16 06:00:02 AWST 2023
+2023-11-16 12:00:01,153 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-16 12:00:01,198 DEBUG: Task list loaded.
+2023-11-16 12:00:01,198 DEBUG: Total number of tasks: 1
+2023-11-16 12:00:01,198  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-16 12:00:01,252  INFO:  -- Thu Nov 16 12:00:01 AWST 2023
+2023-11-16 12:00:01,252  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-16 12:00:01,253  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-16 12:00:07,637  INFO:  -- END  -- Thu Nov 16 12:00:07 AWST 2023
+2023-11-16 18:00:01,069 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-16 18:00:01,073 DEBUG: Task list loaded.
+2023-11-16 18:00:01,073 DEBUG: Total number of tasks: 1
+2023-11-16 18:00:01,074  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-16 18:00:01,074  INFO:  -- Thu Nov 16 18:00:01 AWST 2023
+2023-11-16 18:00:01,074  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-16 18:00:01,074  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-16 18:00:02,349  INFO:  -- END  -- Thu Nov 16 18:00:02 AWST 2023
+2023-11-17 00:00:01,070 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-17 00:00:01,071 DEBUG: Task list loaded.
+2023-11-17 00:00:01,072 DEBUG: Total number of tasks: 1
+2023-11-17 00:00:01,072  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-17 00:00:01,072  INFO:  -- Fri Nov 17 00:00:01 AWST 2023
+2023-11-17 00:00:01,072  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-17 00:00:01,072  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-17 00:00:02,336  INFO:  -- END  -- Fri Nov 17 00:00:02 AWST 2023
+2023-11-17 06:00:01,069 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-17 06:00:01,071 DEBUG: Task list loaded.
+2023-11-17 06:00:01,071 DEBUG: Total number of tasks: 1
+2023-11-17 06:00:01,071  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-17 06:00:01,071  INFO:  -- Fri Nov 17 06:00:01 AWST 2023
+2023-11-17 06:00:01,071  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-17 06:00:01,071  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-17 06:00:02,335  INFO:  -- END  -- Fri Nov 17 06:00:02 AWST 2023
+2023-11-17 18:00:01,521 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-17 18:00:01,541 DEBUG: Task list loaded.
+2023-11-17 18:00:01,541 DEBUG: Total number of tasks: 1
+2023-11-17 18:00:01,541  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-17 18:00:01,541  INFO:  -- Fri Nov 17 18:00:01 AWST 2023
+2023-11-17 18:00:01,541  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-17 18:00:01,541  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-17 18:00:07,010  INFO:  -- END  -- Fri Nov 17 18:00:07 AWST 2023
+2023-11-18 00:00:01,522 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-18 00:00:01,525 DEBUG: Task list loaded.
+2023-11-18 00:00:01,525 DEBUG: Total number of tasks: 1
+2023-11-18 00:00:01,525  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-18 00:00:01,525  INFO:  -- Sat Nov 18 00:00:01 AWST 2023
+2023-11-18 00:00:01,525  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-18 00:00:01,525  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-18 00:00:02,791  INFO:  -- END  -- Sat Nov 18 00:00:02 AWST 2023
+2023-11-18 06:00:01,521 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-18 06:00:01,522 DEBUG: Task list loaded.
+2023-11-18 06:00:01,522 DEBUG: Total number of tasks: 1
+2023-11-18 06:00:01,522  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-18 06:00:01,522  INFO:  -- Sat Nov 18 06:00:01 AWST 2023
+2023-11-18 06:00:01,522  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-18 06:00:01,523  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-18 06:00:02,792  INFO:  -- END  -- Sat Nov 18 06:00:02 AWST 2023
+2023-11-18 12:00:01,521 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-18 12:00:01,522 DEBUG: Task list loaded.
+2023-11-18 12:00:01,523 DEBUG: Total number of tasks: 1
+2023-11-18 12:00:01,523  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-18 12:00:01,523  INFO:  -- Sat Nov 18 12:00:01 AWST 2023
+2023-11-18 12:00:01,523  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-18 12:00:01,523  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-18 12:00:02,792  INFO:  -- END  -- Sat Nov 18 12:00:02 AWST 2023
+2023-11-18 18:00:01,521 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-18 18:00:01,528 DEBUG: Task list loaded.
+2023-11-18 18:00:01,528 DEBUG: Total number of tasks: 1
+2023-11-18 18:00:01,528  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-18 18:00:01,528  INFO:  -- Sat Nov 18 18:00:01 AWST 2023
+2023-11-18 18:00:01,528  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-18 18:00:01,528  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-18 18:00:02,811  INFO:  -- END  -- Sat Nov 18 18:00:02 AWST 2023
+2023-11-19 00:00:01,521 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-19 00:00:01,526 DEBUG: Task list loaded.
+2023-11-19 00:00:01,527 DEBUG: Total number of tasks: 1
+2023-11-19 00:00:01,527  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-19 00:00:01,527  INFO:  -- Sun Nov 19 00:00:01 AWST 2023
+2023-11-19 00:00:01,527  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-19 00:00:01,527  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-19 00:00:02,795  INFO:  -- END  -- Sun Nov 19 00:00:02 AWST 2023
+2023-11-19 06:00:01,521 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-19 06:00:01,523 DEBUG: Task list loaded.
+2023-11-19 06:00:01,523 DEBUG: Total number of tasks: 1
+2023-11-19 06:00:01,523  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-19 06:00:01,523  INFO:  -- Sun Nov 19 06:00:01 AWST 2023
+2023-11-19 06:00:01,523  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-19 06:00:01,523  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-19 06:00:02,800  INFO:  -- END  -- Sun Nov 19 06:00:02 AWST 2023
+2023-11-19 12:00:01,522 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-19 12:00:01,528 DEBUG: Task list loaded.
+2023-11-19 12:00:01,528 DEBUG: Total number of tasks: 1
+2023-11-19 12:00:01,528  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-19 12:00:01,529  INFO:  -- Sun Nov 19 12:00:01 AWST 2023
+2023-11-19 12:00:01,529  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-19 12:00:01,529  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-19 12:00:02,803  INFO:  -- END  -- Sun Nov 19 12:00:02 AWST 2023
+2023-11-19 18:00:01,521 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-19 18:00:01,530 DEBUG: Task list loaded.
+2023-11-19 18:00:01,530 DEBUG: Total number of tasks: 1
+2023-11-19 18:00:01,530  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-19 18:00:01,530  INFO:  -- Sun Nov 19 18:00:01 AWST 2023
+2023-11-19 18:00:01,530  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-19 18:00:01,530  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-19 18:00:02,823  INFO:  -- END  -- Sun Nov 19 18:00:02 AWST 2023
+2023-11-20 00:00:01,521 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-20 00:00:01,529 DEBUG: Task list loaded.
+2023-11-20 00:00:01,529 DEBUG: Total number of tasks: 1
+2023-11-20 00:00:01,529  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-20 00:00:01,529  INFO:  -- Mon Nov 20 00:00:01 AWST 2023
+2023-11-20 00:00:01,529  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-20 00:00:01,529  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-20 00:00:02,800  INFO:  -- END  -- Mon Nov 20 00:00:02 AWST 2023
+2023-11-20 06:00:01,521 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-20 06:00:01,528 DEBUG: Task list loaded.
+2023-11-20 06:00:01,528 DEBUG: Total number of tasks: 1
+2023-11-20 06:00:01,528  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-20 06:00:01,528  INFO:  -- Mon Nov 20 06:00:01 AWST 2023
+2023-11-20 06:00:01,528  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-20 06:00:01,528  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-20 06:00:02,794  INFO:  -- END  -- Mon Nov 20 06:00:02 AWST 2023
+2023-11-20 12:00:01,521 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-20 12:00:01,526 DEBUG: Task list loaded.
+2023-11-20 12:00:01,526 DEBUG: Total number of tasks: 1
+2023-11-20 12:00:01,526  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-20 12:00:01,526  INFO:  -- Mon Nov 20 12:00:01 AWST 2023
+2023-11-20 12:00:01,526  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-20 12:00:01,526  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-20 12:00:02,793  INFO:  -- END  -- Mon Nov 20 12:00:02 AWST 2023
+2023-11-20 18:00:01,521 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-20 18:00:01,522 DEBUG: Task list loaded.
+2023-11-20 18:00:01,522 DEBUG: Total number of tasks: 1
+2023-11-20 18:00:01,522  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-20 18:00:01,523  INFO:  -- Mon Nov 20 18:00:01 AWST 2023
+2023-11-20 18:00:01,523  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-20 18:00:01,523  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-20 18:00:03,663  INFO:  -- END  -- Mon Nov 20 18:00:03 AWST 2023
+2023-11-21 00:00:01,521 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-21 00:00:01,532 DEBUG: Task list loaded.
+2023-11-21 00:00:01,532 DEBUG: Total number of tasks: 1
+2023-11-21 00:00:01,532  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-21 00:00:01,532  INFO:  -- Tue Nov 21 00:00:01 AWST 2023
+2023-11-21 00:00:01,532  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-21 00:00:01,532  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-21 00:00:02,850  INFO:  -- END  -- Tue Nov 21 00:00:02 AWST 2023
+2023-11-21 06:00:01,521 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-21 06:00:01,527 DEBUG: Task list loaded.
+2023-11-21 06:00:01,528 DEBUG: Total number of tasks: 1
+2023-11-21 06:00:01,528  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-21 06:00:01,528  INFO:  -- Tue Nov 21 06:00:01 AWST 2023
+2023-11-21 06:00:01,528  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-21 06:00:01,528  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-21 06:00:02,795  INFO:  -- END  -- Tue Nov 21 06:00:02 AWST 2023
+2023-11-21 18:00:01,469 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-21 18:00:01,481 DEBUG: Task list loaded.
+2023-11-21 18:00:01,481 DEBUG: Total number of tasks: 1
+2023-11-21 18:00:01,481  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-21 18:00:01,482  INFO:  -- Tue Nov 21 18:00:01 AWST 2023
+2023-11-21 18:00:01,482  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-21 18:00:01,482  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-21 18:00:02,778  INFO:  -- END  -- Tue Nov 21 18:00:02 AWST 2023
+2023-11-22 00:00:01,449 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-22 00:00:01,454 DEBUG: Task list loaded.
+2023-11-22 00:00:01,454 DEBUG: Total number of tasks: 1
+2023-11-22 00:00:01,454  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-22 00:00:01,454  INFO:  -- Wed Nov 22 00:00:01 AWST 2023
+2023-11-22 00:00:01,454  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-22 00:00:01,454  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-22 00:00:02,725  INFO:  -- END  -- Wed Nov 22 00:00:02 AWST 2023
+2023-11-22 06:00:01,450 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-22 06:00:01,452 DEBUG: Task list loaded.
+2023-11-22 06:00:01,453 DEBUG: Total number of tasks: 1
+2023-11-22 06:00:01,453  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-22 06:00:01,453  INFO:  -- Wed Nov 22 06:00:01 AWST 2023
+2023-11-22 06:00:01,453  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-22 06:00:01,453  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-22 06:00:02,726  INFO:  -- END  -- Wed Nov 22 06:00:02 AWST 2023
+2023-11-22 12:00:01,068 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-22 12:00:01,084 DEBUG: Task list loaded.
+2023-11-22 12:00:01,084 DEBUG: Total number of tasks: 1
+2023-11-22 12:00:01,084  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-22 12:00:01,084  INFO:  -- Wed Nov 22 12:00:01 AWST 2023
+2023-11-22 12:00:01,084  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-22 12:00:01,085  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-22 12:00:07,009  INFO:  -- END  -- Wed Nov 22 12:00:07 AWST 2023
+2023-11-22 18:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-22 18:00:01,075 DEBUG: Task list loaded.
+2023-11-22 18:00:01,076 DEBUG: Total number of tasks: 1
+2023-11-22 18:00:01,076  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-22 18:00:01,076  INFO:  -- Wed Nov 22 18:00:01 AWST 2023
+2023-11-22 18:00:01,076  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-22 18:00:01,076  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-22 18:00:02,342  INFO:  -- END  -- Wed Nov 22 18:00:02 AWST 2023
+2023-11-23 00:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-23 00:00:01,073 DEBUG: Task list loaded.
+2023-11-23 00:00:01,073 DEBUG: Total number of tasks: 1
+2023-11-23 00:00:01,073  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-23 00:00:01,073  INFO:  -- Thu Nov 23 00:00:01 AWST 2023
+2023-11-23 00:00:01,073  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-23 00:00:01,073  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-23 00:00:02,343  INFO:  -- END  -- Thu Nov 23 00:00:02 AWST 2023
+2023-11-23 06:00:01,100 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-23 06:00:01,110 DEBUG: Task list loaded.
+2023-11-23 06:00:01,110 DEBUG: Total number of tasks: 1
+2023-11-23 06:00:01,110  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-23 06:00:01,110  INFO:  -- Thu Nov 23 06:00:01 AWST 2023
+2023-11-23 06:00:01,110  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-23 06:00:01,110  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-23 06:00:02,377  INFO:  -- END  -- Thu Nov 23 06:00:02 AWST 2023
+2023-11-23 12:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-23 12:00:01,067 DEBUG: Task list loaded.
+2023-11-23 12:00:01,067 DEBUG: Total number of tasks: 1
+2023-11-23 12:00:01,067  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-23 12:00:01,067  INFO:  -- Thu Nov 23 12:00:01 AWST 2023
+2023-11-23 12:00:01,067  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-23 12:00:01,067  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-23 12:00:02,336  INFO:  -- END  -- Thu Nov 23 12:00:02 AWST 2023
+2023-11-23 18:00:01,073 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-23 18:00:01,087 DEBUG: Task list loaded.
+2023-11-23 18:00:01,087 DEBUG: Total number of tasks: 1
+2023-11-23 18:00:01,087  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-23 18:00:01,087  INFO:  -- Thu Nov 23 18:00:01 AWST 2023
+2023-11-23 18:00:01,087  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-23 18:00:01,087  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-23 18:00:02,355  INFO:  -- END  -- Thu Nov 23 18:00:02 AWST 2023
+2023-11-24 00:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-24 00:00:01,068 DEBUG: Task list loaded.
+2023-11-24 00:00:01,068 DEBUG: Total number of tasks: 1
+2023-11-24 00:00:01,068  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-24 00:00:01,068  INFO:  -- Fri Nov 24 00:00:01 AWST 2023
+2023-11-24 00:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-24 00:00:01,068  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-24 00:00:02,370  INFO:  -- END  -- Fri Nov 24 00:00:02 AWST 2023
+2023-11-24 06:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-24 06:00:01,070 DEBUG: Task list loaded.
+2023-11-24 06:00:01,070 DEBUG: Total number of tasks: 1
+2023-11-24 06:00:01,070  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-24 06:00:01,070  INFO:  -- Fri Nov 24 06:00:01 AWST 2023
+2023-11-24 06:00:01,070  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-24 06:00:01,070  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-24 06:00:02,340  INFO:  -- END  -- Fri Nov 24 06:00:02 AWST 2023
+2023-11-24 12:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-24 12:00:01,074 DEBUG: Task list loaded.
+2023-11-24 12:00:01,074 DEBUG: Total number of tasks: 1
+2023-11-24 12:00:01,074  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-24 12:00:01,074  INFO:  -- Fri Nov 24 12:00:01 AWST 2023
+2023-11-24 12:00:01,075  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-24 12:00:01,075  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-24 12:00:06,357  INFO:  -- END  -- Fri Nov 24 12:00:06 AWST 2023
+2023-11-24 18:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-24 18:00:01,093 DEBUG: Task list loaded.
+2023-11-24 18:00:01,093 DEBUG: Total number of tasks: 1
+2023-11-24 18:00:01,093  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-24 18:00:01,093  INFO:  -- Fri Nov 24 18:00:01 AWST 2023
+2023-11-24 18:00:01,093  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-24 18:00:01,093  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-24 18:00:01,807 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-24 18:00:01,836 DEBUG: Task list loaded.
+2023-11-24 18:00:01,836 DEBUG: Total number of tasks: 1
+2023-11-24 18:00:01,836  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-24 18:00:01,836  INFO:  -- Fri Nov 24 18:00:01 AWST 2023
+2023-11-24 18:00:01,837  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-24 18:00:01,837  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-24 18:00:03,510  INFO:  -- END  -- Fri Nov 24 18:00:03 AWST 2023
+2023-11-24 18:00:03,511  INFO:  -- END  -- Fri Nov 24 18:00:03 AWST 2023
+2023-11-25 00:00:01,066 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-25 00:00:01,067 DEBUG: Task list loaded.
+2023-11-25 00:00:01,067 DEBUG: Total number of tasks: 1
+2023-11-25 00:00:01,067  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-25 00:00:01,067  INFO:  -- Sat Nov 25 00:00:01 AWST 2023
+2023-11-25 00:00:01,067  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-25 00:00:01,067  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-25 00:00:01,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-25 00:00:01,805 DEBUG: Task list loaded.
+2023-11-25 00:00:01,805 DEBUG: Total number of tasks: 1
+2023-11-25 00:00:01,805  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-25 00:00:01,805  INFO:  -- Sat Nov 25 00:00:01 AWST 2023
+2023-11-25 00:00:01,805  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-25 00:00:01,805  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-25 00:00:02,342  INFO:  -- END  -- Sat Nov 25 00:00:02 AWST 2023
+2023-11-25 00:00:03,101  INFO:  -- END  -- Sat Nov 25 00:00:03 AWST 2023
+2023-11-25 06:00:01,066 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-25 06:00:01,067 DEBUG: Task list loaded.
+2023-11-25 06:00:01,067 DEBUG: Total number of tasks: 1
+2023-11-25 06:00:01,067  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-25 06:00:01,067  INFO:  -- Sat Nov 25 06:00:01 AWST 2023
+2023-11-25 06:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-25 06:00:01,068  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-25 06:00:01,798 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-25 06:00:01,799 DEBUG: Task list loaded.
+2023-11-25 06:00:01,799 DEBUG: Total number of tasks: 1
+2023-11-25 06:00:01,799  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-25 06:00:01,799  INFO:  -- Sat Nov 25 06:00:01 AWST 2023
+2023-11-25 06:00:01,799  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-25 06:00:01,800  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-25 06:00:02,341  INFO:  -- END  -- Sat Nov 25 06:00:02 AWST 2023
+2023-11-25 06:00:03,085  INFO:  -- END  -- Sat Nov 25 06:00:03 AWST 2023
+2023-11-25 12:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-25 12:00:01,068 DEBUG: Task list loaded.
+2023-11-25 12:00:01,068 DEBUG: Total number of tasks: 1
+2023-11-25 12:00:01,068  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-25 12:00:01,068  INFO:  -- Sat Nov 25 12:00:01 AWST 2023
+2023-11-25 12:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-25 12:00:01,068  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-25 12:00:01,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-25 12:00:01,794 DEBUG: Task list loaded.
+2023-11-25 12:00:01,795 DEBUG: Total number of tasks: 1
+2023-11-25 12:00:01,795  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-25 12:00:01,795  INFO:  -- Sat Nov 25 12:00:01 AWST 2023
+2023-11-25 12:00:01,795  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-25 12:00:01,795  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-25 12:00:02,461  INFO:  -- END  -- Sat Nov 25 12:00:02 AWST 2023
+2023-11-25 12:00:03,064  INFO:  -- END  -- Sat Nov 25 12:00:03 AWST 2023
+2023-11-25 18:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-25 18:00:01,066 DEBUG: Task list loaded.
+2023-11-25 18:00:01,066 DEBUG: Total number of tasks: 1
+2023-11-25 18:00:01,067  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-25 18:00:01,067  INFO:  -- Sat Nov 25 18:00:01 AWST 2023
+2023-11-25 18:00:01,067  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-25 18:00:01,067  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-25 18:00:01,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-25 18:00:01,802 DEBUG: Task list loaded.
+2023-11-25 18:00:01,802 DEBUG: Total number of tasks: 1
+2023-11-25 18:00:01,802  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-25 18:00:01,802  INFO:  -- Sat Nov 25 18:00:01 AWST 2023
+2023-11-25 18:00:01,802  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-25 18:00:01,803  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-25 18:00:02,338  INFO:  -- END  -- Sat Nov 25 18:00:02 AWST 2023
+2023-11-25 18:00:03,083  INFO:  -- END  -- Sat Nov 25 18:00:03 AWST 2023
+2023-11-26 00:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-26 00:00:01,068 DEBUG: Task list loaded.
+2023-11-26 00:00:01,068 DEBUG: Total number of tasks: 1
+2023-11-26 00:00:01,068  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-26 00:00:01,068  INFO:  -- Sun Nov 26 00:00:01 AWST 2023
+2023-11-26 00:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-26 00:00:01,068  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-26 00:00:01,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-26 00:00:01,807 DEBUG: Task list loaded.
+2023-11-26 00:00:01,807 DEBUG: Total number of tasks: 1
+2023-11-26 00:00:01,807  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-26 00:00:01,807  INFO:  -- Sun Nov 26 00:00:01 AWST 2023
+2023-11-26 00:00:01,807  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-26 00:00:01,807  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-26 00:00:02,375  INFO:  -- END  -- Sun Nov 26 00:00:02 AWST 2023
+2023-11-26 00:00:03,080  INFO:  -- END  -- Sun Nov 26 00:00:03 AWST 2023
+2023-11-26 06:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-26 06:00:01,070 DEBUG: Task list loaded.
+2023-11-26 06:00:01,070 DEBUG: Total number of tasks: 1
+2023-11-26 06:00:01,070  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-26 06:00:01,070  INFO:  -- Sun Nov 26 06:00:01 AWST 2023
+2023-11-26 06:00:01,070  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-26 06:00:01,070  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-26 06:00:01,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-26 06:00:01,800 DEBUG: Task list loaded.
+2023-11-26 06:00:01,800 DEBUG: Total number of tasks: 1
+2023-11-26 06:00:01,800  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-26 06:00:01,800  INFO:  -- Sun Nov 26 06:00:01 AWST 2023
+2023-11-26 06:00:01,801  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-26 06:00:01,801  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-26 06:00:02,341  INFO:  -- END  -- Sun Nov 26 06:00:02 AWST 2023
+2023-11-26 06:00:03,065  INFO:  -- END  -- Sun Nov 26 06:00:03 AWST 2023
+2023-11-26 12:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-26 12:00:01,068 DEBUG: Task list loaded.
+2023-11-26 12:00:01,068 DEBUG: Total number of tasks: 1
+2023-11-26 12:00:01,068  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-26 12:00:01,068  INFO:  -- Sun Nov 26 12:00:01 AWST 2023
+2023-11-26 12:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-26 12:00:01,068  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-26 12:00:01,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-26 12:00:01,808 DEBUG: Task list loaded.
+2023-11-26 12:00:01,808 DEBUG: Total number of tasks: 1
+2023-11-26 12:00:01,808  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-26 12:00:01,808  INFO:  -- Sun Nov 26 12:00:01 AWST 2023
+2023-11-26 12:00:01,808  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-26 12:00:01,808  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-26 12:00:02,336  INFO:  -- END  -- Sun Nov 26 12:00:02 AWST 2023
+2023-11-26 12:00:03,090  INFO:  -- END  -- Sun Nov 26 12:00:03 AWST 2023
+2023-11-26 18:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-26 18:00:01,068 DEBUG: Task list loaded.
+2023-11-26 18:00:01,068 DEBUG: Total number of tasks: 1
+2023-11-26 18:00:01,068  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-26 18:00:01,068  INFO:  -- Sun Nov 26 18:00:01 AWST 2023
+2023-11-26 18:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-26 18:00:01,069  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-26 18:00:01,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-26 18:00:01,796 DEBUG: Task list loaded.
+2023-11-26 18:00:01,796 DEBUG: Total number of tasks: 1
+2023-11-26 18:00:01,796  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-26 18:00:01,796  INFO:  -- Sun Nov 26 18:00:01 AWST 2023
+2023-11-26 18:00:01,796  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-26 18:00:01,796  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-26 18:00:02,335  INFO:  -- END  -- Sun Nov 26 18:00:02 AWST 2023
+2023-11-26 18:00:03,072  INFO:  -- END  -- Sun Nov 26 18:00:03 AWST 2023
+2023-11-27 00:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-27 00:00:01,066 DEBUG: Task list loaded.
+2023-11-27 00:00:01,066 DEBUG: Total number of tasks: 1
+2023-11-27 00:00:01,066  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-27 00:00:01,066  INFO:  -- Mon Nov 27 00:00:01 AWST 2023
+2023-11-27 00:00:01,066  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-27 00:00:01,066  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-27 00:00:01,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-27 00:00:01,801 DEBUG: Task list loaded.
+2023-11-27 00:00:01,801 DEBUG: Total number of tasks: 1
+2023-11-27 00:00:01,801  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-27 00:00:01,801  INFO:  -- Mon Nov 27 00:00:01 AWST 2023
+2023-11-27 00:00:01,801  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-27 00:00:01,801  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-27 00:00:02,336  INFO:  -- END  -- Mon Nov 27 00:00:02 AWST 2023
+2023-11-27 00:00:03,112  INFO:  -- END  -- Mon Nov 27 00:00:03 AWST 2023
+2023-11-27 06:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-27 06:00:01,070 DEBUG: Task list loaded.
+2023-11-27 06:00:01,070 DEBUG: Total number of tasks: 1
+2023-11-27 06:00:01,070  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-27 06:00:01,070  INFO:  -- Mon Nov 27 06:00:01 AWST 2023
+2023-11-27 06:00:01,070  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-27 06:00:01,070  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-27 06:00:01,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-27 06:00:01,794 DEBUG: Task list loaded.
+2023-11-27 06:00:01,794 DEBUG: Total number of tasks: 1
+2023-11-27 06:00:01,794  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-27 06:00:01,798  INFO:  -- Mon Nov 27 06:00:01 AWST 2023
+2023-11-27 06:00:01,799  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-27 06:00:01,799  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-27 06:00:02,341  INFO:  -- END  -- Mon Nov 27 06:00:02 AWST 2023
+2023-11-27 06:00:03,074  INFO:  -- END  -- Mon Nov 27 06:00:03 AWST 2023
+2023-11-27 12:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-27 12:00:01,068 DEBUG: Task list loaded.
+2023-11-27 12:00:01,068 DEBUG: Total number of tasks: 1
+2023-11-27 12:00:01,068  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-27 12:00:01,068  INFO:  -- Mon Nov 27 12:00:01 AWST 2023
+2023-11-27 12:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-27 12:00:01,069  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-27 12:00:01,794 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-27 12:00:01,804 DEBUG: Task list loaded.
+2023-11-27 12:00:01,804 DEBUG: Total number of tasks: 1
+2023-11-27 12:00:01,804  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-27 12:00:01,804  INFO:  -- Mon Nov 27 12:00:01 AWST 2023
+2023-11-27 12:00:01,804  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-27 12:00:01,804  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-27 12:00:02,332  INFO:  -- END  -- Mon Nov 27 12:00:02 AWST 2023
+2023-11-27 12:00:03,073  INFO:  -- END  -- Mon Nov 27 12:00:03 AWST 2023
+2023-11-27 18:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-27 18:00:01,068 DEBUG: Task list loaded.
+2023-11-27 18:00:01,068 DEBUG: Total number of tasks: 1
+2023-11-27 18:00:01,068  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-27 18:00:01,068  INFO:  -- Mon Nov 27 18:00:01 AWST 2023
+2023-11-27 18:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-27 18:00:01,068  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-27 18:00:01,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-27 18:00:01,798 DEBUG: Task list loaded.
+2023-11-27 18:00:01,798 DEBUG: Total number of tasks: 1
+2023-11-27 18:00:01,798  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-27 18:00:01,798  INFO:  -- Mon Nov 27 18:00:01 AWST 2023
+2023-11-27 18:00:01,798  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-27 18:00:01,798  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-27 18:00:02,340  INFO:  -- END  -- Mon Nov 27 18:00:02 AWST 2023
+2023-11-27 18:00:03,076  INFO:  -- END  -- Mon Nov 27 18:00:03 AWST 2023
+2023-11-28 00:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-28 00:00:01,068 DEBUG: Task list loaded.
+2023-11-28 00:00:01,068 DEBUG: Total number of tasks: 1
+2023-11-28 00:00:01,068  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-28 00:00:01,068  INFO:  -- Tue Nov 28 00:00:01 AWST 2023
+2023-11-28 00:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-28 00:00:01,068  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-28 00:00:01,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-28 00:00:01,795 DEBUG: Task list loaded.
+2023-11-28 00:00:01,795 DEBUG: Total number of tasks: 1
+2023-11-28 00:00:01,795  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-28 00:00:01,795  INFO:  -- Tue Nov 28 00:00:01 AWST 2023
+2023-11-28 00:00:01,795  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-28 00:00:01,795  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-28 00:00:02,456  INFO:  -- END  -- Tue Nov 28 00:00:02 AWST 2023
+2023-11-28 00:00:03,059  INFO:  -- END  -- Tue Nov 28 00:00:03 AWST 2023
+2023-11-28 06:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-28 06:00:01,073 DEBUG: Task list loaded.
+2023-11-28 06:00:01,073 DEBUG: Total number of tasks: 1
+2023-11-28 06:00:01,073  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-28 06:00:01,073  INFO:  -- Tue Nov 28 06:00:01 AWST 2023
+2023-11-28 06:00:01,073  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-28 06:00:01,073  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-28 06:00:01,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-28 06:00:01,807 DEBUG: Task list loaded.
+2023-11-28 06:00:01,807 DEBUG: Total number of tasks: 1
+2023-11-28 06:00:01,807  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-28 06:00:01,807  INFO:  -- Tue Nov 28 06:00:01 AWST 2023
+2023-11-28 06:00:01,807  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-28 06:00:01,807  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-28 06:00:02,340  INFO:  -- END  -- Tue Nov 28 06:00:02 AWST 2023
+2023-11-28 06:00:03,079  INFO:  -- END  -- Tue Nov 28 06:00:03 AWST 2023
+2023-11-28 12:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-28 12:00:01,067 DEBUG: Task list loaded.
+2023-11-28 12:00:01,067 DEBUG: Total number of tasks: 1
+2023-11-28 12:00:01,067  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-28 12:00:01,067  INFO:  -- Tue Nov 28 12:00:01 AWST 2023
+2023-11-28 12:00:01,067  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-28 12:00:01,067  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-28 12:00:01,794 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-28 12:00:01,802 DEBUG: Task list loaded.
+2023-11-28 12:00:01,802 DEBUG: Total number of tasks: 1
+2023-11-28 12:00:01,802  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-28 12:00:01,802  INFO:  -- Tue Nov 28 12:00:01 AWST 2023
+2023-11-28 12:00:01,802  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-28 12:00:01,802  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-28 12:00:02,335  INFO:  -- END  -- Tue Nov 28 12:00:02 AWST 2023
+2023-11-28 12:00:03,070  INFO:  -- END  -- Tue Nov 28 12:00:03 AWST 2023
+2023-11-28 18:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-28 18:00:01,073 DEBUG: Task list loaded.
+2023-11-28 18:00:01,073 DEBUG: Total number of tasks: 1
+2023-11-28 18:00:01,073  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-28 18:00:01,073  INFO:  -- Tue Nov 28 18:00:01 AWST 2023
+2023-11-28 18:00:01,073  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-28 18:00:01,073  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-28 18:00:01,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-28 18:00:01,802 DEBUG: Task list loaded.
+2023-11-28 18:00:01,802 DEBUG: Total number of tasks: 1
+2023-11-28 18:00:01,802  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-28 18:00:01,802  INFO:  -- Tue Nov 28 18:00:01 AWST 2023
+2023-11-28 18:00:01,802  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-11-28 18:00:01,802  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-28 18:00:02,339  INFO:  -- END  -- Tue Nov 28 18:00:02 AWST 2023
+2023-11-28 18:00:03,074  INFO:  -- END  -- Tue Nov 28 18:00:03 AWST 2023
+2023-11-29 00:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-29 00:00:01,073 DEBUG: Task list loaded.
+2023-11-29 00:00:01,073 DEBUG: Total number of tasks: 1
+2023-11-29 00:00:01,073  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-29 00:00:01,073  INFO:  -- Wed Nov 29 00:00:01 AWST 2023
+2023-11-29 00:00:01,073  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-29 00:00:01,073  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-29 00:00:01,794 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-29 00:00:01,799 DEBUG: Task list loaded.
+2023-11-29 00:00:01,799 DEBUG: Total number of tasks: 1
+2023-11-29 00:00:01,799  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-29 00:00:01,799  INFO:  -- Wed Nov 29 00:00:01 AWST 2023
+2023-11-29 00:00:01,799  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-11-29 00:00:01,799  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-29 00:00:02,443  INFO:  -- END  -- Wed Nov 29 00:00:02 AWST 2023
+2023-11-29 00:00:03,063  INFO:  -- END  -- Wed Nov 29 00:00:03 AWST 2023
+2023-11-29 06:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-29 06:00:01,067 DEBUG: Task list loaded.
+2023-11-29 06:00:01,067 DEBUG: Total number of tasks: 1
+2023-11-29 06:00:01,067  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-29 06:00:01,067  INFO:  -- Wed Nov 29 06:00:01 AWST 2023
+2023-11-29 06:00:01,067  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-29 06:00:01,067  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-29 06:00:01,797 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-29 06:00:01,801 DEBUG: Task list loaded.
+2023-11-29 06:00:01,801 DEBUG: Total number of tasks: 1
+2023-11-29 06:00:01,801  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-29 06:00:01,801  INFO:  -- Wed Nov 29 06:00:01 AWST 2023
+2023-11-29 06:00:01,801  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-11-29 06:00:01,801  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-29 06:00:02,338  INFO:  -- END  -- Wed Nov 29 06:00:02 AWST 2023
+2023-11-29 06:00:03,082  INFO:  -- END  -- Wed Nov 29 06:00:03 AWST 2023
+2023-11-29 12:00:01,065 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-29 12:00:01,066 DEBUG: Task list loaded.
+2023-11-29 12:00:01,066 DEBUG: Total number of tasks: 1
+2023-11-29 12:00:01,066  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-29 12:00:01,066  INFO:  -- Wed Nov 29 12:00:01 AWST 2023
+2023-11-29 12:00:01,067  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-29 12:00:01,067  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-29 12:00:01,794 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-29 12:00:01,815 DEBUG: Task list loaded.
+2023-11-29 12:00:01,815 DEBUG: Total number of tasks: 1
+2023-11-29 12:00:01,815  INFO:  -- START  -- wiski_split_execute.xml
+2023-11-29 12:00:01,815  INFO:  -- Wed Nov 29 12:00:01 AWST 2023
+2023-11-29 12:00:01,815  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-11-29 12:00:01,815  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-11-29 12:00:02,337  INFO:  -- END  -- Wed Nov 29 12:00:02 AWST 2023
+2023-11-29 12:00:03,104  INFO:  -- END  -- Wed Nov 29 12:00:03 AWST 2023
+2023-12-01 12:00:01,063 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-01 12:00:01,097 DEBUG: Task list loaded.
+2023-12-01 12:00:01,097 DEBUG: Total number of tasks: 1
+2023-12-01 12:00:01,097  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-01 12:00:01,097  INFO:  -- Fri Dec 01 12:00:01 AWST 2023
+2023-12-01 12:00:01,097  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-01 12:00:01,097  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-01 12:00:04,590  INFO:  -- END  -- Fri Dec 01 12:00:04 AWST 2023
+2023-12-01 18:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-01 18:00:01,069 DEBUG: Task list loaded.
+2023-12-01 18:00:01,070 DEBUG: Total number of tasks: 1
+2023-12-01 18:00:01,070  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-01 18:00:01,070  INFO:  -- Fri Dec 01 18:00:01 AWST 2023
+2023-12-01 18:00:01,070  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-01 18:00:01,070  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-01 18:00:02,342  INFO:  -- END  -- Fri Dec 01 18:00:02 AWST 2023
+2023-12-02 00:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-02 00:00:01,085 DEBUG: Task list loaded.
+2023-12-02 00:00:01,085 DEBUG: Total number of tasks: 1
+2023-12-02 00:00:01,085  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-02 00:00:01,085  INFO:  -- Sat Dec 02 00:00:01 AWST 2023
+2023-12-02 00:00:01,085  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-02 00:00:01,085  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-02 00:00:02,348  INFO:  -- END  -- Sat Dec 02 00:00:02 AWST 2023
+2023-12-02 06:00:01,062 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-02 06:00:01,070 DEBUG: Task list loaded.
+2023-12-02 06:00:01,070 DEBUG: Total number of tasks: 1
+2023-12-02 06:00:01,070  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-02 06:00:01,070  INFO:  -- Sat Dec 02 06:00:01 AWST 2023
+2023-12-02 06:00:01,070  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-02 06:00:01,071  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-02 06:00:02,341  INFO:  -- END  -- Sat Dec 02 06:00:02 AWST 2023
+2023-12-02 12:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-02 12:00:01,084 DEBUG: Task list loaded.
+2023-12-02 12:00:01,084 DEBUG: Total number of tasks: 1
+2023-12-02 12:00:01,084  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-02 12:00:01,084  INFO:  -- Sat Dec 02 12:00:01 AWST 2023
+2023-12-02 12:00:01,084  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-02 12:00:01,084  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-02 12:00:02,453  INFO:  -- END  -- Sat Dec 02 12:00:02 AWST 2023
+2023-12-02 18:00:01,062 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-02 18:00:01,068 DEBUG: Task list loaded.
+2023-12-02 18:00:01,068 DEBUG: Total number of tasks: 1
+2023-12-02 18:00:01,068  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-02 18:00:01,068  INFO:  -- Sat Dec 02 18:00:01 AWST 2023
+2023-12-02 18:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-02 18:00:01,068  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-02 18:00:02,342  INFO:  -- END  -- Sat Dec 02 18:00:02 AWST 2023
+2023-12-03 00:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-03 00:00:01,070 DEBUG: Task list loaded.
+2023-12-03 00:00:01,070 DEBUG: Total number of tasks: 1
+2023-12-03 00:00:01,070  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-03 00:00:01,070  INFO:  -- Sun Dec 03 00:00:01 AWST 2023
+2023-12-03 00:00:01,070  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-03 00:00:01,070  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-03 00:00:02,339  INFO:  -- END  -- Sun Dec 03 00:00:02 AWST 2023
+2023-12-03 06:00:01,062 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-03 06:00:01,067 DEBUG: Task list loaded.
+2023-12-03 06:00:01,067 DEBUG: Total number of tasks: 1
+2023-12-03 06:00:01,067  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-03 06:00:01,067  INFO:  -- Sun Dec 03 06:00:01 AWST 2023
+2023-12-03 06:00:01,067  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-03 06:00:01,068  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-03 06:00:02,341  INFO:  -- END  -- Sun Dec 03 06:00:02 AWST 2023
+2023-12-03 12:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-03 12:00:01,068 DEBUG: Task list loaded.
+2023-12-03 12:00:01,068 DEBUG: Total number of tasks: 1
+2023-12-03 12:00:01,068  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-03 12:00:01,068  INFO:  -- Sun Dec 03 12:00:01 AWST 2023
+2023-12-03 12:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-03 12:00:01,068  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-03 12:00:02,337  INFO:  -- END  -- Sun Dec 03 12:00:02 AWST 2023
+2023-12-03 18:00:01,062 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-03 18:00:01,075 DEBUG: Task list loaded.
+2023-12-03 18:00:01,075 DEBUG: Total number of tasks: 1
+2023-12-03 18:00:01,076  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-03 18:00:01,076  INFO:  -- Sun Dec 03 18:00:01 AWST 2023
+2023-12-03 18:00:01,076  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-03 18:00:01,076  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-03 18:00:02,345  INFO:  -- END  -- Sun Dec 03 18:00:02 AWST 2023
+2023-12-04 00:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-04 00:00:01,069 DEBUG: Task list loaded.
+2023-12-04 00:00:01,069 DEBUG: Total number of tasks: 1
+2023-12-04 00:00:01,069  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-04 00:00:01,069  INFO:  -- Mon Dec 04 00:00:01 AWST 2023
+2023-12-04 00:00:01,069  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-04 00:00:01,069  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-04 00:00:02,341  INFO:  -- END  -- Mon Dec 04 00:00:02 AWST 2023
+2023-12-04 06:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-04 06:00:01,071 DEBUG: Task list loaded.
+2023-12-04 06:00:01,071 DEBUG: Total number of tasks: 1
+2023-12-04 06:00:01,071  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-04 06:00:01,071  INFO:  -- Mon Dec 04 06:00:01 AWST 2023
+2023-12-04 06:00:01,071  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-04 06:00:01,071  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-04 06:00:02,441  INFO:  -- END  -- Mon Dec 04 06:00:02 AWST 2023
+2023-12-04 12:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-04 12:00:01,064 DEBUG: Task list loaded.
+2023-12-04 12:00:01,064 DEBUG: Total number of tasks: 1
+2023-12-04 12:00:01,064  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-04 12:00:01,064  INFO:  -- Mon Dec 04 12:00:01 AWST 2023
+2023-12-04 12:00:01,064  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-04 12:00:01,064  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-04 12:00:02,325  INFO:  -- END  -- Mon Dec 04 12:00:02 AWST 2023
+2023-12-04 18:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-04 18:00:01,074 DEBUG: Task list loaded.
+2023-12-04 18:00:01,074 DEBUG: Total number of tasks: 1
+2023-12-04 18:00:01,074  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-04 18:00:01,074  INFO:  -- Mon Dec 04 18:00:01 AWST 2023
+2023-12-04 18:00:01,074  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-04 18:00:01,074  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-04 18:00:02,340  INFO:  -- END  -- Mon Dec 04 18:00:02 AWST 2023
+2023-12-05 00:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-05 00:00:01,068 DEBUG: Task list loaded.
+2023-12-05 00:00:01,068 DEBUG: Total number of tasks: 1
+2023-12-05 00:00:01,068  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-05 00:00:01,068  INFO:  -- Tue Dec 05 00:00:01 AWST 2023
+2023-12-05 00:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-05 00:00:01,069  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-05 00:00:02,333  INFO:  -- END  -- Tue Dec 05 00:00:02 AWST 2023
+2023-12-05 06:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-05 06:00:01,069 DEBUG: Task list loaded.
+2023-12-05 06:00:01,069 DEBUG: Total number of tasks: 1
+2023-12-05 06:00:01,069  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-05 06:00:01,069  INFO:  -- Tue Dec 05 06:00:01 AWST 2023
+2023-12-05 06:00:01,069  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-05 06:00:01,069  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-05 06:00:02,339  INFO:  -- END  -- Tue Dec 05 06:00:02 AWST 2023
+2023-12-05 12:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-05 12:00:01,063 DEBUG: Task list loaded.
+2023-12-05 12:00:01,063 DEBUG: Total number of tasks: 1
+2023-12-05 12:00:01,063  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-05 12:00:01,063  INFO:  -- Tue Dec 05 12:00:01 AWST 2023
+2023-12-05 12:00:01,063  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-05 12:00:01,063  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-05 12:00:02,327  INFO:  -- END  -- Tue Dec 05 12:00:02 AWST 2023
+2023-12-05 18:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-05 18:00:01,070 DEBUG: Task list loaded.
+2023-12-05 18:00:01,070 DEBUG: Total number of tasks: 1
+2023-12-05 18:00:01,070  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-05 18:00:01,070  INFO:  -- Tue Dec 05 18:00:01 AWST 2023
+2023-12-05 18:00:01,070  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-05 18:00:01,070  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-05 18:00:02,341  INFO:  -- END  -- Tue Dec 05 18:00:02 AWST 2023
+2023-12-06 00:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-06 00:00:01,063 DEBUG: Task list loaded.
+2023-12-06 00:00:01,063 DEBUG: Total number of tasks: 1
+2023-12-06 00:00:01,063  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-06 00:00:01,063  INFO:  -- Wed Dec 06 00:00:01 AWST 2023
+2023-12-06 00:00:01,063  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-06 00:00:01,063  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-06 00:00:02,329  INFO:  -- END  -- Wed Dec 06 00:00:02 AWST 2023
+2023-12-06 06:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-06 06:00:01,065 DEBUG: Task list loaded.
+2023-12-06 06:00:01,065 DEBUG: Total number of tasks: 1
+2023-12-06 06:00:01,065  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-06 06:00:01,065  INFO:  -- Wed Dec 06 06:00:01 AWST 2023
+2023-12-06 06:00:01,065  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-06 06:00:01,065  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-06 06:00:02,329  INFO:  -- END  -- Wed Dec 06 06:00:02 AWST 2023
+2023-12-06 12:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-06 12:00:01,070 DEBUG: Task list loaded.
+2023-12-06 12:00:01,070 DEBUG: Total number of tasks: 1
+2023-12-06 12:00:01,070  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-06 12:00:01,070  INFO:  -- Wed Dec 06 12:00:01 AWST 2023
+2023-12-06 12:00:01,070  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-06 12:00:01,070  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-06 12:00:02,343  INFO:  -- END  -- Wed Dec 06 12:00:02 AWST 2023
+2023-12-06 18:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-06 18:00:01,067 DEBUG: Task list loaded.
+2023-12-06 18:00:01,067 DEBUG: Total number of tasks: 1
+2023-12-06 18:00:01,067  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-06 18:00:01,067  INFO:  -- Wed Dec 06 18:00:01 AWST 2023
+2023-12-06 18:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-06 18:00:01,068  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-06 18:00:02,342  INFO:  -- END  -- Wed Dec 06 18:00:02 AWST 2023
+2023-12-07 00:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-07 00:00:01,072 DEBUG: Task list loaded.
+2023-12-07 00:00:01,072 DEBUG: Total number of tasks: 1
+2023-12-07 00:00:01,072  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-07 00:00:01,072  INFO:  -- Thu Dec 07 00:00:01 AWST 2023
+2023-12-07 00:00:01,072  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-07 00:00:01,072  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-07 00:00:02,334  INFO:  -- END  -- Thu Dec 07 00:00:02 AWST 2023
+2023-12-07 06:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-07 06:00:01,064 DEBUG: Task list loaded.
+2023-12-07 06:00:01,064 DEBUG: Total number of tasks: 1
+2023-12-07 06:00:01,064  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-07 06:00:01,064  INFO:  -- Thu Dec 07 06:00:01 AWST 2023
+2023-12-07 06:00:01,064  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-07 06:00:01,064  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-07 06:00:02,327  INFO:  -- END  -- Thu Dec 07 06:00:02 AWST 2023
+2023-12-07 12:00:01,062 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-07 12:00:01,063 DEBUG: Task list loaded.
+2023-12-07 12:00:01,063 DEBUG: Total number of tasks: 1
+2023-12-07 12:00:01,063  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-07 12:00:01,063  INFO:  -- Thu Dec 07 12:00:01 AWST 2023
+2023-12-07 12:00:01,063  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-07 12:00:01,063  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-07 12:00:02,329  INFO:  -- END  -- Thu Dec 07 12:00:02 AWST 2023
+2023-12-07 18:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-07 18:00:01,072 DEBUG: Task list loaded.
+2023-12-07 18:00:01,072 DEBUG: Total number of tasks: 1
+2023-12-07 18:00:01,072  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-07 18:00:01,072  INFO:  -- Thu Dec 07 18:00:01 AWST 2023
+2023-12-07 18:00:01,072  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-07 18:00:01,072  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-07 18:00:02,350  INFO:  -- END  -- Thu Dec 07 18:00:02 AWST 2023
+2023-12-08 00:00:01,061 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-08 00:00:01,070 DEBUG: Task list loaded.
+2023-12-08 00:00:01,071 DEBUG: Total number of tasks: 1
+2023-12-08 00:00:01,071  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-08 00:00:01,071  INFO:  -- Fri Dec 08 00:00:01 AWST 2023
+2023-12-08 00:00:01,071  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-08 00:00:01,071  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-08 00:00:02,342  INFO:  -- END  -- Fri Dec 08 00:00:02 AWST 2023
+2023-12-08 06:00:01,062 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-08 06:00:01,068 DEBUG: Task list loaded.
+2023-12-08 06:00:01,068 DEBUG: Total number of tasks: 1
+2023-12-08 06:00:01,068  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-08 06:00:01,068  INFO:  -- Fri Dec 08 06:00:01 AWST 2023
+2023-12-08 06:00:01,068  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-08 06:00:01,068  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-08 06:00:02,336  INFO:  -- END  -- Fri Dec 08 06:00:02 AWST 2023
+2023-12-08 12:00:01,119 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-08 12:00:01,162 DEBUG: Task list loaded.
+2023-12-08 12:00:01,162 DEBUG: Total number of tasks: 1
+2023-12-08 12:00:01,162  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-08 12:00:01,162  INFO:  -- Fri Dec 08 12:00:01 AWST 2023
+2023-12-08 12:00:01,162  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-08 12:00:01,163  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-08 12:00:11,103  INFO:  -- END  -- Fri Dec 08 12:00:11 AWST 2023
+2023-12-08 18:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-08 18:00:01,091 DEBUG: Task list loaded.
+2023-12-08 18:00:01,091 DEBUG: Total number of tasks: 1
+2023-12-08 18:00:01,091  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-08 18:00:01,092  INFO:  -- Fri Dec 08 18:00:01 AWST 2023
+2023-12-08 18:00:01,092  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-08 18:00:01,092  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-08 18:00:02,363  INFO:  -- END  -- Fri Dec 08 18:00:02 AWST 2023
+2023-12-09 00:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-09 00:00:01,095 DEBUG: Task list loaded.
+2023-12-09 00:00:01,095 DEBUG: Total number of tasks: 1
+2023-12-09 00:00:01,095  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-09 00:00:01,095  INFO:  -- Sat Dec 09 00:00:01 AWST 2023
+2023-12-09 00:00:01,095  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-09 00:00:01,095  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-09 00:00:02,360  INFO:  -- END  -- Sat Dec 09 00:00:02 AWST 2023
+2023-12-09 06:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-09 06:00:01,100 DEBUG: Task list loaded.
+2023-12-09 06:00:01,100 DEBUG: Total number of tasks: 1
+2023-12-09 06:00:01,100  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-09 06:00:01,100  INFO:  -- Sat Dec 09 06:00:01 AWST 2023
+2023-12-09 06:00:01,101  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-09 06:00:01,101  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-09 06:00:02,370  INFO:  -- END  -- Sat Dec 09 06:00:02 AWST 2023
+2023-12-09 12:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-09 12:00:01,095 DEBUG: Task list loaded.
+2023-12-09 12:00:01,095 DEBUG: Total number of tasks: 1
+2023-12-09 12:00:01,095  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-09 12:00:01,095  INFO:  -- Sat Dec 09 12:00:01 AWST 2023
+2023-12-09 12:00:01,095  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-09 12:00:01,095  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-09 12:00:02,366  INFO:  -- END  -- Sat Dec 09 12:00:02 AWST 2023
+2023-12-09 18:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-09 18:00:01,091 DEBUG: Task list loaded.
+2023-12-09 18:00:01,091 DEBUG: Total number of tasks: 1
+2023-12-09 18:00:01,091  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-09 18:00:01,091  INFO:  -- Sat Dec 09 18:00:01 AWST 2023
+2023-12-09 18:00:01,092  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-09 18:00:01,092  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-09 18:00:02,362  INFO:  -- END  -- Sat Dec 09 18:00:02 AWST 2023
+2023-12-10 00:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-10 00:00:01,091 DEBUG: Task list loaded.
+2023-12-10 00:00:01,091 DEBUG: Total number of tasks: 1
+2023-12-10 00:00:01,091  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-10 00:00:01,092  INFO:  -- Sun Dec 10 00:00:01 AWST 2023
+2023-12-10 00:00:01,092  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-10 00:00:01,092  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-10 00:00:02,365  INFO:  -- END  -- Sun Dec 10 00:00:02 AWST 2023
+2023-12-10 06:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-10 06:00:01,094 DEBUG: Task list loaded.
+2023-12-10 06:00:01,098 DEBUG: Total number of tasks: 1
+2023-12-10 06:00:01,098  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-10 06:00:01,098  INFO:  -- Sun Dec 10 06:00:01 AWST 2023
+2023-12-10 06:00:01,098  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-10 06:00:01,098  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-10 06:00:02,369  INFO:  -- END  -- Sun Dec 10 06:00:02 AWST 2023
+2023-12-10 12:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-10 12:00:01,092 DEBUG: Task list loaded.
+2023-12-10 12:00:01,092 DEBUG: Total number of tasks: 1
+2023-12-10 12:00:01,092  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-10 12:00:01,092  INFO:  -- Sun Dec 10 12:00:01 AWST 2023
+2023-12-10 12:00:01,092  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-10 12:00:01,092  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-10 12:00:02,363  INFO:  -- END  -- Sun Dec 10 12:00:02 AWST 2023
+2023-12-10 18:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-10 18:00:01,091 DEBUG: Task list loaded.
+2023-12-10 18:00:01,091 DEBUG: Total number of tasks: 1
+2023-12-10 18:00:01,091  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-10 18:00:01,091  INFO:  -- Sun Dec 10 18:00:01 AWST 2023
+2023-12-10 18:00:01,092  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-10 18:00:01,092  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-10 18:00:02,364  INFO:  -- END  -- Sun Dec 10 18:00:02 AWST 2023
+2023-12-11 00:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-11 00:00:01,095 DEBUG: Task list loaded.
+2023-12-11 00:00:01,095 DEBUG: Total number of tasks: 1
+2023-12-11 00:00:01,095  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-11 00:00:01,095  INFO:  -- Mon Dec 11 00:00:01 AWST 2023
+2023-12-11 00:00:01,095  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-11 00:00:01,095  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-11 00:00:02,365  INFO:  -- END  -- Mon Dec 11 00:00:02 AWST 2023
+2023-12-11 06:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-11 06:00:01,095 DEBUG: Task list loaded.
+2023-12-11 06:00:01,095 DEBUG: Total number of tasks: 1
+2023-12-11 06:00:01,095  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-11 06:00:01,095  INFO:  -- Mon Dec 11 06:00:01 AWST 2023
+2023-12-11 06:00:01,095  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-11 06:00:01,096  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-11 06:00:02,362  INFO:  -- END  -- Mon Dec 11 06:00:02 AWST 2023
+2023-12-11 12:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-11 12:00:01,093 DEBUG: Task list loaded.
+2023-12-11 12:00:01,093 DEBUG: Total number of tasks: 1
+2023-12-11 12:00:01,093  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-11 12:00:01,093  INFO:  -- Mon Dec 11 12:00:01 AWST 2023
+2023-12-11 12:00:01,093  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-11 12:00:01,093  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-11 12:00:02,455  INFO:  -- END  -- Mon Dec 11 12:00:02 AWST 2023
+2023-12-11 18:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-11 18:00:01,091 DEBUG: Task list loaded.
+2023-12-11 18:00:01,091 DEBUG: Total number of tasks: 1
+2023-12-11 18:00:01,091  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-11 18:00:01,091  INFO:  -- Mon Dec 11 18:00:01 AWST 2023
+2023-12-11 18:00:01,092  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-11 18:00:01,092  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-11 18:00:02,425  INFO:  -- END  -- Mon Dec 11 18:00:02 AWST 2023
+2023-12-12 00:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-12 00:00:01,095 DEBUG: Task list loaded.
+2023-12-12 00:00:01,095 DEBUG: Total number of tasks: 1
+2023-12-12 00:00:01,095  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-12 00:00:01,095  INFO:  -- Tue Dec 12 00:00:01 AWST 2023
+2023-12-12 00:00:01,095  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-12 00:00:01,096  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-12 00:00:02,364  INFO:  -- END  -- Tue Dec 12 00:00:02 AWST 2023
+2023-12-12 06:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-12 06:00:01,092 DEBUG: Task list loaded.
+2023-12-12 06:00:01,092 DEBUG: Total number of tasks: 1
+2023-12-12 06:00:01,092  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-12 06:00:01,092  INFO:  -- Tue Dec 12 06:00:01 AWST 2023
+2023-12-12 06:00:01,092  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-12 06:00:01,092  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-12 06:00:02,357  INFO:  -- END  -- Tue Dec 12 06:00:02 AWST 2023
+2023-12-12 12:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-12 12:00:01,094 DEBUG: Task list loaded.
+2023-12-12 12:00:01,094 DEBUG: Total number of tasks: 1
+2023-12-12 12:00:01,094  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-12 12:00:01,094  INFO:  -- Tue Dec 12 12:00:01 AWST 2023
+2023-12-12 12:00:01,094  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-12 12:00:01,094  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-12 12:00:02,361  INFO:  -- END  -- Tue Dec 12 12:00:02 AWST 2023
+2023-12-12 18:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-12 18:00:01,092 DEBUG: Task list loaded.
+2023-12-12 18:00:01,092 DEBUG: Total number of tasks: 1
+2023-12-12 18:00:01,092  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-12 18:00:01,092  INFO:  -- Tue Dec 12 18:00:01 AWST 2023
+2023-12-12 18:00:01,092  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-12 18:00:01,092  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-12 18:00:02,361  INFO:  -- END  -- Tue Dec 12 18:00:02 AWST 2023
+2023-12-13 00:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-13 00:00:01,091 DEBUG: Task list loaded.
+2023-12-13 00:00:01,091 DEBUG: Total number of tasks: 1
+2023-12-13 00:00:01,091  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-13 00:00:01,091  INFO:  -- Wed Dec 13 00:00:01 AWST 2023
+2023-12-13 00:00:01,091  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-13 00:00:01,091  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-13 00:00:02,353  INFO:  -- END  -- Wed Dec 13 00:00:02 AWST 2023
+2023-12-13 06:00:01,090 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-13 06:00:01,096 DEBUG: Task list loaded.
+2023-12-13 06:00:01,096 DEBUG: Total number of tasks: 1
+2023-12-13 06:00:01,096  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-13 06:00:01,097  INFO:  -- Wed Dec 13 06:00:01 AWST 2023
+2023-12-13 06:00:01,097  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-13 06:00:01,097  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-13 06:00:02,364  INFO:  -- END  -- Wed Dec 13 06:00:02 AWST 2023
+2023-12-13 12:00:01,853 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-13 12:00:01,935 DEBUG: Task list loaded.
+2023-12-13 12:00:01,935 DEBUG: Total number of tasks: 1
+2023-12-13 12:00:01,935  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-13 12:00:01,936  INFO:  -- Wed Dec 13 12:00:01 AWST 2023
+2023-12-13 12:00:01,936  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-13 12:00:01,936  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-13 12:00:03,761  INFO:  -- END  -- Wed Dec 13 12:00:03 AWST 2023
+2023-12-13 18:00:01,832 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-13 18:00:01,835 DEBUG: Task list loaded.
+2023-12-13 18:00:01,835 DEBUG: Total number of tasks: 1
+2023-12-13 18:00:01,835  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-13 18:00:01,835  INFO:  -- Wed Dec 13 18:00:01 AWST 2023
+2023-12-13 18:00:01,835  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-13 18:00:01,835  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-13 18:00:03,228  INFO:  -- END  -- Wed Dec 13 18:00:03 AWST 2023
+2023-12-14 00:00:01,832 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-14 00:00:01,833 DEBUG: Task list loaded.
+2023-12-14 00:00:01,833 DEBUG: Total number of tasks: 1
+2023-12-14 00:00:01,833  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-14 00:00:01,833  INFO:  -- Thu Dec 14 00:00:01 AWST 2023
+2023-12-14 00:00:01,833  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-14 00:00:01,833  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-14 00:00:03,098  INFO:  -- END  -- Thu Dec 14 00:00:03 AWST 2023
+2023-12-14 06:00:01,832 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-14 06:00:01,841 DEBUG: Task list loaded.
+2023-12-14 06:00:01,841 DEBUG: Total number of tasks: 1
+2023-12-14 06:00:01,841  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-14 06:00:01,841  INFO:  -- Thu Dec 14 06:00:01 AWST 2023
+2023-12-14 06:00:01,841  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-14 06:00:01,841  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-14 06:00:03,116  INFO:  -- END  -- Thu Dec 14 06:00:03 AWST 2023
+2023-12-14 12:00:01,832 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-14 12:00:01,840 DEBUG: Task list loaded.
+2023-12-14 12:00:01,840 DEBUG: Total number of tasks: 1
+2023-12-14 12:00:01,840  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-14 12:00:01,840  INFO:  -- Thu Dec 14 12:00:01 AWST 2023
+2023-12-14 12:00:01,840  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-14 12:00:01,840  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-14 12:00:03,101  INFO:  -- END  -- Thu Dec 14 12:00:03 AWST 2023
+2023-12-14 18:00:01,832 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-14 18:00:01,833 DEBUG: Task list loaded.
+2023-12-14 18:00:01,833 DEBUG: Total number of tasks: 1
+2023-12-14 18:00:01,833  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-14 18:00:01,833  INFO:  -- Thu Dec 14 18:00:01 AWST 2023
+2023-12-14 18:00:01,833  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-14 18:00:01,833  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-14 18:00:03,105  INFO:  -- END  -- Thu Dec 14 18:00:03 AWST 2023
+2023-12-15 00:00:01,832 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-15 00:00:01,840 DEBUG: Task list loaded.
+2023-12-15 00:00:01,840 DEBUG: Total number of tasks: 1
+2023-12-15 00:00:01,840  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-15 00:00:01,840  INFO:  -- Fri Dec 15 00:00:01 AWST 2023
+2023-12-15 00:00:01,840  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-15 00:00:01,841  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-15 00:00:03,115  INFO:  -- END  -- Fri Dec 15 00:00:03 AWST 2023
+2023-12-15 06:00:01,832 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-15 06:00:01,841 DEBUG: Task list loaded.
+2023-12-15 06:00:01,841 DEBUG: Total number of tasks: 1
+2023-12-15 06:00:01,841  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-15 06:00:01,841  INFO:  -- Fri Dec 15 06:00:01 AWST 2023
+2023-12-15 06:00:01,841  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-15 06:00:01,841  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-15 06:00:03,108  INFO:  -- END  -- Fri Dec 15 06:00:03 AWST 2023
+2023-12-15 12:00:01,063 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-15 12:00:01,144 DEBUG: Task list loaded.
+2023-12-15 12:00:01,144 DEBUG: Total number of tasks: 1
+2023-12-15 12:00:01,144  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-15 12:00:01,144  INFO:  -- Fri Dec 15 12:00:01 AWST 2023
+2023-12-15 12:00:01,144  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-15 12:00:01,144  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-15 12:00:10,895  INFO:  -- END  -- Fri Dec 15 12:00:10 AWST 2023
+2023-12-15 18:00:01,552 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-15 18:00:01,570 DEBUG: Task list loaded.
+2023-12-15 18:00:01,570 DEBUG: Total number of tasks: 1
+2023-12-15 18:00:01,570  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-15 18:00:01,570  INFO:  -- Fri Dec 15 18:00:01 AWST 2023
+2023-12-15 18:00:01,570  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-15 18:00:01,570  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-15 18:00:03,291  INFO:  -- END  -- Fri Dec 15 18:00:03 AWST 2023
+2023-12-16 00:00:01,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-16 00:00:01,538 DEBUG: Task list loaded.
+2023-12-16 00:00:01,538 DEBUG: Total number of tasks: 1
+2023-12-16 00:00:01,538  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-16 00:00:01,538  INFO:  -- Sat Dec 16 00:00:01 AWST 2023
+2023-12-16 00:00:01,539  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-16 00:00:01,539  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-16 00:00:02,811  INFO:  -- END  -- Sat Dec 16 00:00:02 AWST 2023
+2023-12-16 06:00:01,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-16 06:00:01,539 DEBUG: Task list loaded.
+2023-12-16 06:00:01,539 DEBUG: Total number of tasks: 1
+2023-12-16 06:00:01,539  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-16 06:00:01,539  INFO:  -- Sat Dec 16 06:00:01 AWST 2023
+2023-12-16 06:00:01,539  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-16 06:00:01,539  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-16 06:00:02,807  INFO:  -- END  -- Sat Dec 16 06:00:02 AWST 2023
+2023-12-16 12:00:01,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-16 12:00:01,536 DEBUG: Task list loaded.
+2023-12-16 12:00:01,536 DEBUG: Total number of tasks: 1
+2023-12-16 12:00:01,536  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-16 12:00:01,537  INFO:  -- Sat Dec 16 12:00:01 AWST 2023
+2023-12-16 12:00:01,537  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-16 12:00:01,537  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-16 12:00:02,809  INFO:  -- END  -- Sat Dec 16 12:00:02 AWST 2023
+2023-12-16 18:00:01,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-16 18:00:01,537 DEBUG: Task list loaded.
+2023-12-16 18:00:01,537 DEBUG: Total number of tasks: 1
+2023-12-16 18:00:01,537  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-16 18:00:01,537  INFO:  -- Sat Dec 16 18:00:01 AWST 2023
+2023-12-16 18:00:01,537  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-16 18:00:01,537  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-16 18:00:02,802  INFO:  -- END  -- Sat Dec 16 18:00:02 AWST 2023
+2023-12-17 00:00:01,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-17 00:00:01,538 DEBUG: Task list loaded.
+2023-12-17 00:00:01,538 DEBUG: Total number of tasks: 1
+2023-12-17 00:00:01,538  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-17 00:00:01,538  INFO:  -- Sun Dec 17 00:00:01 AWST 2023
+2023-12-17 00:00:01,538  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-17 00:00:01,538  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-17 00:00:02,866  INFO:  -- END  -- Sun Dec 17 00:00:02 AWST 2023
+2023-12-17 06:00:01,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-17 06:00:01,538 DEBUG: Task list loaded.
+2023-12-17 06:00:01,538 DEBUG: Total number of tasks: 1
+2023-12-17 06:00:01,538  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-17 06:00:01,538  INFO:  -- Sun Dec 17 06:00:01 AWST 2023
+2023-12-17 06:00:01,538  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-17 06:00:01,538  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-17 06:00:02,804  INFO:  -- END  -- Sun Dec 17 06:00:02 AWST 2023
+2023-12-17 12:00:01,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-17 12:00:01,545 DEBUG: Task list loaded.
+2023-12-17 12:00:01,545 DEBUG: Total number of tasks: 1
+2023-12-17 12:00:01,545  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-17 12:00:01,545  INFO:  -- Sun Dec 17 12:00:01 AWST 2023
+2023-12-17 12:00:01,545  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-17 12:00:01,545  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-17 12:00:02,809  INFO:  -- END  -- Sun Dec 17 12:00:02 AWST 2023
+2023-12-17 18:00:01,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-17 18:00:01,538 DEBUG: Task list loaded.
+2023-12-17 18:00:01,538 DEBUG: Total number of tasks: 1
+2023-12-17 18:00:01,538  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-17 18:00:01,538  INFO:  -- Sun Dec 17 18:00:01 AWST 2023
+2023-12-17 18:00:01,538  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-17 18:00:01,538  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-17 18:00:02,809  INFO:  -- END  -- Sun Dec 17 18:00:02 AWST 2023
+2023-12-18 00:00:01,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-18 00:00:01,538 DEBUG: Task list loaded.
+2023-12-18 00:00:01,538 DEBUG: Total number of tasks: 1
+2023-12-18 00:00:01,538  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-18 00:00:01,538  INFO:  -- Mon Dec 18 00:00:01 AWST 2023
+2023-12-18 00:00:01,538  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-18 00:00:01,538  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-18 00:00:02,814  INFO:  -- END  -- Mon Dec 18 00:00:02 AWST 2023
+2023-12-18 06:00:01,536 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-18 06:00:01,538 DEBUG: Task list loaded.
+2023-12-18 06:00:01,538 DEBUG: Total number of tasks: 1
+2023-12-18 06:00:01,538  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-18 06:00:01,538  INFO:  -- Mon Dec 18 06:00:01 AWST 2023
+2023-12-18 06:00:01,538  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-18 06:00:01,538  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-18 06:00:02,809  INFO:  -- END  -- Mon Dec 18 06:00:02 AWST 2023
+2023-12-18 12:00:01,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-18 12:00:01,544 DEBUG: Task list loaded.
+2023-12-18 12:00:01,545 DEBUG: Total number of tasks: 1
+2023-12-18 12:00:01,545  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-18 12:00:01,545  INFO:  -- Mon Dec 18 12:00:01 AWST 2023
+2023-12-18 12:00:01,545  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-18 12:00:01,545  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-18 12:00:02,809  INFO:  -- END  -- Mon Dec 18 12:00:02 AWST 2023
+2023-12-18 18:00:01,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-18 18:00:01,537 DEBUG: Task list loaded.
+2023-12-18 18:00:01,537 DEBUG: Total number of tasks: 1
+2023-12-18 18:00:01,537  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-18 18:00:01,537  INFO:  -- Mon Dec 18 18:00:01 AWST 2023
+2023-12-18 18:00:01,537  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-18 18:00:01,537  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-18 18:00:02,809  INFO:  -- END  -- Mon Dec 18 18:00:02 AWST 2023
+2023-12-19 00:00:01,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-19 00:00:01,544 DEBUG: Task list loaded.
+2023-12-19 00:00:01,545 DEBUG: Total number of tasks: 1
+2023-12-19 00:00:01,545  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-19 00:00:01,545  INFO:  -- Tue Dec 19 00:00:01 AWST 2023
+2023-12-19 00:00:01,545  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-19 00:00:01,545  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-19 00:00:02,871  INFO:  -- END  -- Tue Dec 19 00:00:02 AWST 2023
+2023-12-19 06:00:01,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-19 06:00:01,538 DEBUG: Task list loaded.
+2023-12-19 06:00:01,538 DEBUG: Total number of tasks: 1
+2023-12-19 06:00:01,538  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-19 06:00:01,538  INFO:  -- Tue Dec 19 06:00:01 AWST 2023
+2023-12-19 06:00:01,538  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-19 06:00:01,538  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-19 06:00:02,809  INFO:  -- END  -- Tue Dec 19 06:00:02 AWST 2023
+2023-12-19 18:00:01,171 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-19 18:00:01,197 DEBUG: Task list loaded.
+2023-12-19 18:00:01,198 DEBUG: Total number of tasks: 1
+2023-12-19 18:00:01,198  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-19 18:00:01,198  INFO:  -- Tue Dec 19 18:00:01 AWST 2023
+2023-12-19 18:00:01,198  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-19 18:00:01,198  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-19 18:00:02,475  INFO:  -- END  -- Tue Dec 19 18:00:02 AWST 2023
+2023-12-20 00:00:01,170 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-20 00:00:01,207 DEBUG: Task list loaded.
+2023-12-20 00:00:01,207 DEBUG: Total number of tasks: 1
+2023-12-20 00:00:01,207  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-20 00:00:01,207  INFO:  -- Wed Dec 20 00:00:01 AWST 2023
+2023-12-20 00:00:01,207  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-20 00:00:01,207  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-20 00:00:02,479  INFO:  -- END  -- Wed Dec 20 00:00:02 AWST 2023
+2023-12-20 06:00:01,170 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-20 06:00:01,177 DEBUG: Task list loaded.
+2023-12-20 06:00:01,177 DEBUG: Total number of tasks: 1
+2023-12-20 06:00:01,177  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-20 06:00:01,177  INFO:  -- Wed Dec 20 06:00:01 AWST 2023
+2023-12-20 06:00:01,177  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-20 06:00:01,177  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-20 06:00:02,445  INFO:  -- END  -- Wed Dec 20 06:00:02 AWST 2023
+2023-12-20 12:00:01,171 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-20 12:00:01,179 DEBUG: Task list loaded.
+2023-12-20 12:00:01,179 DEBUG: Total number of tasks: 1
+2023-12-20 12:00:01,179  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-20 12:00:01,179  INFO:  -- Wed Dec 20 12:00:01 AWST 2023
+2023-12-20 12:00:01,179  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-20 12:00:01,179  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-20 12:00:02,440  INFO:  -- END  -- Wed Dec 20 12:00:02 AWST 2023
+2023-12-20 18:00:01,167 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-20 18:00:01,194 DEBUG: Task list loaded.
+2023-12-20 18:00:01,194 DEBUG: Total number of tasks: 1
+2023-12-20 18:00:01,194  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-20 18:00:01,194  INFO:  -- Wed Dec 20 18:00:01 AWST 2023
+2023-12-20 18:00:01,194  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-20 18:00:01,194  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-20 18:00:02,465  INFO:  -- END  -- Wed Dec 20 18:00:02 AWST 2023
+2023-12-21 00:00:01,167 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-21 00:00:01,171 DEBUG: Task list loaded.
+2023-12-21 00:00:01,171 DEBUG: Total number of tasks: 1
+2023-12-21 00:00:01,171  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-21 00:00:01,171  INFO:  -- Thu Dec 21 00:00:01 AWST 2023
+2023-12-21 00:00:01,171  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-21 00:00:01,171  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-21 00:00:02,436  INFO:  -- END  -- Thu Dec 21 00:00:02 AWST 2023
+2023-12-21 06:00:01,167 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-21 06:00:01,178 DEBUG: Task list loaded.
+2023-12-21 06:00:01,178 DEBUG: Total number of tasks: 1
+2023-12-21 06:00:01,178  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-21 06:00:01,178  INFO:  -- Thu Dec 21 06:00:01 AWST 2023
+2023-12-21 06:00:01,178  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-21 06:00:01,178  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-21 06:00:02,445  INFO:  -- END  -- Thu Dec 21 06:00:02 AWST 2023
+2023-12-21 12:00:01,167 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-21 12:00:01,171 DEBUG: Task list loaded.
+2023-12-21 12:00:01,171 DEBUG: Total number of tasks: 1
+2023-12-21 12:00:01,171  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-21 12:00:01,171  INFO:  -- Thu Dec 21 12:00:01 AWST 2023
+2023-12-21 12:00:01,171  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-21 12:00:01,171  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-21 12:00:02,439  INFO:  -- END  -- Thu Dec 21 12:00:02 AWST 2023
+2023-12-21 18:00:01,292 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-21 18:00:01,335 DEBUG: Task list loaded.
+2023-12-21 18:00:01,335 DEBUG: Total number of tasks: 1
+2023-12-21 18:00:01,335  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-21 18:00:01,335  INFO:  -- Thu Dec 21 18:00:01 AWST 2023
+2023-12-21 18:00:01,335  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-21 18:00:01,335  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-21 18:00:02,611  INFO:  -- END  -- Thu Dec 21 18:00:02 AWST 2023
+2023-12-22 00:00:01,290 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-22 00:00:01,305 DEBUG: Task list loaded.
+2023-12-22 00:00:01,305 DEBUG: Total number of tasks: 1
+2023-12-22 00:00:01,305  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-22 00:00:01,305  INFO:  -- Fri Dec 22 00:00:01 AWST 2023
+2023-12-22 00:00:01,305  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-22 00:00:01,305  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-22 00:00:02,575  INFO:  -- END  -- Fri Dec 22 00:00:02 AWST 2023
+2023-12-22 06:00:01,291 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-22 06:00:01,292 DEBUG: Task list loaded.
+2023-12-22 06:00:01,292 DEBUG: Total number of tasks: 1
+2023-12-22 06:00:01,292  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-22 06:00:01,292  INFO:  -- Fri Dec 22 06:00:01 AWST 2023
+2023-12-22 06:00:01,292  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-22 06:00:01,293  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-22 06:00:02,565  INFO:  -- END  -- Fri Dec 22 06:00:02 AWST 2023
+2023-12-22 12:00:01,290 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-22 12:00:01,301 DEBUG: Task list loaded.
+2023-12-22 12:00:01,301 DEBUG: Total number of tasks: 1
+2023-12-22 12:00:01,301  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-22 12:00:01,301  INFO:  -- Fri Dec 22 12:00:01 AWST 2023
+2023-12-22 12:00:01,301  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-22 12:00:01,301  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-22 12:00:03,378  INFO:  -- END  -- Fri Dec 22 12:00:03 AWST 2023
+2023-12-22 18:00:01,291 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-22 18:00:01,292 DEBUG: Task list loaded.
+2023-12-22 18:00:01,292 DEBUG: Total number of tasks: 1
+2023-12-22 18:00:01,292  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-22 18:00:01,292  INFO:  -- Fri Dec 22 18:00:01 AWST 2023
+2023-12-22 18:00:01,292  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-22 18:00:01,292  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-22 18:00:02,576  INFO:  -- END  -- Fri Dec 22 18:00:02 AWST 2023
+2023-12-23 00:00:01,290 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-23 00:00:01,296 DEBUG: Task list loaded.
+2023-12-23 00:00:01,296 DEBUG: Total number of tasks: 1
+2023-12-23 00:00:01,296  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-23 00:00:01,296  INFO:  -- Sat Dec 23 00:00:01 AWST 2023
+2023-12-23 00:00:01,297  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-23 00:00:01,297  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-23 00:00:02,566  INFO:  -- END  -- Sat Dec 23 00:00:02 AWST 2023
+2023-12-23 06:00:01,291 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-23 06:00:01,292 DEBUG: Task list loaded.
+2023-12-23 06:00:01,292 DEBUG: Total number of tasks: 1
+2023-12-23 06:00:01,292  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-23 06:00:01,292  INFO:  -- Sat Dec 23 06:00:01 AWST 2023
+2023-12-23 06:00:01,292  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-23 06:00:01,293  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-23 06:00:02,561  INFO:  -- END  -- Sat Dec 23 06:00:02 AWST 2023
+2023-12-23 12:00:01,290 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-23 12:00:01,297 DEBUG: Task list loaded.
+2023-12-23 12:00:01,297 DEBUG: Total number of tasks: 1
+2023-12-23 12:00:01,297  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-23 12:00:01,297  INFO:  -- Sat Dec 23 12:00:01 AWST 2023
+2023-12-23 12:00:01,297  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-23 12:00:01,297  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-23 12:00:02,564  INFO:  -- END  -- Sat Dec 23 12:00:02 AWST 2023
+2023-12-23 18:00:01,291 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-23 18:00:01,292 DEBUG: Task list loaded.
+2023-12-23 18:00:01,292 DEBUG: Total number of tasks: 1
+2023-12-23 18:00:01,292  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-23 18:00:01,292  INFO:  -- Sat Dec 23 18:00:01 AWST 2023
+2023-12-23 18:00:01,292  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-23 18:00:01,293  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-23 18:00:02,557  INFO:  -- END  -- Sat Dec 23 18:00:02 AWST 2023
+2023-12-24 00:00:01,290 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-24 00:00:01,292 DEBUG: Task list loaded.
+2023-12-24 00:00:01,292 DEBUG: Total number of tasks: 1
+2023-12-24 00:00:01,292  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-24 00:00:01,292  INFO:  -- Sun Dec 24 00:00:01 AWST 2023
+2023-12-24 00:00:01,292  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-24 00:00:01,292  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-24 00:00:02,560  INFO:  -- END  -- Sun Dec 24 00:00:02 AWST 2023
+2023-12-24 06:00:01,291 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-24 06:00:01,293 DEBUG: Task list loaded.
+2023-12-24 06:00:01,293 DEBUG: Total number of tasks: 1
+2023-12-24 06:00:01,293  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-24 06:00:01,293  INFO:  -- Sun Dec 24 06:00:01 AWST 2023
+2023-12-24 06:00:01,294  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-24 06:00:01,294  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-24 06:00:02,557  INFO:  -- END  -- Sun Dec 24 06:00:02 AWST 2023
+2023-12-24 12:00:01,290 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-24 12:00:01,307 DEBUG: Task list loaded.
+2023-12-24 12:00:01,308 DEBUG: Total number of tasks: 1
+2023-12-24 12:00:01,308  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-24 12:00:01,308  INFO:  -- Sun Dec 24 12:00:01 AWST 2023
+2023-12-24 12:00:01,308  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-24 12:00:01,308  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-24 12:00:02,605  INFO:  -- END  -- Sun Dec 24 12:00:02 AWST 2023
+2023-12-24 18:00:01,291 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-24 18:00:01,298 DEBUG: Task list loaded.
+2023-12-24 18:00:01,298 DEBUG: Total number of tasks: 1
+2023-12-24 18:00:01,298  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-24 18:00:01,298  INFO:  -- Sun Dec 24 18:00:01 AWST 2023
+2023-12-24 18:00:01,298  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-24 18:00:01,298  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-24 18:00:02,563  INFO:  -- END  -- Sun Dec 24 18:00:02 AWST 2023
+2023-12-25 00:00:01,290 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-25 00:00:01,292 DEBUG: Task list loaded.
+2023-12-25 00:00:01,292 DEBUG: Total number of tasks: 1
+2023-12-25 00:00:01,293  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-25 00:00:01,293  INFO:  -- Mon Dec 25 00:00:01 AWST 2023
+2023-12-25 00:00:01,294  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-25 00:00:01,294  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-25 00:00:02,670  INFO:  -- END  -- Mon Dec 25 00:00:02 AWST 2023
+2023-12-25 06:00:01,291 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-25 06:00:01,294 DEBUG: Task list loaded.
+2023-12-25 06:00:01,294 DEBUG: Total number of tasks: 1
+2023-12-25 06:00:01,294  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-25 06:00:01,294  INFO:  -- Mon Dec 25 06:00:01 AWST 2023
+2023-12-25 06:00:01,294  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-25 06:00:01,294  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-25 06:00:02,562  INFO:  -- END  -- Mon Dec 25 06:00:02 AWST 2023
+2023-12-25 12:00:01,290 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-25 12:00:01,291 DEBUG: Task list loaded.
+2023-12-25 12:00:01,292 DEBUG: Total number of tasks: 1
+2023-12-25 12:00:01,292  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-25 12:00:01,292  INFO:  -- Mon Dec 25 12:00:01 AWST 2023
+2023-12-25 12:00:01,292  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-25 12:00:01,292  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-25 12:00:02,577  INFO:  -- END  -- Mon Dec 25 12:00:02 AWST 2023
+2023-12-25 18:00:01,290 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-25 18:00:01,293 DEBUG: Task list loaded.
+2023-12-25 18:00:01,293 DEBUG: Total number of tasks: 1
+2023-12-25 18:00:01,293  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-25 18:00:01,293  INFO:  -- Mon Dec 25 18:00:01 AWST 2023
+2023-12-25 18:00:01,293  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-25 18:00:01,293  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-25 18:00:02,575  INFO:  -- END  -- Mon Dec 25 18:00:02 AWST 2023
+2023-12-26 00:00:01,290 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 00:00:01,291 DEBUG: Task list loaded.
+2023-12-26 00:00:01,291 DEBUG: Total number of tasks: 1
+2023-12-26 00:00:01,292  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-26 00:00:01,292  INFO:  -- Tue Dec 26 00:00:01 AWST 2023
+2023-12-26 00:00:01,292  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-26 00:00:01,292  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-26 00:00:02,560  INFO:  -- END  -- Tue Dec 26 00:00:02 AWST 2023
+2023-12-26 06:00:01,290 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 06:00:01,293 DEBUG: Task list loaded.
+2023-12-26 06:00:01,293 DEBUG: Total number of tasks: 1
+2023-12-26 06:00:01,293  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-26 06:00:01,293  INFO:  -- Tue Dec 26 06:00:01 AWST 2023
+2023-12-26 06:00:01,293  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 am
+2023-12-26 06:00:01,294  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-26 06:00:02,561  INFO:  -- END  -- Tue Dec 26 06:00:02 AWST 2023
+2023-12-26 12:00:01,290 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 12:00:01,299 DEBUG: Task list loaded.
+2023-12-26 12:00:01,299 DEBUG: Total number of tasks: 1
+2023-12-26 12:00:01,299  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-26 12:00:01,299  INFO:  -- Tue Dec 26 12:00:01 AWST 2023
+2023-12-26 12:00:01,299  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
+2023-12-26 12:00:01,299  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-26 12:00:02,574  INFO:  -- END  -- Tue Dec 26 12:00:02 AWST 2023

@@ -1,0 +1,7 @@
+2022-11-11 14:12:06,161 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:12:06,162 DEBUG: Task list loaded.
+2022-11-11 14:12:06,162 DEBUG: Total number of tasks: 1
+2022-11-11 14:12:06,162  INFO:  -- START  -- MADDD.xml
+2022-11-11 14:12:06,162  INFO:  -- Fri Nov 11 14:12:06 AWST 2022
+2022-11-11 14:12:06,162  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/MADDD/raw/import.xml 2:12:06 pm
+2022-11-11 14:12:06,249  INFO: Importing file dbca_MADDD_2022-09-07_1802.csv

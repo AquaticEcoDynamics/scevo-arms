@@ -1,0 +1,7 @@
+2022-11-11 14:11:51,787 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:11:51,788 DEBUG: Task list loaded.
+2022-11-11 14:11:51,788 DEBUG: Total number of tasks: 1
+2022-11-11 14:11:51,788  INFO:  -- START  -- JANEB.xml
+2022-11-11 14:11:51,788  INFO:  -- Fri Nov 11 14:11:51 AWST 2022
+2022-11-11 14:11:51,788  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/JANEB/raw/import.xml 2:11:51 pm
+2022-11-11 14:11:51,870  INFO: Importing file dbca_JANEB_2022-09-07_1802.csv

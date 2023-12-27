@@ -1,0 +1,76 @@
+2023-01-23 16:04:07,882 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-01-23 16:04:07,884 DEBUG: Task list loaded.
+2023-01-23 16:04:07,884 DEBUG: Total number of tasks: 1
+2023-01-23 16:04:07,884  INFO:  -- START  -- MAY_b.xml
+2023-01-23 16:04:07,884  INFO:  -- Mon Jan 23 16:04:07 AWST 2023
+2023-01-23 16:04:07,884  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/scesb/stations/MAY_b/raw/import.xml 4:04:07 pm
+2023-01-23 16:04:07,988 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/scesb/stations/MAY_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/scesb/stations/MAY_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-23 16:04:07,988  INFO:  -- END  -- Mon Jan 23 16:04:07 AWST 2023
+2023-01-23 16:04:07,988  INFO: Number of errors: 1
+2023-01-23 16:05:45,753 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-01-23 16:05:45,755 DEBUG: Task list loaded.
+2023-01-23 16:05:45,755 DEBUG: Total number of tasks: 1
+2023-01-23 16:05:45,755  INFO:  -- START  -- MAY_b.xml
+2023-01-23 16:05:45,755  INFO:  -- Mon Jan 23 16:05:45 AWST 2023
+2023-01-23 16:05:45,755  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/scesb/stations/MAY_b/raw/import.xml 4:05:45 pm
+2023-01-23 16:05:45,861 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/scesb/stations/MAY_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/scesb/stations/MAY_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-23 16:05:45,861  INFO:  -- END  -- Mon Jan 23 16:05:45 AWST 2023
+2023-01-23 16:05:45,861  INFO: Number of errors: 1
+2023-01-23 16:09:04,417 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-01-23 16:09:04,419 DEBUG: Task list loaded.
+2023-01-23 16:09:04,419 DEBUG: Total number of tasks: 1
+2023-01-23 16:09:04,419  INFO:  -- START  -- MAY_b.xml
+2023-01-23 16:09:04,419  INFO:  -- Mon Jan 23 16:09:04 AWST 2023
+2023-01-23 16:09:04,419  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/scesb/stations/MAY_b/raw/import.xml 4:09:04 pm
+2023-01-23 16:09:04,525  INFO: Importing file dbca_MAY_b_2023-01-03_1328_37.csv
+2023-01-23 16:18:43,389  INFO: Importing file dbca_MAY_b_2022-10-13_0809_37.csv
+2023-01-23 16:18:51,355  INFO: Importing file dbca_MAY_b_2022-09-07_1802_37.csv
+2023-01-23 16:34:12,516  INFO:  -- END  -- Mon Jan 23 16:34:12 AWST 2023

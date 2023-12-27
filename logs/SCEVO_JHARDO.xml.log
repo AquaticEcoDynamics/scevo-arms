@@ -1,0 +1,7 @@
+2022-11-11 14:11:54,188 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:11:54,189 DEBUG: Task list loaded.
+2022-11-11 14:11:54,189 DEBUG: Total number of tasks: 1
+2022-11-11 14:11:54,189  INFO:  -- START  -- JHARDO.xml
+2022-11-11 14:11:54,189  INFO:  -- Fri Nov 11 14:11:54 AWST 2022
+2022-11-11 14:11:54,189  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/JHARDO/raw/import.xml 2:11:54 pm
+2022-11-11 14:11:54,280  INFO: Importing file dbca_JHARDO_2022-09-07_1802.csv

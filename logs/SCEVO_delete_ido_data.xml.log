@@ -1,0 +1,7 @@
+2023-11-11 11:12:23,498 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-11 11:12:23,505 DEBUG: Task list loaded.
+2023-11-11 11:12:23,505 DEBUG: Total number of tasks: 1
+2023-11-11 11:12:23,505  INFO:  -- START  -- delete_ido_data.xml
+2023-11-11 11:12:23,505  INFO:  -- Sat Nov 11 11:12:23 AWST 2023
+2023-11-11 11:12:23,505  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/bom/ido/hillarys/delete_ido_data_from_database.xml 11:12:23 am
+2023-11-11 11:12:30,661  INFO:  -- END  -- Sat Nov 11 11:12:30 AWST 2023

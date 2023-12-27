@@ -1,0 +1,151 @@
+2022-11-08 16:27:12,793 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-08 16:27:12,800 DEBUG: Task list loaded.
+2022-11-08 16:27:12,800 DEBUG: Total number of tasks: 14
+2022-11-08 16:27:12,800  INFO:  -- START  -- lake_grace.xml
+2022-11-08 16:27:12,800  INFO:  -- Tue Nov 08 16:27:12 AWST 2022
+2022-11-08 16:27:12,800  INFO:  -- TASK 1/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/raw/import.xml 4:27:12 pm
+2022-11-08 16:27:22,599 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/bom/idy/stations/lake_grace/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/bom/idy/stations/lake_grace/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-11-08 16:27:22,599  INFO:  -- TASK 2/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/timeline/start_dataprocessing.xml 4:27:22 pm
+2022-11-08 16:27:22,600  INFO:  -- TASK 3/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/timeline/end_dataprocessing.xml 4:27:22 pm
+2022-11-08 16:27:22,601  INFO:  -- TASK 4/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/raw/qc.xml 4:27:22 pm
+2022-11-08 16:27:22,625  INFO: Sensor: .wind_direction 2022-03-12 11:00:00-2022-05-11 11:00:00 (0.022s : 0.022s)
+2022-11-08 16:27:22,632  INFO: Sensor: .wind_direction 2022-05-11 11:00:01-2022-07-10 11:00:01 (0.006s : 0.029s)
+2022-11-08 16:27:22,657  INFO: Sensor: .wind_direction 2022-07-10 11:00:02-2022-09-08 11:00:02 (0.025s : 0.054s)
+2022-11-08 16:27:22,660  INFO: Sensor: .wind_direction 2022-09-08 11:00:03-2022-11-07 11:00:03 (0.003s : 0.057s)
+2022-11-08 16:27:22,661  INFO: Sensor: .wind_direction 2022-11-07 11:00:04-2022-11-08 07:30:00 (0.001s : 0.058s)
+2022-11-08 16:27:22,663  INFO: Sensor: .wind_speed 2022-03-12 11:00:00-2022-05-11 11:00:00 (0.06s : 0.06s)
+2022-11-08 16:27:22,664  INFO: Sensor: .air_temperature 2022-03-12 11:00:00-2022-05-11 11:00:00 (0.061s : 0.061s)
+2022-11-08 16:27:22,665  INFO: Sensor: .atmpress 2022-03-12 11:00:00-2022-05-11 11:00:00 (0.004s : 0.062s)
+2022-11-08 16:27:22,666  INFO: Sensor: .dew_point 2022-03-12 11:00:00-2022-05-11 11:00:00 (0.063s : 0.063s)
+2022-11-08 16:27:22,666  INFO: Sensor: .wind_speed 2022-05-11 11:00:01-2022-07-10 11:00:01 (0.003s : 0.063s)
+2022-11-08 16:27:22,669  INFO: Sensor: .air_temperature 2022-05-11 11:00:01-2022-07-10 11:00:01 (0.005s : 0.066s)
+2022-11-08 16:27:22,671  INFO: Sensor: .atmpress 2022-05-11 11:00:01-2022-07-10 11:00:01 (0.005s : 0.068s)
+2022-11-08 16:27:22,673  INFO: Sensor: .air_temperature 2022-07-10 11:00:02-2022-09-08 11:00:02 (0.004s : 0.07s)
+2022-11-08 16:27:22,675  INFO: Sensor: .atmpress 2022-07-10 11:00:02-2022-09-08 11:00:02 (0.004s : 0.072s)
+2022-11-08 16:27:22,676  INFO: Sensor: .air_temperature 2022-09-08 11:00:03-2022-11-07 11:00:03 (0.003s : 0.073s)
+2022-11-08 16:27:22,677  INFO: Sensor: .air_temperature 2022-11-07 11:00:04-2022-11-08 07:30:00 (0.001s : 0.074s)
+2022-11-08 16:27:22,678  INFO: Sensor: .atmpress 2022-09-08 11:00:03-2022-11-07 11:00:03 (0.003s : 0.075s)
+2022-11-08 16:27:22,679  INFO: Sensor: .atmpress 2022-11-07 11:00:04-2022-11-08 07:30:00 (0.001s : 0.076s)
+2022-11-08 16:27:22,680  INFO: Sensor: .rainfall 2022-03-12 11:00:00-2022-05-11 11:00:00 (0.001s : 0.077s)
+2022-11-08 16:27:22,680  INFO: Sensor: .rainfall_9am 2022-03-12 11:00:00-2022-05-11 11:00:00 (0.003s : 0.077s)
+2022-11-08 16:27:22,680  INFO: Sensor: .rainfall 2022-05-11 11:00:01-2022-07-10 11:00:01 (0.0s : 0.077s)
+2022-11-08 16:27:22,681  INFO: Sensor: .rainfall 2022-07-10 11:00:02-2022-09-08 11:00:02 (0.001s : 0.078s)
+2022-11-08 16:27:22,682  INFO: Sensor: .rainfall 2022-09-08 11:00:03-2022-11-07 11:00:03 (0.001s : 0.079s)
+2022-11-08 16:27:22,682  INFO: Sensor: .dew_point 2022-05-11 11:00:01-2022-07-10 11:00:01 (0.016s : 0.079s)
+2022-11-08 16:27:22,683  INFO: Sensor: .rainfall 2022-11-07 11:00:04-2022-11-08 07:30:00 (0.001s : 0.08s)
+2022-11-08 16:27:22,683  INFO: Sensor: .wind_speed 2022-07-10 11:00:02-2022-09-08 11:00:02 (0.016s : 0.08s)
+2022-11-08 16:27:22,683  INFO: Sensor: .rainfall_9am 2022-05-11 11:00:01-2022-07-10 11:00:01 (0.003s : 0.08s)
+2022-11-08 16:27:22,686  INFO: Sensor: .wind_speed 2022-09-08 11:00:03-2022-11-07 11:00:03 (0.003s : 0.083s)
+2022-11-08 16:27:22,687  INFO: Sensor: .wind_speed 2022-11-07 11:00:04-2022-11-08 07:30:00 (0.001s : 0.084s)
+2022-11-08 16:27:22,687  INFO: Sensor: .dew_point 2022-07-10 11:00:02-2022-09-08 11:00:02 (0.005s : 0.084s)
+2022-11-08 16:27:22,691  INFO: Sensor: .rainfall_9am 2022-07-10 11:00:02-2022-09-08 11:00:02 (0.007s : 0.087s)
+2022-11-08 16:27:22,693  INFO: Sensor: .rainfall_9am 2022-09-08 11:00:03-2022-11-07 11:00:03 (0.002s : 0.09s)
+2022-11-08 16:27:22,694  INFO: Sensor: .rainfall_9am 2022-11-07 11:00:04-2022-11-08 07:30:00 (0.001s : 0.091s)
+2022-11-08 16:27:22,699  INFO: Sensor: .dew_point 2022-09-08 11:00:03-2022-11-07 11:00:03 (0.011s : 0.096s)
+2022-11-08 16:27:22,700  INFO: Sensor: .dew_point 2022-11-07 11:00:04-2022-11-08 07:30:00 (0.001s : 0.097s)
+2022-11-08 16:27:22,700  INFO:  -- TASK 5/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/raw/create_rainfall.xml 4:27:22 pm
+2022-11-08 16:27:54,421  INFO: Sensor:  2022-03-12 11:00:00-2022-05-11 11:00:00 (31.72s : 31.72s)
+2022-11-08 16:28:23,587  INFO: Sensor:  2022-05-11 11:00:01-2022-07-10 11:00:01 (29.166s : 60.887s)
+2022-11-08 16:29:11,968  INFO: Sensor:  2022-07-10 11:00:02-2022-09-08 11:00:02 (48.381s : 109.268s)
+2022-11-08 16:29:36,883  INFO: Sensor:  2022-09-08 11:00:03-2022-11-07 11:00:03 (24.915s : 134.183s)
+2022-11-08 16:29:37,433  INFO: Sensor:  2022-11-07 11:00:04-2022-11-08 07:30:00 (0.55s : 134.733s)
+2022-11-08 16:29:37,433  INFO:  -- TASK 6/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/downsampled/downsample_60.xml 4:29:37 pm
+2022-11-08 16:30:39,764  INFO: Sensor: .wind_direction 2022-03-12 11:00:00-2022-07-10 11:00:00 (62.33s : 62.33s)
+2022-11-08 16:30:39,805  INFO: Sensor: .dew_point 2022-03-12 11:00:00-2022-07-10 11:00:00 (62.355s : 62.371s)
+2022-11-08 16:30:39,822  INFO: Sensor: .wind_speed 2022-03-12 11:00:00-2022-07-10 11:00:00 (62.388s : 62.388s)
+2022-11-08 16:30:39,897  INFO: Sensor: .air_temperature 2022-03-12 11:00:00-2022-07-10 11:00:00 (62.456s : 62.463s)
+2022-11-08 16:31:34,567  INFO: Sensor: .wind_direction 2022-07-10 11:00:01-2022-11-07 11:00:01 (54.802s : 117.132s)
+2022-11-08 16:31:34,591  INFO: Sensor: .dew_point 2022-07-10 11:00:01-2022-11-07 11:00:01 (54.785s : 117.157s)
+2022-11-08 16:31:34,608  INFO: Sensor: .wind_speed 2022-07-10 11:00:01-2022-11-07 11:00:01 (54.786s : 117.174s)
+2022-11-08 16:31:34,700  INFO: Sensor: .air_temperature 2022-07-10 11:00:01-2022-11-07 11:00:01 (54.803s : 117.266s)
+2022-11-08 16:31:34,917  INFO: Sensor: .wind_direction 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.35s : 117.483s)
+2022-11-08 16:31:34,942  INFO: Sensor: .dew_point 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.35s : 117.508s)
+2022-11-08 16:31:34,958  INFO: Sensor: .wind_speed 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.35s : 117.524s)
+2022-11-08 16:31:35,217  INFO: Sensor: .air_temperature 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.517s : 117.783s)
+2022-11-08 16:32:38,913  INFO: Sensor: .rainfall 2022-03-12 11:00:00-2022-07-10 11:00:00 (63.955s : 181.479s)
+2022-11-08 16:32:38,980  INFO: Sensor: .rainfall_9am 2022-03-12 11:00:00-2022-07-10 11:00:00 (64.038s : 181.546s)
+2022-11-08 16:32:38,988  INFO: Sensor: .atmpress 2022-03-12 11:00:00-2022-07-10 11:00:00 (64.071s : 181.554s)
+2022-11-08 16:33:34,879  INFO: Sensor: .rainfall 2022-07-10 11:00:01-2022-11-07 11:00:01 (55.966s : 237.445s)
+2022-11-08 16:33:34,979  INFO: Sensor: .atmpress 2022-07-10 11:00:01-2022-11-07 11:00:01 (55.991s : 237.545s)
+2022-11-08 16:33:34,996  INFO: Sensor: .rainfall_9am 2022-07-10 11:00:01-2022-11-07 11:00:01 (56.016s : 237.562s)
+2022-11-08 16:33:35,279  INFO: Sensor: .rainfall 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.4s : 237.845s)
+2022-11-08 16:33:35,379  INFO: Sensor: .atmpress 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.4s : 237.945s)
+2022-11-08 16:33:35,396  INFO: Sensor: .rainfall_9am 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.4s : 237.962s)
+2022-11-08 16:33:35,396  INFO:  -- TASK 7/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/downsampled/downsample_360.xml 4:33:35 pm
+2022-11-08 16:33:55,076  INFO: Sensor: .air_temperature 2022-03-12 11:00:00-2022-11-08 07:30:00 (19.679s : 19.679s)
+2022-11-08 16:33:55,093  INFO: Sensor: .wind_direction 2022-03-12 11:00:00-2022-11-08 07:30:00 (19.696s : 19.696s)
+2022-11-08 16:33:55,093  INFO: Sensor: .wind_speed 2022-03-12 11:00:00-2022-11-08 07:30:00 (19.696s : 19.696s)
+2022-11-08 16:34:14,207  INFO: Sensor: .dew_point 2022-03-12 11:00:00-2022-11-08 07:30:00 (19.13s : 38.81s)
+2022-11-08 16:34:14,248  INFO: Sensor: .rainfall_9am 2022-03-12 11:00:00-2022-11-08 07:30:00 (19.155s : 38.851s)
+2022-11-08 16:34:14,265  INFO: Sensor: .atmpress 2022-03-12 11:00:00-2022-11-08 07:30:00 (19.172s : 38.868s)
+2022-11-08 16:34:34,322  INFO: Sensor: .rainfall 2022-03-12 11:00:00-2022-11-08 07:30:00 (20.115s : 58.925s)
+2022-11-08 16:34:34,323  INFO:  -- TASK 8/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/downsampled/downsample_60.xml 4:34:34 pm
+2022-11-08 16:35:37,808  INFO: Sensor: .windvector 2022-03-12 11:00:00-2022-07-10 11:00:00 (63.484s : 63.484s)
+2022-11-08 16:36:32,661  INFO: Sensor: .windvector 2022-07-10 11:00:01-2022-11-07 11:00:01 (54.853s : 118.337s)
+2022-11-08 16:36:33,028  INFO: Sensor: .windvector 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.366s : 118.704s)
+2022-11-08 16:36:33,029  INFO:  -- TASK 9/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/downsampled/downsample_360.xml 4:36:33 pm
+2022-11-08 16:44:30,819  INFO: Sensor: .windvector 2022-03-12 11:00:00-2022-11-08 07:30:00 (20.754s : 477.789s)
+2022-11-08 16:44:30,819  INFO:  -- TASK 10/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/downsampled/create_rainfall_360.xml 4:44:30 pm
+2022-11-08 16:44:50,156  INFO: Sensor:  2022-03-12 11:00:00-2022-11-08 07:30:00 (19.336s : 19.336s)
+2022-11-08 16:44:50,156  INFO:  -- TASK 11/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/filled/fill_60.xml 4:44:50 pm
+2022-11-08 16:44:54,779  INFO: Sensor: .wind_speed 2022-03-12 11:00:00-2022-07-10 11:00:00 (4.584s : 4.622s)
+2022-11-08 16:45:09,813  INFO: Sensor: .wind_speed 2022-07-10 11:00:01-2022-11-07 11:00:01 (15.034s : 19.656s)
+2022-11-08 16:45:09,814  INFO: Sensor: .wind_speed 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.001s : 19.657s)
+2022-11-08 16:45:14,032  INFO: Sensor: .wind_direction 2022-03-12 11:00:00-2022-07-10 11:00:00 (4.139s : 23.875s)
+2022-11-08 16:45:29,291  INFO: Sensor: .wind_direction 2022-07-10 11:00:01-2022-11-07 11:00:01 (15.259s : 39.134s)
+2022-11-08 16:45:29,292  INFO: Sensor: .wind_direction 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.001s : 39.135s)
+2022-11-08 16:45:33,437  INFO: Sensor: .air_temperature 2022-03-12 11:00:00-2022-07-10 11:00:00 (4.094s : 43.28s)
+2022-11-08 16:45:48,737  INFO: Sensor: .air_temperature 2022-07-10 11:00:01-2022-11-07 11:00:01 (15.3s : 58.58s)
+2022-11-08 16:45:48,738  INFO: Sensor: .air_temperature 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.001s : 58.581s)
+2022-11-08 16:45:53,316  INFO: Sensor: .dew_point 2022-03-12 11:00:00-2022-07-10 11:00:00 (4.538s : 63.159s)
+2022-11-08 16:46:08,674  INFO: Sensor: .dew_point 2022-07-10 11:00:01-2022-11-07 11:00:01 (15.358s : 78.517s)
+2022-11-08 16:46:08,675  INFO: Sensor: .dew_point 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.0s : 78.518s)
+2022-11-08 16:46:12,794  INFO: Sensor: .atmpress 2022-03-12 11:00:00-2022-07-10 11:00:00 (4.087s : 82.637s)
+2022-11-08 16:46:28,211  INFO: Sensor: .atmpress 2022-07-10 11:00:01-2022-11-07 11:00:01 (15.417s : 98.054s)
+2022-11-08 16:46:28,212  INFO: Sensor: .atmpress 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.001s : 98.055s)
+2022-11-08 16:46:32,357  INFO: Sensor: .rainfall_9am 2022-03-12 11:00:00-2022-07-10 11:00:00 (4.111s : 102.2s)
+2022-11-08 16:46:48,831  INFO: Sensor: .rainfall_9am 2022-07-10 11:00:01-2022-11-07 11:00:01 (16.474s : 118.674s)
+2022-11-08 16:46:48,832  INFO: Sensor: .rainfall_9am 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.001s : 118.675s)
+2022-11-08 16:46:53,152  INFO: Sensor: .rainfall 2022-03-12 11:00:00-2022-07-10 11:00:00 (4.284s : 122.994s)
+2022-11-08 16:47:07,888  INFO: Sensor: .rainfall 2022-07-10 11:00:01-2022-11-07 11:00:01 (14.736s : 137.731s)
+2022-11-08 16:47:07,889  INFO: Sensor: .rainfall 2022-11-07 11:00:02-2022-11-08 07:30:00 (0.0s : 137.732s)
+2022-11-08 16:47:07,889  INFO:  -- TASK 12/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/filled/fill_360.xml 4:47:07 pm
+2022-11-08 16:47:10,557  INFO: Sensor: .wind_speed 2022-03-12 11:00:00-2022-11-08 07:30:00 (2.665s : 2.666s)
+2022-11-08 16:47:13,910  INFO: Sensor: .wind_direction 2022-03-12 11:00:00-2022-11-08 07:30:00 (3.352s : 6.019s)
+2022-11-08 16:47:17,313  INFO: Sensor: .air_temperature 2022-03-12 11:00:00-2022-11-08 07:30:00 (3.401s : 9.422s)
+2022-11-08 16:47:20,173  INFO: Sensor: .dew_point 2022-03-12 11:00:00-2022-11-08 07:30:00 (2.859s : 12.282s)
+2022-11-08 16:47:22,917  INFO: Sensor: .atmpress 2022-03-12 11:00:00-2022-11-08 07:30:00 (2.743s : 15.026s)
+2022-11-08 16:47:25,578  INFO: Sensor: .rainfall_9am 2022-03-12 11:00:00-2022-11-08 07:30:00 (2.66s : 17.687s)
+2022-11-08 16:47:25,587  INFO: Sensor: .rainfall 2022-03-12 11:00:00-2022-11-08 07:30:00 (0.006s : 17.696s)
+2022-11-08 16:47:25,587  INFO:  -- TASK 13/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/filled/fill_60.xml 4:47:25 pm
+2022-11-08 16:48:31,085  INFO: Sensor: .windvector 2022-03-12 11:00:00-2022-07-10 11:00:00 (65.428s : 65.497s)
+2022-11-08 16:49:32,798  INFO: Sensor: .windvector 2022-07-10 11:00:01-2022-11-07 11:00:01 (61.713s : 127.21s)
+2022-11-08 16:49:38,567  INFO: Sensor: .windvector 2022-11-07 11:00:02-2022-11-08 07:30:00 (5.769s : 132.979s)
+2022-11-08 16:49:38,567  INFO:  -- TASK 14/14 -- /scevo/config/tasks/data/bom/idy/stations/lake_grace/filled/fill_360.xml 4:49:38 pm
+2022-11-08 16:50:02,606  INFO: Sensor: .windvector 2022-03-12 11:00:00-2022-11-08 07:30:00 (24.036s : 24.038s)
+2022-11-08 16:50:02,607  INFO:  -- END  -- Tue Nov 08 16:50:02 AWST 2022
+2022-11-08 16:50:02,607  INFO: Number of errors: 1

@@ -1,0 +1,7 @@
+2022-11-11 14:12:18,510 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:12:18,511 DEBUG: Task list loaded.
+2022-11-11 14:12:18,525 DEBUG: Total number of tasks: 1
+2022-11-11 14:12:18,525  INFO:  -- START  -- MCDSWSRD.xml
+2022-11-11 14:12:18,525  INFO:  -- Fri Nov 11 14:12:18 AWST 2022
+2022-11-11 14:12:18,525  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/MCDSWSRD/raw/import.xml 2:12:18 pm
+2022-11-11 14:12:18,612  INFO: Importing file dbca_MCDSWSRD_2022-09-07_1802.csv

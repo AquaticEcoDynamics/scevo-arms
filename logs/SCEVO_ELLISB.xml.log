@@ -1,0 +1,7 @@
+2022-11-11 14:11:40,749 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:11:40,750 DEBUG: Task list loaded.
+2022-11-11 14:11:40,750 DEBUG: Total number of tasks: 1
+2022-11-11 14:11:40,750  INFO:  -- START  -- ELLISB.xml
+2022-11-11 14:11:40,751  INFO:  -- Fri Nov 11 14:11:40 AWST 2022
+2022-11-11 14:11:40,751  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/ELLISB/raw/import.xml 2:11:40 pm
+2022-11-11 14:11:40,836  INFO: Importing file dbca_ELLISB_2022-09-07_1802.csv

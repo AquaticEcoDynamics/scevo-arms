@@ -1,0 +1,2008 @@
+2023-12-24 12:00:06,456  INFO:  -- TASK 8/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml 12:00:06 pm
+2023-12-24 12:00:07,266 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-24 12:00:07,267  INFO:  -- END  -- Sun Dec 24 12:00:07 AWST 2023
+2023-12-24 12:00:07,267  INFO: Number of errors: 8
+2023-12-24 18:00:01,292 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-24 18:00:01,298 DEBUG: Task list loaded.
+2023-12-24 18:00:01,298 DEBUG: Total number of tasks: 8
+2023-12-24 18:00:01,298  INFO:  -- START  -- FPMQ_ALL.xml
+2023-12-24 18:00:01,299  INFO:  -- Sun Dec 24 18:00:01 AWST 2023
+2023-12-24 18:00:01,299  INFO:  -- TASK 1/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml 6:00:01 pm
+2023-12-24 18:00:01,762 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-24 18:00:01,762  INFO:  -- TASK 2/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml 6:00:01 pm
+2023-12-24 18:00:02,966 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-24 18:00:02,967  INFO:  -- TASK 3/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml 6:00:02 pm
+2023-12-24 18:00:04,239 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-24 18:00:04,239  INFO:  -- TASK 4/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml 6:00:04 pm
+2023-12-24 18:00:05,232 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-24 18:00:05,233  INFO:  -- TASK 5/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml 6:00:05 pm
+2023-12-24 18:00:06,442 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-24 18:00:06,442  INFO:  -- TASK 6/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml 6:00:06 pm
+2023-12-24 18:00:07,157 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-24 18:00:07,157  INFO:  -- TASK 7/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml 6:00:07 pm
+2023-12-24 18:00:08,171 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-24 18:00:08,172  INFO:  -- TASK 8/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml 6:00:08 pm
+2023-12-24 18:00:09,186 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-24 18:00:09,186  INFO:  -- END  -- Sun Dec 24 18:00:09 AWST 2023
+2023-12-24 18:00:09,186  INFO: Number of errors: 8
+2023-12-25 00:00:01,294 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-25 00:00:01,301 DEBUG: Task list loaded.
+2023-12-25 00:00:01,301 DEBUG: Total number of tasks: 8
+2023-12-25 00:00:01,301  INFO:  -- START  -- FPMQ_ALL.xml
+2023-12-25 00:00:01,301  INFO:  -- Mon Dec 25 00:00:01 AWST 2023
+2023-12-25 00:00:01,301  INFO:  -- TASK 1/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml 12:00:01 am
+2023-12-25 00:00:01,904 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 00:00:01,904  INFO:  -- TASK 2/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml 12:00:01 am
+2023-12-25 00:00:02,521 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 00:00:02,521  INFO:  -- TASK 3/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml 12:00:02 am
+2023-12-25 00:00:03,509 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 00:00:03,509  INFO:  -- TASK 4/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml 12:00:03 am
+2023-12-25 00:00:04,663 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 00:00:04,664  INFO:  -- TASK 5/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml 12:00:04 am
+2023-12-25 00:00:05,101 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 00:00:05,101  INFO:  -- TASK 6/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml 12:00:05 am
+2023-12-25 00:00:05,738 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 00:00:05,738  INFO:  -- TASK 7/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml 12:00:05 am
+2023-12-25 00:00:06,683 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 00:00:06,684  INFO:  -- TASK 8/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml 12:00:06 am
+2023-12-25 00:00:07,404 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 00:00:07,405  INFO:  -- END  -- Mon Dec 25 00:00:07 AWST 2023
+2023-12-25 00:00:07,405  INFO: Number of errors: 8
+2023-12-25 06:00:01,292 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-25 06:00:01,305 DEBUG: Task list loaded.
+2023-12-25 06:00:01,305 DEBUG: Total number of tasks: 8
+2023-12-25 06:00:01,305  INFO:  -- START  -- FPMQ_ALL.xml
+2023-12-25 06:00:01,305  INFO:  -- Mon Dec 25 06:00:01 AWST 2023
+2023-12-25 06:00:01,305  INFO:  -- TASK 1/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml 6:00:01 am
+2023-12-25 06:00:01,920 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 06:00:01,920  INFO:  -- TASK 2/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml 6:00:01 am
+2023-12-25 06:00:02,707 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 06:00:02,707  INFO:  -- TASK 3/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml 6:00:02 am
+2023-12-25 06:00:03,136 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 06:00:03,137  INFO:  -- TASK 4/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml 6:00:03 am
+2023-12-25 06:00:03,819 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 06:00:03,820  INFO:  -- TASK 5/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml 6:00:03 am
+2023-12-25 06:00:04,570 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 06:00:04,570  INFO:  -- TASK 6/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml 6:00:04 am
+2023-12-25 06:00:05,005 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 06:00:05,005  INFO:  -- TASK 7/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml 6:00:05 am
+2023-12-25 06:00:05,544 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 06:00:05,545  INFO:  -- TASK 8/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml 6:00:05 am
+2023-12-25 06:00:06,008 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 06:00:06,009  INFO:  -- END  -- Mon Dec 25 06:00:06 AWST 2023
+2023-12-25 06:00:06,009  INFO: Number of errors: 8
+2023-12-25 12:00:01,292 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-25 12:00:01,299 DEBUG: Task list loaded.
+2023-12-25 12:00:01,299 DEBUG: Total number of tasks: 8
+2023-12-25 12:00:01,299  INFO:  -- START  -- FPMQ_ALL.xml
+2023-12-25 12:00:01,299  INFO:  -- Mon Dec 25 12:00:01 AWST 2023
+2023-12-25 12:00:01,299  INFO:  -- TASK 1/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml 12:00:01 pm
+2023-12-25 12:00:01,824 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 12:00:01,824  INFO:  -- TASK 2/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml 12:00:01 pm
+2023-12-25 12:00:02,251 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 12:00:02,251  INFO:  -- TASK 3/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml 12:00:02 pm
+2023-12-25 12:00:03,625 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 12:00:03,625  INFO:  -- TASK 4/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml 12:00:03 pm
+2023-12-25 12:00:04,578 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 12:00:04,578  INFO:  -- TASK 5/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml 12:00:04 pm
+2023-12-25 12:00:05,094 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 12:00:05,094  INFO:  -- TASK 6/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml 12:00:05 pm
+2023-12-25 12:00:05,955 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 12:00:05,955  INFO:  -- TASK 7/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml 12:00:05 pm
+2023-12-25 12:00:06,779 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 12:00:06,779  INFO:  -- TASK 8/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml 12:00:06 pm
+2023-12-25 12:00:07,584 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 12:00:07,584  INFO:  -- END  -- Mon Dec 25 12:00:07 AWST 2023
+2023-12-25 12:00:07,584  INFO: Number of errors: 8
+2023-12-25 18:00:01,293 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-25 18:00:01,301 DEBUG: Task list loaded.
+2023-12-25 18:00:01,302 DEBUG: Total number of tasks: 8
+2023-12-25 18:00:01,302  INFO:  -- START  -- FPMQ_ALL.xml
+2023-12-25 18:00:01,302  INFO:  -- Mon Dec 25 18:00:01 AWST 2023
+2023-12-25 18:00:01,302  INFO:  -- TASK 1/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml 6:00:01 pm
+2023-12-25 18:00:01,923 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 18:00:01,923  INFO:  -- TASK 2/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml 6:00:01 pm
+2023-12-25 18:00:02,835 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 18:00:02,835  INFO:  -- TASK 3/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml 6:00:02 pm
+2023-12-25 18:00:04,550 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 18:00:04,551  INFO:  -- TASK 4/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml 6:00:04 pm
+2023-12-25 18:00:05,890 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 18:00:05,891  INFO:  -- TASK 5/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml 6:00:05 pm
+2023-12-25 18:00:07,363 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 18:00:07,364  INFO:  -- TASK 6/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml 6:00:07 pm
+2023-12-25 18:00:08,919 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 18:00:08,919  INFO:  -- TASK 7/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml 6:00:08 pm
+2023-12-25 18:00:10,037 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 18:00:10,037  INFO:  -- TASK 8/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml 6:00:10 pm
+2023-12-25 18:00:10,789 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-25 18:00:10,789  INFO:  -- END  -- Mon Dec 25 18:00:10 AWST 2023
+2023-12-25 18:00:10,789  INFO: Number of errors: 8
+2023-12-26 00:00:01,292 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 00:00:01,297 DEBUG: Task list loaded.
+2023-12-26 00:00:01,297 DEBUG: Total number of tasks: 8
+2023-12-26 00:00:01,297  INFO:  -- START  -- FPMQ_ALL.xml
+2023-12-26 00:00:01,297  INFO:  -- Tue Dec 26 00:00:01 AWST 2023
+2023-12-26 00:00:01,298  INFO:  -- TASK 1/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml 12:00:01 am
+2023-12-26 00:00:01,905 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 00:00:01,905  INFO:  -- TASK 2/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml 12:00:01 am
+2023-12-26 00:00:02,498 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 00:00:02,498  INFO:  -- TASK 3/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml 12:00:02 am
+2023-12-26 00:00:03,390 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 00:00:03,391  INFO:  -- TASK 4/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml 12:00:03 am
+2023-12-26 00:00:04,250 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 00:00:04,252  INFO:  -- TASK 5/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml 12:00:04 am
+2023-12-26 00:00:04,876 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 00:00:04,877  INFO:  -- TASK 6/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml 12:00:04 am
+2023-12-26 00:00:06,997 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 00:00:06,998  INFO:  -- TASK 7/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml 12:00:06 am
+2023-12-26 00:00:08,305 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 00:00:08,306  INFO:  -- TASK 8/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml 12:00:08 am
+2023-12-26 00:00:09,647 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 00:00:09,647  INFO:  -- END  -- Tue Dec 26 00:00:09 AWST 2023
+2023-12-26 00:00:09,647  INFO: Number of errors: 8
+2023-12-26 06:00:01,292 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 06:00:01,304 DEBUG: Task list loaded.
+2023-12-26 06:00:01,304 DEBUG: Total number of tasks: 8
+2023-12-26 06:00:01,304  INFO:  -- START  -- FPMQ_ALL.xml
+2023-12-26 06:00:01,304  INFO:  -- Tue Dec 26 06:00:01 AWST 2023
+2023-12-26 06:00:01,304  INFO:  -- TASK 1/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml 6:00:01 am
+2023-12-26 06:00:01,812 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 06:00:01,813  INFO:  -- TASK 2/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml 6:00:01 am
+2023-12-26 06:00:02,709 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 06:00:02,709  INFO:  -- TASK 3/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml 6:00:02 am
+2023-12-26 06:00:03,189 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 06:00:03,189  INFO:  -- TASK 4/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml 6:00:03 am
+2023-12-26 06:00:03,681 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 06:00:03,681  INFO:  -- TASK 5/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml 6:00:03 am
+2023-12-26 06:00:04,282 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 06:00:04,283  INFO:  -- TASK 6/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml 6:00:04 am
+2023-12-26 06:00:04,894 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 06:00:04,894  INFO:  -- TASK 7/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml 6:00:04 am
+2023-12-26 06:00:05,474 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 06:00:05,475  INFO:  -- TASK 8/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml 6:00:05 am
+2023-12-26 06:00:06,202 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 06:00:06,202  INFO:  -- END  -- Tue Dec 26 06:00:06 AWST 2023
+2023-12-26 06:00:06,202  INFO: Number of errors: 8
+2023-12-26 12:00:01,292 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 12:00:01,300 DEBUG: Task list loaded.
+2023-12-26 12:00:01,301 DEBUG: Total number of tasks: 8
+2023-12-26 12:00:01,301  INFO:  -- START  -- FPMQ_ALL.xml
+2023-12-26 12:00:01,301  INFO:  -- Tue Dec 26 12:00:01 AWST 2023
+2023-12-26 12:00:01,301  INFO:  -- TASK 1/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml 12:00:01 pm
+2023-12-26 12:00:01,706 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 12:00:01,706  INFO:  -- TASK 2/8 -- /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml 12:00:01 pm
+2023-12-26 12:00:02,267 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 12:00:02,268  INFO:  -- TASK 3/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml 12:00:02 pm
+2023-12-26 12:00:03,692 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 12:00:03,692  INFO:  -- TASK 4/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml 12:00:03 pm
+2023-12-26 12:00:04,176 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.1_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 12:00:04,176  INFO:  -- TASK 5/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml 12:00:04 pm
+2023-12-26 12:00:04,969 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 12:00:04,969  INFO:  -- TASK 6/8 -- /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml 12:00:04 pm
+2023-12-26 12:00:05,810 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP2.2_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 12:00:05,810  INFO:  -- TASK 7/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml 12:00:05 pm
+2023-12-26 12:00:06,998 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 12:00:06,999  INFO:  -- TASK 8/8 -- /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml 12:00:06 pm
+2023-12-26 12:00:07,839 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/fpmq/FP7_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 12:00:07,840  INFO:  -- END  -- Tue Dec 26 12:00:07 AWST 2023
+2023-12-26 12:00:07,840  INFO: Number of errors: 8

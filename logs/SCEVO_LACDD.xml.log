@@ -1,0 +1,7 @@
+2022-11-11 14:11:56,654 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:11:56,655 DEBUG: Task list loaded.
+2022-11-11 14:11:56,655 DEBUG: Total number of tasks: 1
+2022-11-11 14:11:56,655  INFO:  -- START  -- LACDD.xml
+2022-11-11 14:11:56,655  INFO:  -- Fri Nov 11 14:11:56 AWST 2022
+2022-11-11 14:11:56,655  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/LACDD/raw/import.xml 2:11:56 pm
+2022-11-11 14:11:56,744  INFO: Importing file dbca_LACDD_2022-09-07_1802.csv

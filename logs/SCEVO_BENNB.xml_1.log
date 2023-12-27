@@ -1,0 +1,8 @@
+2023-11-06 17:14:13,756 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-06 17:14:13,757 DEBUG: Task list loaded.
+2023-11-06 17:14:13,757 DEBUG: Total number of tasks: 1
+2023-11-06 17:14:13,757  INFO:  -- START  -- BENNB.xml
+2023-11-06 17:14:13,757  INFO:  -- Mon Nov 06 17:14:13 AWST 2023
+2023-11-06 17:14:13,757  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/BENNB/raw/import.xml 5:14:13 pm
+2023-11-06 17:14:13,911  INFO: Importing file dbca_BENNB_2023-11-03_0525.csv
+2023-11-06 17:33:06,746  INFO:  -- END  -- Mon Nov 06 17:33:06 AWST 2023

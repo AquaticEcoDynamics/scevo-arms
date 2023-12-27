@@ -1,0 +1,159 @@
+2022-10-28 17:50:28,025 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-28 17:50:28,029 DEBUG: Task list loaded.
+2022-10-28 17:50:28,029 DEBUG: Total number of tasks: 14
+2022-10-28 17:50:28,029  INFO:  -- START  -- katanning_rs.xml
+2022-10-28 17:50:28,029  INFO:  -- Fri Oct 28 17:50:28 AWST 2022
+2022-10-28 17:50:28,029  INFO:  -- TASK 1/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/raw/import.xml 5:50:28 pm
+2022-10-28 17:50:34,482 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/bom/idy/stations/katanning_rs/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/bom/idy/stations/katanning_rs/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-28 17:50:34,483  INFO:  -- TASK 2/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/timeline/start_dataprocessing.xml 5:50:34 pm
+2022-10-28 17:50:34,487  INFO:  -- TASK 3/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/timeline/end_dataprocessing.xml 5:50:34 pm
+2022-10-28 17:50:34,488  INFO:  -- TASK 4/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/raw/qc.xml 5:50:34 pm
+2022-10-28 17:50:34,547  INFO: Sensor: .air_temperature 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.058s : 0.058s)
+2022-10-28 17:50:34,559  INFO: Sensor: .wind_direction 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.07s : 0.07s)
+2022-10-28 17:50:34,562  INFO: Sensor: .wind_direction 2022-05-11 11:30:01-2022-07-10 11:30:01 (0.003s : 0.073s)
+2022-10-28 17:50:34,564  INFO: Sensor: .wind_direction 2022-07-10 11:30:02-2022-09-08 11:30:02 (0.002s : 0.075s)
+2022-10-28 17:50:34,566  INFO: Sensor: .wind_direction 2022-09-08 11:30:03-2022-10-28 08:30:00 (0.002s : 0.077s)
+2022-10-28 17:50:34,568  INFO: Sensor: .air_temperature 2022-05-11 11:30:01-2022-07-10 11:30:01 (0.02s : 0.079s)
+2022-10-28 17:50:34,568  INFO: Sensor: .wind_speed 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.079s : 0.079s)
+2022-10-28 17:50:34,568  INFO: Sensor: .dew_point 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.075s : 0.079s)
+2022-10-28 17:50:34,569  INFO: Sensor: .atmpress 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.003s : 0.08s)
+2022-10-28 17:50:34,572  INFO: Sensor: .atmpress 2022-05-11 11:30:01-2022-07-10 11:30:01 (0.003s : 0.083s)
+2022-10-28 17:50:34,572  INFO: Sensor: .air_temperature 2022-07-10 11:30:02-2022-09-08 11:30:02 (0.004s : 0.083s)
+2022-10-28 17:50:34,573  INFO: Sensor: .wind_speed 2022-05-11 11:30:01-2022-07-10 11:30:01 (0.005s : 0.084s)
+2022-10-28 17:50:34,575  INFO: Sensor: .air_temperature 2022-09-08 11:30:03-2022-10-28 08:30:00 (0.003s : 0.086s)
+2022-10-28 17:50:34,576  INFO: Sensor: .dew_point 2022-05-11 11:30:01-2022-07-10 11:30:01 (0.007s : 0.087s)
+2022-10-28 17:50:34,584  INFO: Sensor: .atmpress 2022-07-10 11:30:02-2022-09-08 11:30:02 (0.012s : 0.095s)
+2022-10-28 17:50:34,586  INFO: Sensor: .atmpress 2022-09-08 11:30:03-2022-10-28 08:30:00 (0.002s : 0.097s)
+2022-10-28 17:50:34,588  INFO: Sensor: .rainfall 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.002s : 0.099s)
+2022-10-28 17:50:34,588  INFO: Sensor: .rainfall 2022-05-11 11:30:01-2022-07-10 11:30:01 (0.0s : 0.099s)
+2022-10-28 17:50:34,589  INFO: Sensor: .rainfall 2022-07-10 11:30:02-2022-09-08 11:30:02 (0.001s : 0.1s)
+2022-10-28 17:50:34,590  INFO: Sensor: .rainfall 2022-09-08 11:30:03-2022-10-28 08:30:00 (0.001s : 0.101s)
+2022-10-28 17:50:34,593  INFO: Sensor: .rainfall_9am 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.018s : 0.104s)
+2022-10-28 17:50:34,593  INFO: Sensor: .dew_point 2022-07-10 11:30:02-2022-09-08 11:30:02 (0.017s : 0.104s)
+2022-10-28 17:50:34,593  INFO: Sensor: .wind_speed 2022-07-10 11:30:02-2022-09-08 11:30:02 (0.02s : 0.104s)
+2022-10-28 17:50:34,596  INFO: Sensor: .wind_speed 2022-09-08 11:30:03-2022-10-28 08:30:00 (0.003s : 0.107s)
+2022-10-28 17:50:34,601  INFO: Sensor: .dew_point 2022-09-08 11:30:03-2022-10-28 08:30:00 (0.008s : 0.112s)
+2022-10-28 17:50:34,609  INFO: Sensor: .rainfall_9am 2022-05-11 11:30:01-2022-07-10 11:30:01 (0.016s : 0.12s)
+2022-10-28 17:50:34,629  INFO: Sensor: .rainfall_9am 2022-07-10 11:30:02-2022-09-08 11:30:02 (0.019s : 0.14s)
+2022-10-28 17:50:34,631  INFO: Sensor: .rainfall_9am 2022-09-08 11:30:03-2022-10-28 08:30:00 (0.002s : 0.142s)
+2022-10-28 17:50:34,631  INFO:  -- TASK 5/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/raw/create_rainfall.xml 5:50:34 pm
+2022-10-28 17:51:06,425  INFO: Sensor:  2022-03-12 11:30:00-2022-05-11 11:30:00 (31.794s : 31.794s)
+2022-10-28 17:51:29,749  INFO: Sensor:  2022-05-11 11:30:01-2022-07-10 11:30:01 (23.324s : 55.118s)
+2022-10-28 17:51:47,953  INFO: Sensor:  2022-07-10 11:30:02-2022-09-08 11:30:02 (18.204s : 73.322s)
+2022-10-28 17:51:57,207  INFO: Sensor:  2022-09-08 11:30:03-2022-10-28 08:30:00 (9.254s : 82.576s)
+2022-10-28 17:51:57,208  INFO:  -- TASK 6/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/downsampled/downsample_30.xml 5:51:57 pm
+2022-10-28 17:52:59,089  INFO: Sensor: .air_temperature 2022-03-12 11:30:00-2022-05-11 11:30:00 (61.88s : 61.881s)
+2022-10-28 17:52:59,248  INFO: Sensor: .wind_speed 2022-03-12 11:30:00-2022-05-11 11:30:00 (62.039s : 62.04s)
+2022-10-28 17:52:59,390  INFO: Sensor: .dew_point 2022-03-12 11:30:00-2022-05-11 11:30:00 (62.181s : 62.182s)
+2022-10-28 17:52:59,406  INFO: Sensor: .wind_direction 2022-03-12 11:30:00-2022-05-11 11:30:00 (62.197s : 62.198s)
+2022-10-28 17:53:52,645  INFO: Sensor: .air_temperature 2022-05-11 11:30:01-2022-07-10 11:30:01 (53.556s : 115.437s)
+2022-10-28 17:53:52,770  INFO: Sensor: .wind_speed 2022-05-11 11:30:01-2022-07-10 11:30:01 (53.522s : 115.562s)
+2022-10-28 17:53:52,929  INFO: Sensor: .wind_direction 2022-05-11 11:30:01-2022-07-10 11:30:01 (53.523s : 115.721s)
+2022-10-28 17:53:53,095  INFO: Sensor: .dew_point 2022-05-11 11:30:01-2022-07-10 11:30:01 (53.705s : 115.887s)
+2022-10-28 17:54:48,012  INFO: Sensor: .air_temperature 2022-07-10 11:30:02-2022-09-08 11:30:02 (55.367s : 170.804s)
+2022-10-28 17:54:48,146  INFO: Sensor: .wind_speed 2022-07-10 11:30:02-2022-09-08 11:30:02 (55.376s : 170.938s)
+2022-10-28 17:54:48,279  INFO: Sensor: .wind_direction 2022-07-10 11:30:02-2022-09-08 11:30:02 (55.35s : 171.071s)
+2022-10-28 17:54:48,312  INFO: Sensor: .dew_point 2022-07-10 11:30:02-2022-09-08 11:30:02 (55.216s : 171.104s)
+2022-10-28 17:55:36,201  INFO: Sensor: .air_temperature 2022-09-08 11:30:03-2022-10-28 08:30:00 (48.189s : 218.993s)
+2022-10-28 17:55:36,609  INFO: Sensor: .wind_speed 2022-09-08 11:30:03-2022-10-28 08:30:00 (48.463s : 219.401s)
+2022-10-28 17:55:36,834  INFO: Sensor: .wind_direction 2022-09-08 11:30:03-2022-10-28 08:30:00 (48.555s : 219.626s)
+2022-10-28 17:55:36,843  INFO: Sensor: .dew_point 2022-09-08 11:30:03-2022-10-28 08:30:00 (48.53s : 219.635s)
+2022-10-28 17:56:36,407  INFO: Sensor: .atmpress 2022-03-12 11:30:00-2022-05-11 11:30:00 (60.206s : 279.199s)
+2022-10-28 17:56:37,458  INFO: Sensor: .rainfall_9am 2022-03-12 11:30:00-2022-05-11 11:30:00 (60.848s : 280.25s)
+2022-10-28 17:56:37,583  INFO: Sensor: .rainfall 2022-03-12 11:30:00-2022-05-11 11:30:00 (60.748s : 280.375s)
+2022-10-28 17:57:31,459  INFO: Sensor: .atmpress 2022-05-11 11:30:01-2022-07-10 11:30:01 (55.051s : 334.251s)
+2022-10-28 17:57:32,217  INFO: Sensor: .rainfall_9am 2022-05-11 11:30:01-2022-07-10 11:30:01 (54.759s : 335.009s)
+2022-10-28 17:57:32,259  INFO: Sensor: .rainfall 2022-05-11 11:30:01-2022-07-10 11:30:01 (54.676s : 335.051s)
+2022-10-28 17:58:25,151  INFO: Sensor: .atmpress 2022-07-10 11:30:02-2022-09-08 11:30:02 (53.692s : 387.943s)
+2022-10-28 17:58:26,193  INFO: Sensor: .rainfall_9am 2022-07-10 11:30:02-2022-09-08 11:30:02 (53.975s : 388.985s)
+2022-10-28 17:58:26,218  INFO: Sensor: .rainfall 2022-07-10 11:30:02-2022-09-08 11:30:02 (53.959s : 389.01s)
+2022-10-28 17:59:12,046  INFO: Sensor: .atmpress 2022-09-08 11:30:03-2022-10-28 08:30:00 (46.895s : 434.838s)
+2022-10-28 17:59:12,997  INFO: Sensor: .rainfall 2022-09-08 11:30:03-2022-10-28 08:30:00 (46.779s : 435.789s)
+2022-10-28 17:59:13,022  INFO: Sensor: .rainfall_9am 2022-09-08 11:30:03-2022-10-28 08:30:00 (46.829s : 435.814s)
+2022-10-28 17:59:13,022  INFO:  -- TASK 7/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/downsampled/downsample_360.xml 5:59:13 pm
+2022-10-28 17:59:31,445  INFO: Sensor: .wind_direction 2022-03-12 11:30:00-2022-10-28 08:30:00 (18.422s : 18.422s)
+2022-10-28 17:59:31,453  INFO: Sensor: .air_temperature 2022-03-12 11:30:00-2022-10-28 08:30:00 (18.43s : 18.43s)
+2022-10-28 17:59:31,462  INFO: Sensor: .dew_point 2022-03-12 11:30:00-2022-10-28 08:30:00 (18.439s : 18.439s)
+2022-10-28 17:59:31,470  INFO: Sensor: .wind_speed 2022-03-12 11:30:00-2022-10-28 08:30:00 (18.447s : 18.447s)
+2022-10-28 17:59:48,855  INFO: Sensor: .rainfall_9am 2022-03-12 11:30:00-2022-10-28 08:30:00 (17.402s : 35.832s)
+2022-10-28 17:59:48,914  INFO: Sensor: .atmpress 2022-03-12 11:30:00-2022-10-28 08:30:00 (17.469s : 35.891s)
+2022-10-28 17:59:48,939  INFO: Sensor: .rainfall 2022-03-12 11:30:00-2022-10-28 08:30:00 (17.477s : 35.916s)
+2022-10-28 17:59:48,939  INFO:  -- TASK 8/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/downsampled/downsample_30.xml 5:59:48 pm
+2022-10-28 18:00:47,057  INFO: Sensor: .windvector 2022-03-12 11:30:00-2022-05-11 11:30:00 (58.117s : 58.117s)
+2022-10-28 18:01:45,465  INFO: Sensor: .windvector 2022-05-11 11:30:01-2022-07-10 11:30:01 (58.408s : 116.525s)
+2022-10-28 18:02:42,644  INFO: Sensor: .windvector 2022-07-10 11:30:02-2022-09-08 11:30:02 (57.178s : 173.704s)
+2022-10-28 18:03:29,282  INFO: Sensor: .windvector 2022-09-08 11:30:03-2022-10-28 08:30:00 (46.638s : 220.342s)
+2022-10-28 18:03:29,283  INFO:  -- TASK 9/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/downsampled/downsample_360.xml 6:03:29 pm
+2022-10-28 18:08:58,046  INFO: Sensor: .windvector 2022-03-12 11:30:00-2022-10-28 08:30:00 (23.832s : 328.762s)
+2022-10-28 18:08:58,046  INFO:  -- TASK 10/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/downsampled/create_rainfall_360.xml 6:08:58 pm
+2022-10-28 18:09:17,917  INFO: Sensor:  2022-03-12 11:30:00-2022-10-28 08:30:00 (19.871s : 19.871s)
+2022-10-28 18:09:17,917  INFO:  -- TASK 11/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/filled/fill_30.xml 6:09:17 pm
+2022-10-28 18:17:47,982  INFO: Sensor: .wind_speed 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.016s : 510.064s)
+2022-10-28 18:17:51,745  INFO: Sensor: .wind_direction 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.017s : 513.827s)
+2022-10-28 18:17:58,320  INFO: Sensor: .wind_speed 2022-05-11 11:30:01-2022-07-10 11:30:01 (10.338s : 520.402s)
+2022-10-28 18:18:01,246  INFO: Sensor: .wind_direction 2022-05-11 11:30:01-2022-07-10 11:30:01 (9.501s : 523.328s)
+2022-10-28 18:18:02,414  INFO: Sensor: .wind_speed 2022-07-10 11:30:02-2022-09-08 11:30:02 (4.094s : 524.496s)
+2022-10-28 18:18:05,334  INFO: Sensor: .wind_direction 2022-07-10 11:30:02-2022-09-08 11:30:02 (4.087s : 527.416s)
+2022-10-28 18:18:29,829  INFO: Sensor: .wind_speed 2022-09-08 11:30:03-2022-10-28 08:30:00 (27.415s : 551.911s)
+2022-10-28 18:18:29,943  INFO: Sensor: .air_temperature 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.02s : 552.025s)
+2022-10-28 18:18:33,164  INFO: Sensor: .wind_direction 2022-09-08 11:30:03-2022-10-28 08:30:00 (27.83s : 555.246s)
+2022-10-28 18:18:34,024  INFO: Sensor: .dew_point 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.799s : 556.106s)
+2022-10-28 18:18:39,695  INFO: Sensor: .air_temperature 2022-05-11 11:30:01-2022-07-10 11:30:01 (9.752s : 561.777s)
+2022-10-28 18:18:43,283  INFO: Sensor: .air_temperature 2022-07-10 11:30:02-2022-09-08 11:30:02 (3.587s : 565.365s)
+2022-10-28 18:18:43,686  INFO: Sensor: .dew_point 2022-05-11 11:30:01-2022-07-10 11:30:01 (9.662s : 565.768s)
+2022-10-28 18:18:47,364  INFO: Sensor: .dew_point 2022-07-10 11:30:02-2022-09-08 11:30:02 (3.678s : 569.446s)
+2022-10-28 18:19:08,808  INFO: Sensor: .air_temperature 2022-09-08 11:30:03-2022-10-28 08:30:00 (25.525s : 590.89s)
+2022-10-28 18:19:08,921  INFO: Sensor: .atmpress 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.019s : 591.003s)
+2022-10-28 18:19:13,477  INFO: Sensor: .dew_point 2022-09-08 11:30:03-2022-10-28 08:30:00 (26.113s : 595.559s)
+2022-10-28 18:19:13,603  INFO: Sensor: .rainfall_9am 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.017s : 595.685s)
+2022-10-28 18:19:18,623  INFO: Sensor: .atmpress 2022-05-11 11:30:01-2022-07-10 11:30:01 (9.702s : 600.705s)
+2022-10-28 18:19:23,027  INFO: Sensor: .atmpress 2022-07-10 11:30:02-2022-09-08 11:30:02 (4.404s : 605.109s)
+2022-10-28 18:19:23,994  INFO: Sensor: .rainfall_9am 2022-05-11 11:30:01-2022-07-10 11:30:01 (10.391s : 606.076s)
+2022-10-28 18:19:42,697  INFO: Sensor: .rainfall_9am 2022-07-10 11:30:02-2022-09-08 11:30:02 (18.703s : 624.779s)
+2022-10-28 18:19:48,141  INFO: Sensor: .atmpress 2022-09-08 11:30:03-2022-10-28 08:30:00 (25.114s : 630.223s)
+2022-10-28 18:19:48,244  INFO: Sensor: .rainfall 2022-03-12 11:30:00-2022-05-11 11:30:00 (0.021s : 630.326s)
+2022-10-28 18:19:58,604  INFO: Sensor: .rainfall 2022-05-11 11:30:01-2022-07-10 11:30:01 (10.36s : 640.686s)
+2022-10-28 18:20:08,487  INFO: Sensor: .rainfall_9am 2022-09-08 11:30:03-2022-10-28 08:30:00 (25.79s : 650.569s)
+2022-10-28 18:20:17,145  INFO: Sensor: .rainfall 2022-07-10 11:30:02-2022-09-08 11:30:02 (18.541s : 659.227s)
+2022-10-28 18:20:44,561  INFO: Sensor: .rainfall 2022-09-08 11:30:03-2022-10-28 08:30:00 (27.416s : 686.643s)
+2022-10-28 18:20:44,561  INFO:  -- TASK 12/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/filled/fill_360.xml 6:20:44 pm
+2022-10-28 18:20:47,414  INFO: Sensor: .wind_direction 2022-03-12 11:30:00-2022-10-28 08:30:00 (2.849s : 2.851s)
+2022-10-28 18:20:47,430  INFO: Sensor: .wind_speed 2022-03-12 11:30:00-2022-10-28 08:30:00 (2.866s : 2.867s)
+2022-10-28 18:20:47,998  INFO: Sensor: .air_temperature 2022-03-12 11:30:00-2022-10-28 08:30:00 (2.852s : 3.435s)
+2022-10-28 18:20:50,217  INFO: Sensor: .dew_point 2022-03-12 11:30:00-2022-10-28 08:30:00 (2.801s : 5.653s)
+2022-10-28 18:20:50,226  INFO: Sensor: .rainfall 2022-03-12 11:30:00-2022-10-28 08:30:00 (0.006s : 5.663s)
+2022-10-28 18:20:50,236  INFO: Sensor: .atmpress 2022-03-12 11:30:00-2022-10-28 08:30:00 (2.804s : 5.673s)
+2022-10-28 18:20:52,203  INFO: Sensor: .rainfall_9am 2022-03-12 11:30:00-2022-10-28 08:30:00 (4.204s : 7.64s)
+2022-10-28 18:20:52,203  INFO:  -- TASK 13/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/filled/fill_30.xml 6:20:52 pm
+2022-10-28 18:22:03,620  INFO: Sensor: .windvector 2022-03-12 11:30:00-2022-05-11 11:30:00 (71.315s : 71.416s)
+2022-10-28 18:23:11,552  INFO: Sensor: .windvector 2022-05-11 11:30:01-2022-07-10 11:30:01 (67.932s : 139.348s)
+2022-10-28 18:24:21,179  INFO: Sensor: .windvector 2022-07-10 11:30:02-2022-09-08 11:30:02 (69.627s : 208.975s)
+2022-10-28 18:25:13,554  INFO: Sensor: .windvector 2022-09-08 11:30:03-2022-10-28 08:30:00 (52.375s : 261.35s)
+2022-10-28 18:25:13,554  INFO:  -- TASK 14/14 -- /scevo/config/tasks/data/bom/idy/stations/katanning_rs/filled/fill_360.xml 6:25:13 pm
+2022-10-28 18:25:38,529  INFO: Sensor: .windvector 2022-03-12 11:30:00-2022-10-28 08:30:00 (24.973s : 24.974s)
+2022-10-28 18:25:38,529  INFO:  -- END  -- Fri Oct 28 18:25:38 AWST 2022
+2022-10-28 18:25:38,529  INFO: Number of errors: 1

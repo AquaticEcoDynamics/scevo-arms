@@ -1,0 +1,7 @@
+2022-11-11 14:12:58,374 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:12:58,390 DEBUG: Task list loaded.
+2022-11-11 14:12:58,390 DEBUG: Total number of tasks: 1
+2022-11-11 14:12:58,390  INFO:  -- START  -- SCCIS11.xml
+2022-11-11 14:12:58,390  INFO:  -- Fri Nov 11 14:12:58 AWST 2022
+2022-11-11 14:12:58,390  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/SCCIS11/raw/import.xml 2:12:58 pm
+2022-11-11 14:12:58,474  INFO: Importing file dbca_SCCIS11_2022-09-07_1802.csv

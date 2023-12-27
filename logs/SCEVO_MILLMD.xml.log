@@ -1,0 +1,7 @@
+2022-11-11 14:12:30,206 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:12:30,208 DEBUG: Task list loaded.
+2022-11-11 14:12:30,208 DEBUG: Total number of tasks: 1
+2022-11-11 14:12:30,208  INFO:  -- START  -- MILLMD.xml
+2022-11-11 14:12:30,211  INFO:  -- Fri Nov 11 14:12:30 AWST 2022
+2022-11-11 14:12:30,211  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/MILLMD/raw/import.xml 2:12:30 pm
+2022-11-11 14:12:30,299  INFO: Importing file dbca_MILLMD_2022-09-07_1802.csv

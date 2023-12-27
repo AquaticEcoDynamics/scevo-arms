@@ -1,0 +1,1361 @@
+2021-10-15 19:15:18,585 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-10-15 19:15:18,659 DEBUG: Task list loaded.
+2021-10-15 19:15:18,659 DEBUG: Total number of tasks: 1
+2021-10-15 19:15:18,659  INFO:  -- START  -- kwilena_wq.xml
+2021-10-15 19:15:18,659  INFO:  -- Fri Oct 15 19:15:18 AWST 2021
+2021-10-15 19:15:18,660  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/kwilena/raw/import_wq.xml 7:15:18 PM
+2021-10-15 19:15:18,675  INFO: Importing file Kwilena_WaterQuality_10min.csv
+2021-10-15 19:27:44,983  INFO:  -- END  -- Fri Oct 15 19:27:44 AWST 2021
+2021-11-16 13:39:22,292 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 13:39:22,304 DEBUG: Task list loaded.
+2021-11-16 13:39:22,304 DEBUG: Total number of tasks: 1
+2021-11-16 13:39:22,304  INFO:  -- START  -- kwilena_wq.xml
+2021-11-16 13:39:22,304  INFO:  -- Tue Nov 16 13:39:22 AWST 2021
+2021-11-16 13:39:22,304  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/kwilena/raw/import_wq.xml 1:39:22 pm
+2021-11-16 13:39:22,307  INFO: Importing file Kwilena_Water_Quality_Weather_Data_5_mins.csv
+2021-11-16 14:29:13,267 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-16 14:29:13,274 DEBUG: Task list loaded.
+2021-11-16 14:29:13,274 DEBUG: Total number of tasks: 1
+2021-11-16 14:29:13,274  INFO:  -- START  -- kwilena_wq.xml
+2021-11-16 14:29:13,274  INFO:  -- Tue Nov 16 14:29:13 AWST 2021
+2021-11-16 14:29:13,274  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/kwilena/raw/import_wq.xml 2:29:13 pm
+2021-11-16 14:29:13,280  INFO: Importing file Kwilena_Water_Quality_Weather_Data_5_mins.csv
+2021-11-16 17:21:25,622  INFO:  -- END  -- Tue Nov 16 17:21:25 AWST 2021
+2021-12-21 12:33:33,342 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-21 12:33:33,355 DEBUG: Task list loaded.
+2021-12-21 12:33:33,355 DEBUG: Total number of tasks: 1
+2021-12-21 12:33:33,355  INFO:  -- START  -- kwilena_wq.xml
+2021-12-21 12:33:33,355  INFO:  -- Tue Dec 21 12:33:33 AWST 2021
+2021-12-21 12:33:33,355  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml 12:33:33 pm
+2021-12-21 12:33:33,358  INFO: Importing file Kwilena_Water_Quality_5min_1.csv
+2021-12-21 15:53:23,445  INFO:  -- END  -- Tue Dec 21 15:53:23 AWST 2021
+2021-12-23 15:20:11,857 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-12-23 15:20:12,015 DEBUG: Task list loaded.
+2021-12-23 15:20:12,016 DEBUG: Total number of tasks: 1
+2021-12-23 15:20:12,016  INFO:  -- START  -- kwilena_wq.xml
+2021-12-23 15:20:12,026  INFO:  -- Thu Dec 23 15:20:12 AWST 2021
+2021-12-23 15:20:12,027  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml 3:20:12 pm
+2021-12-23 15:20:12,035  INFO: Importing file Kwilena_Water_Quality_5min_1a.csv
+2021-12-23 18:40:02,098  INFO:  -- END  -- Thu Dec 23 18:40:02 AWST 2021
+2023-11-17 12:13:41,375 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-17 12:13:41,426 DEBUG: Task list loaded.
+2023-11-17 12:13:41,427 DEBUG: Total number of tasks: 1
+2023-11-17 12:13:41,427  INFO:  -- START  -- kwilena_wq.xml
+2023-11-17 12:13:41,430  INFO:  -- Fri Nov 17 12:13:41 AWST 2023
+2023-11-17 12:13:41,430  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml 12:13:41 pm
+2023-11-17 12:13:41,606  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202211301239.csv
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,625 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,625  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212020915.csv
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,626 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,626  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212090919.csv
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,627 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,627  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212200713.csv
+2023-11-17 12:13:41,634 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,634 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,634 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,635 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,635 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,635 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,635 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,635 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,635 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,635 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,635 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,635 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,635 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,635 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,635  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212210711.csv
+2023-11-17 12:13:41,638 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,638 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,638 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,638 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,638 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,638 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,638 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,638 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,638 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,638 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,639 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,639 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,639 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,639 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,639  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212220712.csv
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,647 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,647  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212230713.csv
+2023-11-17 12:13:41,654 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,654 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,654 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,654 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,655 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,655 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,655 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,655 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,655 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,655 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,655 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,655 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,655 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,655 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,655  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212240713.csv
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,659 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,659  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212250714.csv
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,664 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,664  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212260715.csv
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,669 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,669  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212270715.csv
+2023-11-17 12:13:41,673 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,673 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,674  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212280715.csv
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,674 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,675 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,675 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,675 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,675 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,675 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,675 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,675 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,675 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,675  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212290715.csv
+2023-11-17 12:13:41,680 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,680 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,680 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,680 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,681 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,681 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,681 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,681 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,681 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,681 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,681 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,681 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,681 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,681 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,681  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212300715.csv
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,691  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202212310717.csv
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,701 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,701  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301010720.csv
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,702 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,702  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301020719.csv
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,708  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301030720.csv
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,715 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,715  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301040720.csv
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,723 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,723  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301050720.csv
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,726  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301060722.csv
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,752 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,752  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301070723.csv
+2023-11-17 12:13:41,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,776 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,776 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,776 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,776 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,776  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301071331.csv
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,783 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,783  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301071525.csv
+2023-11-17 12:13:41,804 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,804 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,804 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,804 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,804 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,804 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,804 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,804 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,804 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,804 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,804 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,805  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301081524.csv
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:13:41,805 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:41,806 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:13:41,806  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301091524.csv
+2023-11-17 12:13:41,840 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:41,843 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:13:56,349  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301101524.csv
+2023-11-17 12:13:56,386 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:13:56,386 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:14:12,469  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301111526.csv
+2023-11-17 12:14:12,497 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:14:12,498 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:14:29,152  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301121526.csv
+2023-11-17 12:14:29,186 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:14:29,186 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:14:45,499  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301131526.csv
+2023-11-17 12:14:45,526 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:14:45,526 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:15:01,957  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301141526.csv
+2023-11-17 12:15:01,983 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:15:01,983 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:15:18,605  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301151527.csv
+2023-11-17 12:15:18,634 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:15:18,634 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:15:37,096  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301161527.csv
+2023-11-17 12:15:37,104 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:15:37,104 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:15:53,960  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301170853.csv
+2023-11-17 12:15:53,996 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:15:53,996 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:16:13,734  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301180852.csv
+2023-11-17 12:16:13,760 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:16:13,760 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:16:32,792  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301190853.csv
+2023-11-17 12:16:32,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:16:32,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:16:54,558  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301200853.csv
+2023-11-17 12:16:54,579 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:16:54,580 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:17:16,698  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301210854.csv
+2023-11-17 12:17:16,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:17:16,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:17:37,466  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301220856.csv
+2023-11-17 12:17:37,507 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:17:37,507 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:17:55,750  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301240856.csv
+2023-11-17 12:17:55,774 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:17:55,774 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:18:13,126  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301260859.csv
+2023-11-17 12:18:13,148 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:18:13,148 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:18:30,735  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202301280900.csv
+2023-11-17 12:18:30,772 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:18:30,772 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:18:48,036  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303090922.csv
+2023-11-17 12:18:48,071 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:18:48,071 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:19:08,254  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303100922.csv
+2023-11-17 12:19:27,497  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303110922.csv
+2023-11-17 12:19:50,428  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303120923.csv
+2023-11-17 12:20:14,440  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303130924.csv
+2023-11-17 12:20:37,362  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303140925.csv
+2023-11-17 12:21:01,024  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303150926.csv
+2023-11-17 12:21:25,434  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303160928.csv
+2023-11-17 12:21:52,020  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303161101.csv
+2023-11-17 12:22:16,282  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303171059.csv
+2023-11-17 12:22:40,154  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303181100.csv
+2023-11-17 12:23:07,829  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303191059.csv
+2023-11-17 12:23:30,555  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303201059.csv
+2023-11-17 12:23:54,103  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303211059.csv
+2023-11-17 12:24:19,281  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303221100.csv
+2023-11-17 12:24:42,112  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303231100.csv
+2023-11-17 12:25:05,073  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303241101.csv
+2023-11-17 12:25:28,782  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303251103.csv
+2023-11-17 12:25:50,768  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303261105.csv
+2023-11-17 12:26:14,854  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303271107.csv
+2023-11-17 12:26:37,609  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303281108.csv
+2023-11-17 12:27:02,071  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303291111.csv
+2023-11-17 12:27:25,290  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303301113.csv
+2023-11-17 12:27:49,554  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303311113.csv
+2023-11-17 12:28:13,408  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202303311256.csv
+2023-11-17 12:28:36,213  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304011257.csv
+2023-11-17 12:29:00,071  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304021258.csv
+2023-11-17 12:29:24,724  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304031258.csv
+2023-11-17 12:29:46,653  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304041259.csv
+2023-11-17 12:30:08,781  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304051301.csv
+2023-11-17 12:30:31,101  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304061303.csv
+2023-11-17 12:30:55,752  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304071304.csv
+2023-11-17 12:31:19,596  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304081303.csv
+2023-11-17 12:31:41,041  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304091304.csv
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:31:41,065 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:31:41,065  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304101304.csv
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:31:41,066 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:31:41,066  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304111304.csv
+2023-11-17 12:32:00,108  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304121304.csv
+2023-11-17 12:32:20,469  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304131305.csv
+2023-11-17 12:32:42,931  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304141307.csv
+2023-11-17 12:33:05,607  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304151308.csv
+2023-11-17 12:33:30,957  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304161310.csv
+2023-11-17 12:33:55,383  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304171310.csv
+2023-11-17 12:34:20,495  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304181310.csv
+2023-11-17 12:34:43,482  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304191311.csv
+2023-11-17 12:34:49,609  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304201313.csv
+2023-11-17 12:35:11,410  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304211313.csv
+2023-11-17 12:35:35,629  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304221315.csv
+2023-11-17 12:35:58,530  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304231316.csv
+2023-11-17 12:36:20,749  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304241316.csv
+2023-11-17 12:36:44,595  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304251316.csv
+2023-11-17 12:37:07,798  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304260918.csv
+2023-11-17 12:37:30,574  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304270917.csv
+2023-11-17 12:37:55,010  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304280918.csv
+2023-11-17 12:38:17,780  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304290918.csv
+2023-11-17 12:38:41,299  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202304300918.csv
+2023-11-17 12:39:05,959  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305010918.csv
+2023-11-17 12:39:27,895  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305020919.csv
+2023-11-17 12:39:52,305  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305021205.csv
+2023-11-17 12:40:14,446  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305031204.csv
+2023-11-17 12:40:38,365  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305041205.csv
+2023-11-17 12:41:01,424  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305051205.csv
+2023-11-17 12:41:23,084  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305061205.csv
+2023-11-17 12:41:47,937  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305071207.csv
+2023-11-17 12:42:10,491  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305081207.csv
+2023-11-17 12:42:33,219  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305101207.csv
+2023-11-17 12:42:57,903  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305111207.csv
+2023-11-17 12:43:20,472  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305121207.csv
+2023-11-17 12:43:44,957  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305131207.csv
+2023-11-17 12:44:08,751  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305141209.csv
+2023-11-17 12:44:31,729  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305151210.csv
+2023-11-17 12:44:54,737  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305161210.csv
+2023-11-17 12:45:16,647  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305170921.csv
+2023-11-17 12:45:39,466  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305180919.csv
+2023-11-17 12:46:02,993  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305190920.csv
+2023-11-17 12:46:25,838  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305200920.csv
+2023-11-17 12:46:48,836  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305210920.csv
+2023-11-17 12:47:13,573  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305220922.csv
+2023-11-17 12:47:36,533  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305230922.csv
+2023-11-17 12:48:00,727  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305240923.csv
+2023-11-17 12:48:23,279  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305250923.csv
+2023-11-17 12:48:47,388  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305260925.csv
+2023-11-17 12:49:10,025  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305300927.csv
+2023-11-17 12:49:32,521  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305310929.csv
+2023-11-17 12:49:54,049  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202305311913.csv
+2023-11-17 12:50:15,899  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306011913.csv
+2023-11-17 12:50:39,394  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306021914.csv
+2023-11-17 12:51:01,305  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306031914.csv
+2023-11-17 12:51:23,193  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306041914.csv
+2023-11-17 12:51:46,988  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306051916.csv
+2023-11-17 12:52:10,217  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306061916.csv
+2023-11-17 12:52:32,172  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306071920.csv
+2023-11-17 12:52:56,737  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306081917.csv
+2023-11-17 12:53:19,499  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306091917.csv
+2023-11-17 12:53:45,910  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306101921.csv
+2023-11-17 12:54:08,029  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306111919.csv
+2023-11-17 12:54:30,557  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306121920.csv
+2023-11-17 12:54:40,028  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306131925.csv
+2023-11-17 12:55:02,748  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306141921.csv
+2023-11-17 12:55:25,301  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306151922.csv
+2023-11-17 12:55:49,328  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306161350.csv
+2023-11-17 12:55:54,689  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306171353.csv
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,690  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306181352.csv
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,690 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,691 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,691  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306191350.csv
+2023-11-17 12:55:54,704 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,705  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306201351.csv
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,705 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,705  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306211351.csv
+2023-11-17 12:55:54,711 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,711 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,711 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,711 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,711 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,711 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,711 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,711 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,711 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,711 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,712  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306221351.csv
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,712 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,712  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306231352.csv
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,719 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,719  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306241357.csv
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,726 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,726  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306251353.csv
+2023-11-17 12:55:54,732 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,732 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,732 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,732 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,732 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,733 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,733 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,733 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,733 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,733 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,733 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,733 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,733 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,733 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,733  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306261355.csv
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,734 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,734  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306271355.csv
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,741 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,741  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306281356.csv
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,746 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,746  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306291401.csv
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,751 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,751  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306301022.csv
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,759 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,759  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202306301052.csv
+2023-11-17 12:55:54,762 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,762 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,762 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,762 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,762 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,762 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,762 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,762 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,762 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,762 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,762 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,763 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,763 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,763 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,763  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307011050.csv
+2023-11-17 12:55:54,764 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,764 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,764 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,764 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,764 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,764 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,764 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,764 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,764 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,765 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,765 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,765 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,765 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,765 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,765  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307141102.csv
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,771 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,771  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307151058.csv
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,775 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,775  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307161059.csv
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,778 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,778  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307171059.csv
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,779  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307181059.csv
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,779 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,780  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307191100.csv
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,780 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,780  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307201104.csv
+2023-11-17 12:55:54,785 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,785 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,785 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,786 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,786 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,786 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,786 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,786 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,786 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,786 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,786 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,786 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,786 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,786 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,786  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307211102.csv
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,789  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307221104.csv
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,789 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,790  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307231105.csv
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,790 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,790  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307241105.csv
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,803 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,803  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307251107.csv
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,810 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,810  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307261108.csv
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,813 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,813  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307271110.csv
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,814 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,814  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307281107.csv
+2023-11-17 12:55:54,822 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,822 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,822 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,822 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,822 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,822 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,822 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,822 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,822 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,822 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,822 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,823 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,823 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,823 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,823  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307291108.csv
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,829 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,829  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307301108.csv
+2023-11-17 12:55:54,831 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,831 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,831 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,831 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,831 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,831 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,831 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,832 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,832 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,832 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,832 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,832 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,832 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,832 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,832  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202307311109.csv
+2023-11-17 12:55:54,837 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,837 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,837 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,837 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,838 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,838 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,838 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,838 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,838 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,838 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,838 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,838 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,838 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,838 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,838  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202308011110.csv
+2023-11-17 12:55:54,841 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 12:55:54,842 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 12:55:54,842 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 12:55:54,842 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-17 12:55:54,842 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-17 12:55:54,842 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 12:55:54,842 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-17 12:55:54,842 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 12:55:54,842 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-17 12:55:54,842 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-17 12:55:54,842 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 12:55:54,842 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-17 12:55:54,842 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 12:55:54,842 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-17 12:55:54,842  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202308020948.csv
+2023-11-17 12:56:12,460  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202308030946.csv
+2023-11-17 12:56:35,559  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202308040947.csv
+2023-11-17 12:56:59,381  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202308060946.csv
+2023-11-17 12:57:22,184  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202308080945.csv
+2023-11-17 12:57:45,728  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202308110946.csv
+2023-11-17 12:58:09,040  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202308310916.csv
+2023-11-17 12:58:31,725  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309010916.csv
+2023-11-17 12:58:54,336  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309020917.csv
+2023-11-17 12:59:20,397  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309030917.csv
+2023-11-17 12:59:42,440  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309040917.csv
+2023-11-17 13:00:04,611  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309050918.csv
+2023-11-17 13:00:27,217  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309060834.csv
+2023-11-17 13:00:50,752  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309070832.csv
+2023-11-17 13:01:14,374  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309080628.csv
+2023-11-17 13:01:45,999  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309090628.csv
+2023-11-17 13:02:14,881  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309100630.csv
+2023-11-17 13:02:44,029  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309110631.csv
+2023-11-17 13:03:13,334  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309120631.csv
+2023-11-17 13:03:40,390  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309130631.csv
+2023-11-17 13:04:11,049  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309140632.csv
+2023-11-17 13:04:40,195  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309150634.csv
+2023-11-17 13:05:08,370  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309160634.csv
+2023-11-17 13:05:36,408  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309170633.csv
+2023-11-17 13:06:05,489  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309180634.csv
+2023-11-17 13:06:34,902  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309190634.csv
+2023-11-17 13:07:04,052  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309200634.csv
+2023-11-17 13:07:33,966  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309201016.csv
+2023-11-17 13:08:04,064  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309211015.csv
+2023-11-17 13:08:32,928  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309221017.csv
+2023-11-17 13:09:04,210  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309231016.csv
+2023-11-17 13:09:34,034  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309241017.csv
+2023-11-17 13:10:02,373  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309251018.csv
+2023-11-17 13:10:31,053  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309261018.csv
+2023-11-17 13:10:58,515  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309271018.csv
+2023-11-17 13:10:58,536 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-17 13:10:58,536 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-17 13:10:58,536 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-17 13:10:58,536 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-17 13:10:58,536 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-17 13:10:58,536 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-17 13:10:58,536 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-17 13:11:15,332  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202309281018.csv
+2023-11-17 13:11:45,027  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310041024.csv
+2023-11-17 13:12:13,113  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310041110.csv
+2023-11-17 13:12:42,414  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310051108.csv
+2023-11-17 13:13:35,647  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310051451.csv
+2023-11-17 13:14:05,447  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310061117.csv
+2023-11-17 13:14:32,620  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310071117.csv
+2023-11-17 13:15:00,809  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310091120.csv
+2023-11-17 13:15:29,222  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310101122.csv
+2023-11-17 13:15:56,896  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310111123.csv
+2023-11-17 13:16:25,833  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310121124.csv
+2023-11-17 13:16:54,520  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310131124.csv
+2023-11-17 13:17:23,924  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310141124.csv
+2023-11-17 13:17:53,047  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310151124.csv
+2023-11-17 13:18:21,402  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310161124.csv
+2023-11-17 13:18:50,781  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310171124.csv
+2023-11-17 13:19:21,774  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310181125.csv
+2023-11-17 13:19:50,824  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310191125.csv
+2023-11-17 13:20:20,356  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310201127.csv
+2023-11-17 13:20:49,449  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310231128.csv
+2023-11-17 13:21:18,553  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310240803.csv
+2023-11-17 13:21:48,370  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310250806.csv
+2023-11-17 13:22:18,077  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310250939.csv
+2023-11-17 13:22:40,277  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310251010.csv
+2023-11-17 13:23:02,865  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310261008.csv
+2023-11-17 13:23:26,584  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310271009.csv
+2023-11-17 13:23:49,341  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310281009.csv
+2023-11-17 13:24:14,430  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310291009.csv
+2023-11-17 13:24:38,846  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310301010.csv
+2023-11-17 13:25:00,858  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202310311010.csv
+2023-11-17 13:25:26,154  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311010650.csv
+2023-11-17 13:25:50,873  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311020651.csv
+2023-11-17 13:26:13,599  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311030654.csv
+2023-11-17 13:26:43,743  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311040654.csv
+2023-11-17 13:27:07,092  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311050655.csv
+2023-11-17 13:27:30,511  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311060654.csv
+2023-11-17 13:27:54,736  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311070654.csv
+2023-11-17 13:28:19,933  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311080655.csv
+2023-11-17 13:28:43,862  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311090656.csv
+2023-11-17 13:29:05,865  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311100657.csv
+2023-11-17 13:29:28,055  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311110657.csv
+2023-11-17 13:29:50,866  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311120657.csv
+2023-11-17 13:30:14,843  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311130658.csv
+2023-11-17 13:30:38,230  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311140657.csv
+2023-11-17 13:31:01,216  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311150659.csv
+2023-11-17 13:31:25,245  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311160659.csv
+2023-11-17 13:31:53,824  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311161133.csv
+2023-11-17 13:32:20,274  INFO: Importing file neon_UWA_Buoy_System_SN_611070992_202311171132.csv
+2023-11-17 13:32:45,112  INFO:  -- END  -- Fri Nov 17 13:32:45 AWST 2023
+2023-11-21 12:33:18,535 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-21 12:33:18,540 DEBUG: Task list loaded.
+2023-11-21 12:33:18,540 DEBUG: Total number of tasks: 1
+2023-11-21 12:33:18,540  INFO:  -- START  -- kwilena_wq.xml
+2023-11-21 12:33:18,564  INFO:  -- Tue Nov 21 12:33:18 AWST 2023
+2023-11-21 12:33:18,564  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml 12:33:18 pm
+2023-11-21 12:33:18,724  INFO: Importing file test.csv
+2023-11-21 12:33:18,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-21 12:33:18,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-21 12:33:18,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-21 12:33:18,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-21 12:33:18,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-21 12:33:18,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-21 12:33:18,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-21 12:33:18,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-21 12:33:18,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-21 12:33:18,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-21 12:33:18,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-21 12:33:18,737 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-21 12:33:18,738 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-21 12:33:18,738 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-21 12:33:18,738 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.ORP.
+2023-11-21 12:33:18,738 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.BGA RFU.
+2023-11-21 12:33:18,738 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.BGA.
+2023-11-21 12:33:18,738  INFO:  -- END  -- Tue Nov 21 12:33:18 AWST 2023
+2023-11-21 12:33:34,558 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-21 12:33:34,560 DEBUG: Task list loaded.
+2023-11-21 12:33:34,560 DEBUG: Total number of tasks: 1
+2023-11-21 12:33:34,560  INFO:  -- START  -- kwilena_wq.xml
+2023-11-21 12:33:34,560  INFO:  -- Tue Nov 21 12:33:34 AWST 2023
+2023-11-21 12:33:34,560  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml 12:33:34 pm
+2023-11-21 12:33:34,706  INFO: Importing file test.csv
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.ORP.
+2023-11-21 12:33:34,707 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.BGA RFU.
+2023-11-21 12:33:34,708 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.BGA.
+2023-11-21 12:33:34,708  INFO:  -- END  -- Tue Nov 21 12:33:34 AWST 2023
+2023-11-21 12:34:10,454 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-21 12:34:10,456 DEBUG: Task list loaded.
+2023-11-21 12:34:10,456 DEBUG: Total number of tasks: 1
+2023-11-21 12:34:10,456  INFO:  -- START  -- kwilena_wq.xml
+2023-11-21 12:34:10,457  INFO:  -- Tue Nov 21 12:34:10 AWST 2023
+2023-11-21 12:34:10,457  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml 12:34:10 pm
+2023-11-21 12:34:10,604  INFO: Importing file test.csv
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.wiper.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.depth.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.water_temperature.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.conductivity.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.salinity.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.dissolved_oxygen.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.oxygen_saturation.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.turbidity.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom_rfu.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.fdom.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll_rfu.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.chlorophyll.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pco2.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.pH.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.ORP.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.BGA RFU.
+2023-11-21 12:34:10,605 DEBUG: Text file imported no rows for scevo.data.uwa.aed.kwilena.raw.wq.BGA.
+2023-11-21 12:34:10,698  INFO:  -- END  -- Tue Nov 21 12:34:10 AWST 2023
+2023-11-21 14:00:43,948 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-21 14:00:43,966 DEBUG: Task list loaded.
+2023-11-21 14:00:43,966 DEBUG: Total number of tasks: 1
+2023-11-21 14:00:43,966  INFO:  -- START  -- kwilena_wq.xml
+2023-11-21 14:00:43,976  INFO:  -- Tue Nov 21 14:00:43 AWST 2023
+2023-11-21 14:00:43,977  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml 2:00:43 pm
+2023-11-21 14:00:43,983  INFO: Importing file 20231119.csv
+2023-11-21 14:01:28,609  INFO:  -- END  -- Tue Nov 21 14:01:28 AWST 2023
+2023-11-21 14:01:43,516 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-21 14:01:43,518 DEBUG: Task list loaded.
+2023-11-21 14:01:43,518 DEBUG: Total number of tasks: 1
+2023-11-21 14:01:43,518  INFO:  -- START  -- kwilena_wq.xml
+2023-11-21 14:01:43,518  INFO:  -- Tue Nov 21 14:01:43 AWST 2023
+2023-11-21 14:01:43,518  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml 2:01:43 pm
+2023-11-21 14:01:43,667 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-11-21 14:01:43,670  INFO:  -- END  -- Tue Nov 21 14:01:43 AWST 2023
+2023-11-21 14:01:43,670  INFO: Number of errors: 1
+2023-11-21 14:15:30,617 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-21 14:15:30,619 DEBUG: Task list loaded.
+2023-11-21 14:15:30,619 DEBUG: Total number of tasks: 1
+2023-11-21 14:15:30,619  INFO:  -- START  -- kwilena_wq.xml
+2023-11-21 14:15:30,619  INFO:  -- Tue Nov 21 14:15:30 AWST 2023
+2023-11-21 14:15:30,620  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml 2:15:30 pm
+2023-11-21 14:15:30,765  INFO: Importing file 20231120.csv
+2023-11-21 14:16:11,992  INFO: Importing file 20231121.csv
+2023-11-21 14:16:54,952  INFO:  -- END  -- Tue Nov 21 14:16:54 AWST 2023
+2023-12-01 09:57:35,622 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-01 09:57:35,648 DEBUG: Task list loaded.
+2023-12-01 09:57:35,648 DEBUG: Total number of tasks: 1
+2023-12-01 09:57:35,649  INFO:  -- START  -- kwilena_wq.xml
+2023-12-01 09:57:35,649  INFO:  -- Fri Dec 01 09:57:35 AWST 2023
+2023-12-01 09:57:35,649  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/uwa/aed/kwilena/raw/import_wq.xml 9:57:35 am
+2023-12-01 09:57:35,802  INFO: Importing file 20231120.csv
+2023-12-01 09:58:16,289  INFO: Importing file 20231121.csv
+2023-12-01 09:58:56,978  INFO: Importing file 20231122.csv
+2023-12-01 09:59:34,955  INFO: Importing file 20231123.csv
+2023-12-01 10:00:10,947  INFO: Importing file 20231124.csv
+2023-12-01 10:00:50,105  INFO: Importing file 20231125.csv
+2023-12-01 10:01:29,669  INFO: Importing file 20231126.csv
+2023-12-01 10:02:08,292  INFO: Importing file 20231127.csv
+2023-12-01 10:02:48,607  INFO: Importing file 20231128.csv
+2023-12-01 10:03:06,403  INFO: Importing file 20231129.csv
+2023-12-01 10:03:44,370  INFO: Importing file 20231130.csv
+2023-12-01 10:04:28,690  INFO: Importing file 20231201.csv
+2023-12-01 10:05:08,829  INFO:  -- END  -- Fri Dec 01 10:05:08 AWST 2023

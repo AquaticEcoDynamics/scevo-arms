@@ -1,0 +1,8 @@
+2022-11-11 13:57:14,014 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 13:57:14,016 DEBUG: Task list loaded.
+2022-11-11 13:57:14,016 DEBUG: Total number of tasks: 1
+2022-11-11 13:57:14,016  INFO:  -- START  -- BCMDBPI.xml
+2022-11-11 13:57:14,016  INFO:  -- Fri Nov 11 13:57:14 AWST 2022
+2022-11-11 13:57:14,016  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/BCMDBPI/raw/import.xml 1:57:14 pm
+2022-11-11 13:57:14,105  INFO: Importing file dbca_BCMDBPI_2022-09-07_1802.csv
+2022-11-11 14:17:05,445  INFO:  -- END  -- Fri Nov 11 14:17:05 AWST 2022

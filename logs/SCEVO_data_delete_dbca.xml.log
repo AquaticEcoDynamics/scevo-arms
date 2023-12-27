@@ -1,0 +1,625 @@
+2021-11-23 13:53:02,461 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 13:53:02,463 DEBUG: Task list loaded.
+2021-11-23 13:53:02,463 DEBUG: Total number of tasks: 1
+2021-11-23 13:53:02,463  INFO:  -- START  -- data_delete_dbca.xml
+2021-11-23 13:53:02,463  INFO:  -- Tue Nov 23 13:53:02 AWST 2021
+2021-11-23 13:53:02,463  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 1:53:02 pm
+2021-11-23 13:53:03,390  INFO:  -- END  -- Tue Nov 23 13:53:03 AWST 2021
+2021-11-23 15:08:30,322 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 15:08:30,323 DEBUG: Task list loaded.
+2021-11-23 15:08:30,323 DEBUG: Total number of tasks: 1
+2021-11-23 15:08:30,323  INFO:  -- START  -- data_delete_dbca.xml
+2021-11-23 15:08:30,323  INFO:  -- Tue Nov 23 15:08:30 AWST 2021
+2021-11-23 15:08:30,323  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 3:08:30 pm
+2021-11-23 15:08:30,811  INFO:  -- END  -- Tue Nov 23 15:08:30 AWST 2021
+2021-11-23 15:43:18,960 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2021-11-23 15:43:18,961 DEBUG: Task list loaded.
+2021-11-23 15:43:18,961 DEBUG: Total number of tasks: 1
+2021-11-23 15:43:18,961  INFO:  -- START  -- data_delete_dbca.xml
+2021-11-23 15:43:18,961  INFO:  -- Tue Nov 23 15:43:18 AWST 2021
+2021-11-23 15:43:18,961  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 3:43:18 pm
+2021-11-23 15:43:19,335  INFO:  -- END  -- Tue Nov 23 15:43:19 AWST 2021
+2022-10-31 16:13:24,231 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-31 16:13:24,242 DEBUG: Task list loaded.
+2022-10-31 16:13:24,242 DEBUG: Total number of tasks: 1
+2022-10-31 16:13:24,242  INFO:  -- START  -- data_delete_dbca.xml
+2022-10-31 16:13:24,242  INFO:  -- Mon Oct 31 16:13:24 AWST 2022
+2022-10-31 16:13:24,242  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 4:13:24 pm
+2022-10-31 16:13:26,420  INFO:  -- END  -- Mon Oct 31 16:13:26 AWST 2022
+2022-12-29 08:59:35,220 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-29 08:59:35,239 DEBUG: Task list loaded.
+2022-12-29 08:59:35,239 DEBUG: Total number of tasks: 1
+2022-12-29 08:59:35,239  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-29 08:59:35,239  INFO:  -- Thu Dec 29 08:59:35 AWST 2022
+2022-12-29 08:59:35,248  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 8:59:35 am
+2022-12-29 08:59:40,346  INFO:  -- END  -- Thu Dec 29 08:59:40 AWST 2022
+2022-12-29 09:04:05,509 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-29 09:04:05,511 DEBUG: Task list loaded.
+2022-12-29 09:04:05,511 DEBUG: Total number of tasks: 1
+2022-12-29 09:04:05,511  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-29 09:04:05,511  INFO:  -- Thu Dec 29 09:04:05 AWST 2022
+2022-12-29 09:04:05,512  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 9:04:05 am
+2022-12-29 09:15:04,753  INFO:  -- END  -- Thu Dec 29 09:15:04 AWST 2022
+2022-12-29 11:36:50,748 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-29 11:36:50,754 DEBUG: Task list loaded.
+2022-12-29 11:36:50,754 DEBUG: Total number of tasks: 1
+2022-12-29 11:36:50,754  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-29 11:36:50,755  INFO:  -- Thu Dec 29 11:36:50 AWST 2022
+2022-12-29 11:36:50,755  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 11:36:50 am
+2022-12-29 11:36:50,769 ERROR: CAUGHT EXCEPTION: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:101)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-29 11:36:50,769  INFO:  -- END  -- Thu Dec 29 11:36:50 AWST 2022
+2022-12-29 11:36:50,770  INFO: Number of errors: 1
+2022-12-29 11:37:14,525 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-29 11:37:14,526 DEBUG: Task list loaded.
+2022-12-29 11:37:14,526 DEBUG: Total number of tasks: 1
+2022-12-29 11:37:14,526  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-29 11:37:14,526  INFO:  -- Thu Dec 29 11:37:14 AWST 2022
+2022-12-29 11:37:14,526  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 11:37:14 am
+2022-12-29 11:37:14,531 ERROR: CAUGHT EXCEPTION: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:101)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-29 11:37:14,531  INFO:  -- END  -- Thu Dec 29 11:37:14 AWST 2022
+2022-12-29 11:37:14,531  INFO: Number of errors: 1
+2022-12-29 14:11:44,749 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-29 14:11:44,751 DEBUG: Task list loaded.
+2022-12-29 14:11:44,751 DEBUG: Total number of tasks: 1
+2022-12-29 14:11:44,751  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-29 14:11:44,751  INFO:  -- Thu Dec 29 14:11:44 AWST 2022
+2022-12-29 14:11:44,751  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 2:11:44 pm
+2022-12-29 14:11:44,765 ERROR: CAUGHT EXCEPTION: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:101)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-29 14:11:44,765  INFO:  -- END  -- Thu Dec 29 14:11:44 AWST 2022
+2022-12-29 14:11:44,765  INFO: Number of errors: 1
+2022-12-29 14:12:25,045 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-29 14:12:25,046 DEBUG: Task list loaded.
+2022-12-29 14:12:25,046 DEBUG: Total number of tasks: 1
+2022-12-29 14:12:25,047  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-29 14:12:25,047  INFO:  -- Thu Dec 29 14:12:25 AWST 2022
+2022-12-29 14:12:25,047  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 2:12:25 pm
+2022-12-29 14:12:25,052 ERROR: CAUGHT EXCEPTION: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:101)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-29 14:12:25,052  INFO:  -- END  -- Thu Dec 29 14:12:25 AWST 2022
+2022-12-29 14:12:25,052  INFO: Number of errors: 1
+2022-12-29 14:25:20,270 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-29 14:25:20,276 DEBUG: Task list loaded.
+2022-12-29 14:25:20,276 DEBUG: Total number of tasks: 1
+2022-12-29 14:25:20,276  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-29 14:25:20,276  INFO:  -- Thu Dec 29 14:25:20 AWST 2022
+2022-12-29 14:25:20,277  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 2:25:20 pm
+2022-12-29 14:25:20,354 ERROR: CAUGHT EXCEPTION: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:101)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-29 14:25:20,355  INFO:  -- END  -- Thu Dec 29 14:25:20 AWST 2022
+2022-12-29 14:25:20,355  INFO: Number of errors: 1
+2022-12-29 14:26:34,308 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-29 14:26:34,312 DEBUG: Task list loaded.
+2022-12-29 14:26:34,312 DEBUG: Total number of tasks: 1
+2022-12-29 14:26:34,312  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-29 14:26:34,312  INFO:  -- Thu Dec 29 14:26:34 AWST 2022
+2022-12-29 14:26:34,312  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 2:26:34 pm
+2022-12-29 14:26:34,316 ERROR: CAUGHT EXCEPTION: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:101)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-29 14:26:34,317  INFO:  -- END  -- Thu Dec 29 14:26:34 AWST 2022
+2022-12-29 14:26:34,317  INFO: Number of errors: 1
+2022-12-29 14:28:58,700 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-29 14:28:58,702 DEBUG: Task list loaded.
+2022-12-29 14:28:58,702 DEBUG: Total number of tasks: 1
+2022-12-29 14:28:58,702  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-29 14:28:58,702  INFO:  -- Thu Dec 29 14:28:58 AWST 2022
+2022-12-29 14:28:58,703  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 2:28:58 pm
+2022-12-30 10:31:28,558 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-30 10:31:28,580 DEBUG: Task list loaded.
+2022-12-30 10:31:28,580 DEBUG: Total number of tasks: 1
+2022-12-30 10:31:28,580  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-30 10:31:28,580  INFO:  -- Fri Dec 30 10:31:28 AWST 2022
+2022-12-30 10:31:28,580  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 10:31:28 am
+2022-12-30 10:49:40,078 ERROR: CAUGHT EXCEPTION: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:101)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-30 10:49:40,078  INFO:  -- END  -- Fri Dec 30 10:49:40 AWST 2022
+2022-12-30 10:49:40,078  INFO: Number of errors: 1
+2022-12-30 11:43:37,099 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-30 11:43:37,102 DEBUG: Task list loaded.
+2022-12-30 11:43:37,102 DEBUG: Total number of tasks: 1
+2022-12-30 11:43:37,102  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-30 11:43:37,102  INFO:  -- Fri Dec 30 11:43:37 AWST 2022
+2022-12-30 11:43:37,102  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 11:43:37 am
+2022-12-30 11:43:37,102 ERROR: CAUGHT EXCEPTION: 
+Source Address Error:scevo.data.dbca.scewq.ARMS_s
+ARMS Address supplied could not be found. Failed to find ARMS_s in scevo.data.dbca.scewq.ARMS_s
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Source Address Error:scevo.data.dbca.scewq.ARMS_s
+ARMS Address supplied could not be found. Failed to find ARMS_s in scevo.data.dbca.scewq.ARMS_s
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-30 11:43:37,103  INFO:  -- END  -- Fri Dec 30 11:43:37 AWST 2022
+2022-12-30 11:43:37,103  INFO: Number of errors: 1
+2022-12-30 11:44:26,674 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-30 11:44:26,676 DEBUG: Task list loaded.
+2022-12-30 11:44:26,676 DEBUG: Total number of tasks: 1
+2022-12-30 11:44:26,676  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-30 11:44:26,676  INFO:  -- Fri Dec 30 11:44:26 AWST 2022
+2022-12-30 11:44:26,676  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 11:44:26 am
+2022-12-30 11:44:26,676 ERROR: CAUGHT EXCEPTION: 
+Source Address Error:scevo.data.dbca.scewq.ARMS
+ARMS Address supplied could not be found. Failed to find ARMS in scevo.data.dbca.scewq.ARMS
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Source Address Error:scevo.data.dbca.scewq.ARMS
+ARMS Address supplied could not be found. Failed to find ARMS in scevo.data.dbca.scewq.ARMS
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-30 11:44:26,677  INFO:  -- END  -- Fri Dec 30 11:44:26 AWST 2022
+2022-12-30 11:44:26,677  INFO: Number of errors: 1
+2022-12-30 11:44:52,530 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-30 11:44:52,531 DEBUG: Task list loaded.
+2022-12-30 11:44:52,531 DEBUG: Total number of tasks: 1
+2022-12-30 11:44:52,531  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-30 11:44:52,531  INFO:  -- Fri Dec 30 11:44:52 AWST 2022
+2022-12-30 11:44:52,531  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 11:44:52 am
+2022-12-30 11:44:52,532 ERROR: CAUGHT EXCEPTION: 
+Source Address Error:scevo.data.dbca.scewq.ARMS
+ARMS Address supplied could not be found. Failed to find ARMS in scevo.data.dbca.scewq.ARMS
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Source Address Error:scevo.data.dbca.scewq.ARMS
+ARMS Address supplied could not be found. Failed to find ARMS in scevo.data.dbca.scewq.ARMS
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-30 11:44:52,532  INFO:  -- END  -- Fri Dec 30 11:44:52 AWST 2022
+2022-12-30 11:44:52,532  INFO: Number of errors: 1
+2022-12-30 11:45:40,410 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-30 11:45:40,412 DEBUG: Task list loaded.
+2022-12-30 11:45:40,412 DEBUG: Total number of tasks: 1
+2022-12-30 11:45:40,412  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-30 11:45:40,412  INFO:  -- Fri Dec 30 11:45:40 AWST 2022
+2022-12-30 11:45:40,412  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 11:45:40 am
+2022-12-30 11:45:40,461 ERROR: CAUGHT EXCEPTION: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:101)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-30 11:45:40,461  INFO:  -- END  -- Fri Dec 30 11:45:40 AWST 2022
+2022-12-30 11:45:40,461  INFO: Number of errors: 1
+2022-12-30 11:46:21,874 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-30 11:46:21,876 DEBUG: Task list loaded.
+2022-12-30 11:46:21,876 DEBUG: Total number of tasks: 1
+2022-12-30 11:46:21,876  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-30 11:46:21,876  INFO:  -- Fri Dec 30 11:46:21 AWST 2022
+2022-12-30 11:46:21,876  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 11:46:21 am
+2022-12-30 11:46:21,880 ERROR: CAUGHT EXCEPTION: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:101)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-30 11:46:21,880  INFO:  -- END  -- Fri Dec 30 11:46:21 AWST 2022
+2022-12-30 11:46:21,880  INFO: Number of errors: 1
+2022-12-30 11:50:35,674 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-30 11:50:35,677 DEBUG: Task list loaded.
+2022-12-30 11:50:35,677 DEBUG: Total number of tasks: 1
+2022-12-30 11:50:35,677  INFO:  -- START  -- data_delete_dbca.xml
+2022-12-30 11:50:35,677  INFO:  -- Fri Dec 30 11:50:35 AWST 2022
+2022-12-30 11:50:35,677  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 11:50:35 am
+2022-12-30 11:53:45,272 ERROR: CAUGHT EXCEPTION: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:101)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-30 11:53:45,273  INFO:  -- END  -- Fri Dec 30 11:53:45 AWST 2022
+2022-12-30 11:53:45,273  INFO: Number of errors: 1
+2023-01-17 11:33:30,177 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-01-17 11:33:30,199 DEBUG: Task list loaded.
+2023-01-17 11:33:30,199 DEBUG: Total number of tasks: 1
+2023-01-17 11:33:30,199  INFO:  -- START  -- data_delete_dbca.xml
+2023-01-17 11:33:30,199  INFO:  -- Tue Jan 17 11:33:30 AWST 2023
+2023-01-17 11:33:30,200  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 11:33:30 am
+2023-01-17 11:53:13,305  INFO:  -- END  -- Tue Jan 17 11:53:13 AWST 2023
+2023-01-18 16:08:47,660 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-01-18 16:08:47,690 DEBUG: Task list loaded.
+2023-01-18 16:08:47,690 DEBUG: Total number of tasks: 1
+2023-01-18 16:08:47,690  INFO:  -- START  -- data_delete_dbca.xml
+2023-01-18 16:08:47,695  INFO:  -- Wed Jan 18 16:08:47 AWST 2023
+2023-01-18 16:08:47,696  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 4:08:47 pm
+2023-01-18 16:14:07,711 ERROR: CAUGHT EXCEPTION: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+SQL Exception: ERROR: Invalid Permissions - You do not have read permissions for the selected table
+  Where: PL/pgSQL function deletedata(integer,numeric,numeric) line 36 at RAISE
+SQL Error: 0
+SQL State: P0001
+
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/utils/data_delete.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.psts.deletedata.PSTSDeleteDataTask.executeTask(PSTSDeleteDataTask.java:101)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-18 16:14:07,715  INFO:  -- END  -- Wed Jan 18 16:14:07 AWST 2023
+2023-01-18 16:14:07,715  INFO: Number of errors: 1
+2023-11-29 14:30:46,232 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-29 14:30:46,257 DEBUG: Task list loaded.
+2023-11-29 14:30:46,257 DEBUG: Total number of tasks: 1
+2023-11-29 14:30:46,257  INFO:  -- START  -- data_delete_dbca.xml
+2023-11-29 14:30:46,258  INFO:  -- Wed Nov 29 14:30:46 AWST 2023
+2023-11-29 14:30:46,258  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 2:30:46 pm
+2023-11-29 14:30:54,147  INFO:  -- END  -- Wed Nov 29 14:30:54 AWST 2023
+2023-11-29 14:32:57,175 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-29 14:32:57,177 DEBUG: Task list loaded.
+2023-11-29 14:32:57,177 DEBUG: Total number of tasks: 1
+2023-11-29 14:32:57,177  INFO:  -- START  -- data_delete_dbca.xml
+2023-11-29 14:32:57,177  INFO:  -- Wed Nov 29 14:32:57 AWST 2023
+2023-11-29 14:32:57,177  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/data_delete.xml 2:32:57 pm
+2023-11-29 14:33:02,324  INFO:  -- END  -- Wed Nov 29 14:33:02 AWST 2023

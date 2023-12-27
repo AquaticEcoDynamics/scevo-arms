@@ -1,0 +1,147 @@
+2022-11-11 14:13:51,405 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:13:51,406 DEBUG: Task list loaded.
+2022-11-11 14:13:51,406 DEBUG: Total number of tasks: 1
+2022-11-11 14:13:51,406  INFO:  -- START  -- YULEB.xml
+2022-11-11 14:13:51,406  INFO:  -- Fri Nov 11 14:13:51 AWST 2022
+2022-11-11 14:13:51,406  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml 2:13:51 pm
+2022-11-11 14:13:51,504  INFO: Importing file dbca_YULEB_2022-09-07_1802.csv
+2023-11-10 12:46:51,439 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-10 12:46:51,482 DEBUG: Task list loaded.
+2023-11-10 12:46:51,482 DEBUG: Total number of tasks: 1
+2023-11-10 12:46:51,482  INFO:  -- START  -- YULEB.xml
+2023-11-10 12:46:51,490  INFO:  -- Fri Nov 10 12:46:51 AWST 2023
+2023-11-10 12:46:51,491  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml 12:46:51 pm
+2023-11-10 12:46:51,794 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-11-10 12:46:51,797  INFO:  -- END  -- Fri Nov 10 12:46:51 AWST 2023
+2023-11-10 12:46:51,797  INFO: Number of errors: 1
+2023-11-10 13:35:59,580 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-10 13:35:59,582 DEBUG: Task list loaded.
+2023-11-10 13:35:59,582 DEBUG: Total number of tasks: 1
+2023-11-10 13:35:59,582  INFO:  -- START  -- YULEB.xml
+2023-11-10 13:35:59,582  INFO:  -- Fri Nov 10 13:35:59 AWST 2023
+2023-11-10 13:35:59,582  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml 1:35:59 pm
+2023-11-10 13:35:59,931 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-11-10 13:35:59,932  INFO:  -- END  -- Fri Nov 10 13:35:59 AWST 2023
+2023-11-10 13:35:59,932  INFO: Number of errors: 1
+2023-11-10 14:28:04,791 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-10 14:28:04,793 DEBUG: Task list loaded.
+2023-11-10 14:28:04,793 DEBUG: Total number of tasks: 1
+2023-11-10 14:28:04,793  INFO:  -- START  -- YULEB.xml
+2023-11-10 14:28:04,793  INFO:  -- Fri Nov 10 14:28:04 AWST 2023
+2023-11-10 14:28:04,793  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml 2:28:04 pm
+2023-11-10 14:28:05,130 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-11-10 14:28:05,130  INFO:  -- END  -- Fri Nov 10 14:28:05 AWST 2023
+2023-11-10 14:28:05,131  INFO: Number of errors: 1
+2023-11-10 14:29:56,850 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-10 14:29:56,851 DEBUG: Task list loaded.
+2023-11-10 14:29:56,851 DEBUG: Total number of tasks: 1
+2023-11-10 14:29:56,851  INFO:  -- START  -- YULEB.xml
+2023-11-10 14:29:56,851  INFO:  -- Fri Nov 10 14:29:56 AWST 2023
+2023-11-10 14:29:56,852  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml 2:29:56 pm
+2023-11-10 14:29:57,192 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-11-10 14:29:57,193  INFO:  -- END  -- Fri Nov 10 14:29:57 AWST 2023
+2023-11-10 14:29:57,193  INFO: Number of errors: 1
+2023-11-10 14:35:00,463 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-10 14:35:00,465 DEBUG: Task list loaded.
+2023-11-10 14:35:00,465 DEBUG: Total number of tasks: 1
+2023-11-10 14:35:00,465  INFO:  -- START  -- YULEB.xml
+2023-11-10 14:35:00,465  INFO:  -- Fri Nov 10 14:35:00 AWST 2023
+2023-11-10 14:35:00,465  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/YULEB/raw/import.xml 2:35:00 pm
+2023-11-10 14:35:00,804  INFO: Importing file dbca_YULEB_2023-11-10_test.csv
+2023-11-10 14:35:08,001  INFO:  -- END  -- Fri Nov 10 14:35:08 AWST 2023

@@ -1,0 +1,44 @@
+2023-01-23 16:04:25,506 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-01-23 16:04:25,507 DEBUG: Task list loaded.
+2023-01-23 16:04:25,507 DEBUG: Total number of tasks: 1
+2023-01-23 16:04:25,507  INFO:  -- START  -- MAY_s.xml
+2023-01-23 16:04:25,507  INFO:  -- Mon Jan 23 16:04:25 AWST 2023
+2023-01-23 16:04:25,507  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/scesb/stations/MAY_s/raw/import.xml 4:04:25 pm
+2023-01-23 16:04:25,606 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/scesb/MAY_s/sensors.xml
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/scesb/stations/MAY_s/raw/import.xml
+Method: getDestinationResources
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/scesb/MAY_s/sensors.xml
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/scesb/stations/MAY_s/raw/import.xml
+Method: getDestinationResources
+
+	at cwr.arms.tasks.data.FileImporterTask.getDestinationResources(FileImporterTask.java:585)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:105)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-23 16:04:25,606  INFO:  -- END  -- Mon Jan 23 16:04:25 AWST 2023
+2023-01-23 16:04:25,606  INFO: Number of errors: 1
+2023-01-23 16:05:21,897 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-01-23 16:05:21,899 DEBUG: Task list loaded.
+2023-01-23 16:05:21,899 DEBUG: Total number of tasks: 1
+2023-01-23 16:05:21,899  INFO:  -- START  -- MAY_s.xml
+2023-01-23 16:05:21,899  INFO:  -- Mon Jan 23 16:05:21 AWST 2023
+2023-01-23 16:05:21,899  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/scesb/stations/MAY_s/raw/import.xml 4:05:21 pm
+2023-01-23 16:05:22,004  INFO: Importing file dbca_MAY_s_2023-01-03_1328_37.csv
+2023-01-23 16:05:47,547  INFO: Importing file dbca_MAY_s_2022-10-13_0809_37.csv
+2023-01-23 16:05:57,600  INFO: Importing file dbca_MAY_s_2022-09-07_1802_37.csv
+2023-01-23 16:18:32,958  INFO:  -- END  -- Mon Jan 23 16:18:32 AWST 2023

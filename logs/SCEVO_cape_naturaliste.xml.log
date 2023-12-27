@@ -1,0 +1,87 @@
+2022-10-31 16:15:25,914 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-31 16:15:25,923 DEBUG: Task list loaded.
+2022-10-31 16:15:25,923 DEBUG: Total number of tasks: 14
+2022-10-31 16:15:25,923  INFO:  -- START  -- cape_naturaliste.xml
+2022-10-31 16:15:25,923  INFO:  -- Mon Oct 31 16:15:25 AWST 2022
+2022-10-31 16:15:25,923  INFO:  -- TASK 1/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/raw/import.xml 4:15:25 pm
+2022-10-31 16:15:32,483 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-31 16:15:32,483  INFO:  -- TASK 2/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/timeline/start_dataprocessing.xml 4:15:32 pm
+2022-10-31 16:15:32,485  INFO:  -- TASK 3/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/timeline/end_dataprocessing.xml 4:15:32 pm
+2022-10-31 16:15:32,486  INFO:  -- TASK 4/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/raw/qc.xml 4:15:32 pm
+2022-10-31 16:15:32,507  INFO: Sensor: .wind_direction 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.019s : 0.019s)
+2022-10-31 16:15:32,507  INFO: Sensor: .wind_speed 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.019s : 0.019s)
+2022-10-31 16:15:32,509  INFO: Sensor: .atmpress 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.001s : 0.021s)
+2022-10-31 16:15:32,509  INFO: Sensor: .rainfall_9am 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.001s : 0.021s)
+2022-10-31 16:15:32,510  INFO: Sensor: .rainfall 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.001s : 0.022s)
+2022-10-31 16:15:32,600  INFO: Sensor: .dew_point 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.112s : 0.112s)
+2022-10-31 16:15:32,602  INFO: Sensor: .air_temperature 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.114s : 0.114s)
+2022-10-31 16:15:32,602  INFO:  -- TASK 5/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/raw/create_rainfall.xml 4:15:32 pm
+2022-10-31 16:15:33,947  INFO: Sensor:  2022-10-29 10:30:00-2022-10-31 07:30:00 (1.344s : 1.344s)
+2022-10-31 16:15:33,948  INFO:  -- TASK 6/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/downsampled/downsample_30.xml 4:15:33 pm
+2022-10-31 16:15:36,017  INFO: Sensor: .wind_direction 2022-10-29 10:30:00-2022-10-31 07:30:00 (2.068s : 2.068s)
+2022-10-31 16:15:36,025  INFO: Sensor: .air_temperature 2022-10-29 10:30:00-2022-10-31 07:30:00 (2.076s : 2.076s)
+2022-10-31 16:15:36,067  INFO: Sensor: .dew_point 2022-10-29 10:30:00-2022-10-31 07:30:00 (2.118s : 2.118s)
+2022-10-31 16:15:36,133  INFO: Sensor: .wind_speed 2022-10-29 10:30:00-2022-10-31 07:30:00 (2.184s : 2.184s)
+2022-10-31 16:15:38,101  INFO: Sensor: .rainfall_9am 2022-10-29 10:30:00-2022-10-31 07:30:00 (2.076s : 4.152s)
+2022-10-31 16:15:38,109  INFO: Sensor: .atmpress 2022-10-29 10:30:00-2022-10-31 07:30:00 (2.092s : 4.16s)
+2022-10-31 16:15:38,118  INFO: Sensor: .rainfall 2022-10-29 10:30:00-2022-10-31 07:30:00 (2.051s : 4.169s)
+2022-10-31 16:15:38,118  INFO:  -- TASK 7/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/downsampled/downsample_360.xml 4:15:38 pm
+2022-10-31 16:15:38,668  INFO: Sensor: .air_temperature 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.549s : 0.549s)
+2022-10-31 16:15:38,677  INFO: Sensor: .dew_point 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.557s : 0.557s)
+2022-10-31 16:15:38,710  INFO: Sensor: .wind_speed 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.591s : 0.591s)
+2022-10-31 16:15:38,710  INFO: Sensor: .wind_direction 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.591s : 0.591s)
+2022-10-31 16:15:39,127  INFO: Sensor: .rainfall_9am 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.45s : 1.008s)
+2022-10-31 16:15:39,160  INFO: Sensor: .atmpress 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.492s : 1.041s)
+2022-10-31 16:15:39,168  INFO: Sensor: .rainfall 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.458s : 1.049s)
+2022-10-31 16:15:39,169  INFO:  -- TASK 8/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/downsampled/downsample_30.xml 4:15:39 pm
+2022-10-31 16:15:40,319  INFO: Sensor: .windvector 2022-10-29 10:30:00-2022-10-31 07:30:00 (1.149s : 1.149s)
+2022-10-31 16:15:40,319  INFO:  -- TASK 9/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/downsampled/downsample_360.xml 4:15:40 pm
+2022-10-31 16:15:40,644  INFO: Sensor: .windvector 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.324s : 0.324s)
+2022-10-31 16:15:40,644  INFO:  -- TASK 10/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/downsampled/create_rainfall_360.xml 4:15:40 pm
+2022-10-31 16:15:40,719  INFO: Sensor:  2022-10-29 10:30:00-2022-10-31 07:30:00 (0.074s : 0.074s)
+2022-10-31 16:15:40,719  INFO:  -- TASK 11/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/filled/fill_30.xml 4:15:40 pm
+2022-10-31 16:15:41,168  INFO: Sensor: .dew_point 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.002s : 0.448s)
+2022-10-31 16:15:41,236  INFO: Sensor: .wind_speed 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.001s : 0.516s)
+2022-10-31 16:15:41,247  INFO: Sensor: .wind_direction 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.001s : 0.527s)
+2022-10-31 16:15:41,688  INFO: Sensor: .rainfall 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.002s : 0.968s)
+2022-10-31 16:15:42,080  INFO: Sensor: .air_temperature 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.001s : 1.36s)
+2022-10-31 16:15:42,082  INFO: Sensor: .rainfall_9am 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.002s : 1.362s)
+2022-10-31 16:15:42,147  INFO: Sensor: .atmpress 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.001s : 1.427s)
+2022-10-31 16:15:42,148  INFO:  -- TASK 12/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/filled/fill_360.xml 4:15:42 pm
+2022-10-31 16:15:42,240  INFO: Sensor: .wind_speed 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.001s : 0.091s)
+2022-10-31 16:15:42,245  INFO: Sensor: .air_temperature 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.001s : 0.096s)
+2022-10-31 16:15:42,251  INFO: Sensor: .wind_direction 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.001s : 0.102s)
+2022-10-31 16:15:42,270  INFO: Sensor: .dew_point 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.001s : 0.121s)
+2022-10-31 16:15:42,319  INFO: Sensor: .rainfall_9am 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.001s : 0.17s)
+2022-10-31 16:15:42,327  INFO: Sensor: .atmpress 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.001s : 0.178s)
+2022-10-31 16:15:42,336  INFO: Sensor: .rainfall 2022-10-29 10:30:00-2022-10-31 07:30:00 (0.0s : 0.187s)
+2022-10-31 16:15:42,337  INFO:  -- TASK 13/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/filled/fill_30.xml 4:15:42 pm
+2022-10-31 16:15:46,620  INFO: Sensor: .windvector 2022-10-29 10:30:00-2022-10-31 07:30:00 (3.67s : 4.282s)
+2022-10-31 16:15:46,620  INFO:  -- TASK 14/14 -- /scevo/config/tasks/data/bom/idy/stations/cape_naturaliste/filled/fill_360.xml 4:15:46 pm
+2022-10-31 16:15:50,345  INFO: Sensor: .windvector 2022-10-29 10:30:00-2022-10-31 07:30:00 (3.64s : 3.724s)
+2022-10-31 16:15:50,346  INFO:  -- END  -- Mon Oct 31 16:15:50 AWST 2022
+2022-10-31 16:15:50,346  INFO: Number of errors: 1

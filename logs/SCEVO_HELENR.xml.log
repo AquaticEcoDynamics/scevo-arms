@@ -1,0 +1,19 @@
+2022-11-11 14:11:43,212 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:11:43,213 DEBUG: Task list loaded.
+2022-11-11 14:11:43,213 DEBUG: Total number of tasks: 1
+2022-11-11 14:11:43,213  INFO:  -- START  -- HELENR.xml
+2022-11-11 14:11:43,213  INFO:  -- Fri Nov 11 14:11:43 AWST 2022
+2022-11-11 14:11:43,213  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/HELENR/raw/import.xml 2:11:43 pm
+2022-11-11 14:11:43,305  INFO: Importing file dbca_HELENR_2022-09-07_1802.csv
+2023-11-29 15:04:58,168 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-29 15:04:58,169 DEBUG: Task list loaded.
+2023-11-29 15:04:58,169 DEBUG: Total number of tasks: 1
+2023-11-29 15:04:58,169  INFO:  -- START  -- HELENR.xml
+2023-11-29 15:04:58,170  INFO:  -- Wed Nov 29 15:04:58 AWST 2023
+2023-11-29 15:04:58,170  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/HELENR/raw/import.xml 3:04:58 pm
+2023-11-29 15:04:58,487  INFO: Importing file dbca_HELENR_2023-11-03_0525_new.csv
+2023-11-29 15:21:22,113  INFO: Importing file dbca_HELENR_2023-10-27_new.csv
+2023-11-29 15:21:24,593  INFO: Importing file dbca_HELENR_2023-11-10_new.csv
+2023-11-29 15:21:27,124  INFO: Importing file dbca_HELENR_new_2023-11-10_new.csv
+2023-11-29 15:21:29,865  INFO: Importing file dbca_HELENR_2023-11-24_new.csv
+2023-11-29 15:21:32,997  INFO:  -- END  -- Wed Nov 29 15:21:32 AWST 2023

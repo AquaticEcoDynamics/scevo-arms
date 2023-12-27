@@ -1,0 +1,40 @@
+2022-11-11 13:57:23,729 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 13:57:23,731 DEBUG: Task list loaded.
+2022-11-11 13:57:23,731 DEBUG: Total number of tasks: 1
+2022-11-11 13:57:23,731  INFO:  -- START  -- BENNB.xml
+2022-11-11 13:57:23,731  INFO:  -- Fri Nov 11 13:57:23 AWST 2022
+2022-11-11 13:57:23,731  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/BENNB/raw/import.xml 1:57:23 pm
+2022-11-11 13:57:23,818  INFO: Importing file dbca_BENNB_2022-09-07_1802.csv
+2023-11-06 17:12:38,569 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-06 17:12:38,584 DEBUG: Task list loaded.
+2023-11-06 17:12:38,584 DEBUG: Total number of tasks: 1
+2023-11-06 17:12:38,584  INFO:  -- START  -- BENNB.xml
+2023-11-06 17:12:38,584  INFO:  -- Mon Nov 06 17:12:38 AWST 2023
+2023-11-06 17:12:38,584  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/BENNB/raw/import.xml 5:12:38 pm
+2023-11-06 17:12:38,732 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/BENNB/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/BENNB/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-11-06 17:12:38,733  INFO:  -- END  -- Mon Nov 06 17:12:38 AWST 2023
+2023-11-06 17:12:38,733  INFO: Number of errors: 1

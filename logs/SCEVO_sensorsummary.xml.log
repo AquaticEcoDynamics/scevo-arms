@@ -1,0 +1,790 @@
+2023-12-26 15:17:09,325 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 15:17:09,328 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/tasks/system/sensorsummary/ARMS/Workspaces/scevo/scevo/config/services/sensorsummary_log.xml
+Method: setTaskConfig
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/tasks/system/sensorsummary/ARMS/Workspaces/scevo/scevo/config/services/sensorsummary_log.xml
+Method: setTaskConfig
+
+	at cwr.arms.tasks.TaskFactory.setTaskConfig(TaskFactory.java:43)
+	at cwr.arms.tasks.data.sensorsummary.SensorSummaryTaskFactory.getInstance(SensorSummaryTaskFactory.java:39)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:278)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 15:18:12,869 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 15:18:12,872 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/tasks/system/sensorsummary/config/services/sensorsummary_log.xml
+Method: setTaskConfig
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/tasks/system/sensorsummary/config/services/sensorsummary_log.xml
+Method: setTaskConfig
+
+	at cwr.arms.tasks.TaskFactory.setTaskConfig(TaskFactory.java:43)
+	at cwr.arms.tasks.data.sensorsummary.SensorSummaryTaskFactory.getInstance(SensorSummaryTaskFactory.java:39)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:278)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 15:18:40,846 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 15:18:40,848 DEBUG: Task list loaded.
+2023-12-26 15:18:40,848 DEBUG: Total number of tasks: 1
+2023-12-26 15:18:40,848  INFO:  -- START  -- sensorsummary.xml
+2023-12-26 15:18:40,848  INFO:  -- Tue Dec 26 15:18:40 AWST 2023
+2023-12-26 15:18:40,848  INFO:  -- TASK 1/1 -- /scevo/config/services/sensorsummary_log.xml 3:18:40 pm
+2023-12-26 15:18:41,546  INFO:  -- END  -- Tue Dec 26 15:18:41 AWST 2023
+2023-12-26 15:20:36,209 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 15:20:36,213 DEBUG: Task list loaded.
+2023-12-26 15:20:36,213 DEBUG: Total number of tasks: 1
+2023-12-26 15:20:36,213  INFO:  -- START  -- sensorsummary.xml
+2023-12-26 15:20:36,213  INFO:  -- Tue Dec 26 15:20:36 AWST 2023
+2023-12-26 15:20:36,213  INFO:  -- TASK 1/1 -- /scevo/config/services/sensorsummary_log.xml 3:20:36 pm
+2023-12-26 15:20:36,901  INFO:  -- END  -- Tue Dec 26 15:20:36 AWST 2023
+2023-12-26 15:38:56,923 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 15:38:56,925 DEBUG: Task list loaded.
+2023-12-26 15:38:56,925 DEBUG: Total number of tasks: 2
+2023-12-26 15:38:56,925  INFO:  -- START  -- sensorsummary.xml
+2023-12-26 15:38:56,925  INFO:  -- Tue Dec 26 15:38:56 AWST 2023
+2023-12-26 15:38:56,925  INFO:  -- TASK 1/2 -- /scevo/config/services/sensorsummary_log.xml 3:38:56 pm
+2023-12-26 15:38:57,645  INFO:  -- TASK 2/2 -- /scevo/config/services/copy_logs.xml 3:38:57 pm
+2023-12-26 15:38:57,645  INFO: Copying files
+2023-12-26 15:38:57,646 DEBUG: Copying SCEVO_AIRSMD.xml.log
+2023-12-26 15:38:57,647 DEBUG: Copying Port_Communications.log
+2023-12-26 15:38:57,647 DEBUG: Copying DBStatistics.log
+2023-12-26 15:38:57,647 DEBUG: Copying SCEVO_WRF_LOWERLAKES_RUN.xml.log
+2023-12-26 15:38:57,647 DEBUG: Copying SCEVO_BANNC.xml.log
+2023-12-26 15:38:57,647 DEBUG: Copying SCEVO_matilda_met.xml.log
+2023-12-26 15:38:57,648 DEBUG: Copying Main_ARMS_Log.log
+2023-12-26 15:38:57,648 DEBUG: Copying SCEVO_importDB.xml.log
+2023-12-26 15:38:57,648 DEBUG: Copying SCEVO_ASHD.xml.log
+2023-12-26 15:38:57,649 DEBUG: Copying SCEVO_IDW_ALL.xml.log
+2023-12-26 15:38:57,658 DEBUG: Copying SCEVO_ARM_s.xml.log
+2023-12-26 15:38:57,659 DEBUG: Copying SCEVO_all.xml.log
+2023-12-26 15:38:57,659 DEBUG: Copying SCEVO_fremantle_tide.xml.log
+2023-12-26 15:38:57,659 DEBUG: Copying SCEVO_BAYMD.xml.log
+2023-12-26 15:38:57,659 DEBUG: Copying SCEVO_Scheduler.log
+2023-12-26 15:38:57,659 DEBUG: Copying Movie.log
+2023-12-26 15:38:57,659 DEBUG: Copying SCEVO_IDW_ALL.xml_1.log
+2023-12-26 15:38:57,659 DEBUG: Copying SCEVO_barrack_tide.xml.log
+2023-12-26 15:38:57,659 DEBUG: Copying SCEVO_DBCA_ALL.xml.log
+2023-12-26 15:38:57,660 DEBUG: Copying SCEVO_ftp.xml_1.log
+2023-12-26 15:38:57,660 DEBUG: Copying SCEVO_HINDCAST_MONTHLY_RUN.xml.log
+2023-12-26 15:38:57,660 DEBUG: Copying SCEVO_matilda_wq.xml.log
+2023-12-26 15:38:57,660 DEBUG: Copying SCEVO_RT_TIDE_ALL.xml.log
+2023-12-26 15:38:57,666 DEBUG: Copying SCEVO_badgingarra.xml.log
+2023-12-26 15:38:57,666 DEBUG: Copying SCEVO_createDB.xml.log
+2023-12-26 15:38:57,666 DEBUG: Copying SCEVO_kwilena_wq.xml.log
+2023-12-26 15:38:57,667 DEBUG: Copying SCEVO_BENNB.xml.log
+2023-12-26 15:38:57,667 DEBUG: Copying SCEVO_busselton_airport.xml.log
+2023-12-26 15:38:57,667 DEBUG: Copying SCEVO_jandakot.xml.log
+2023-12-26 15:38:57,667 DEBUG: Copying SCEVO_WRF_HINDCAST_MONTHLY_RUN.xml.log
+2023-12-26 15:38:57,668 DEBUG: Copying SCEVO_BICKB.xml.log
+2023-12-26 15:38:57,668 DEBUG: Copying SCEVO_WRF_FORECAST_RUN.xml.log
+2023-12-26 15:38:57,668 DEBUG: Copying SCEVO_BLACKC.xml.log
+2023-12-26 15:38:57,668 DEBUG: Copying SCEVO_sp.xml.log
+2023-12-26 15:38:57,671 DEBUG: Copying SCEVO_yackaboon.xml.log
+2023-12-26 15:38:57,671 DEBUG: Copying SCEVO_BODD.xml.log
+2023-12-26 15:38:57,671 DEBUG: Copying SCEVO_TUFLOW_HINDCAST_MONTHLY_RUN.xml.log
+2023-12-26 15:38:57,671 DEBUG: Copying SCEVO_matilda_met.xml_1.log
+2023-12-26 15:38:57,671 DEBUG: Copying SCEVO_BRD01.xml.log
+2023-12-26 15:38:57,671 DEBUG: Copying SCEVO_champion_lakes.xml.log
+2023-12-26 15:38:57,672 DEBUG: Copying SCEVO_NIGHTLY_FORECAST_RUN.xml.log
+2023-12-26 15:38:57,672 DEBUG: Copying SCEVO_RT_MOZ_ALL.xml_1.log
+2023-12-26 15:38:57,672 DEBUG: Copying SCEVO_IDY_ALL.xml.log
+2023-12-26 15:38:57,673 DEBUG: Copying SCEVO_IDO_ALL.xml.log
+2023-12-26 15:38:57,673 DEBUG: Copying SCEVO_launch.xml.log
+2023-12-26 15:38:57,673 DEBUG: Copying SCEVO_BWAMDO.xml.log
+2023-12-26 15:38:57,673 DEBUG: Copying SCEVO_ftp.xml.log
+2023-12-26 15:38:57,673 DEBUG: Copying SCEVO_RT_MOZ_ALL.xml.log
+2023-12-26 15:38:57,674 DEBUG: Copying SCEVO_data_delete_kwilena.xml.log
+2023-12-26 15:38:57,674 DEBUG: Copying SCEVO_TUFLOW_FORECAST_RUN.xml.log
+2023-12-26 15:38:57,674 DEBUG: Copying SCEVO_DWER_ALL.xml.log
+2023-12-26 15:38:57,675 DEBUG: Copying SCEVO_melville_water.xml.log
+2023-12-26 15:38:57,675 DEBUG: Copying SCEVO_6163950.xml.log
+2023-12-26 15:38:57,675 DEBUG: Copying SCEVO_data_delete_matilda.xml.log
+2023-12-26 15:38:57,676 DEBUG: Copying SCEVO_CANND.xml.log
+2023-12-26 15:38:57,676 DEBUG: Copying SCEVO_kwilena_sys.xml.log
+2023-12-26 15:38:57,676 DEBUG: Copying SCEVO_hillarys.xml.log
+2023-12-26 15:38:57,676 DEBUG: Copying SCEVO_data_delete_dbca.xml.log
+2023-12-26 15:38:57,676 DEBUG: Copying SCEVO_data_delete_idw.xml.log
+2023-12-26 15:38:57,676 DEBUG: Copying SCEVO_data_delete_dot.xml.log
+2023-12-26 15:38:57,676 DEBUG: Copying SCEVO_kwilena_ben.xml.log
+2023-12-26 15:38:57,676 DEBUG: Copying SCEVO_BCMDBPI.xml.log
+2023-12-26 15:38:57,676 DEBUG: Copying SCEVO_CANNR.xml.log
+2023-12-26 15:38:57,676 DEBUG: Copying SCEVO_EBAC.xml.log
+2023-12-26 15:38:57,677 DEBUG: Copying SCEVO_ELLISB.xml.log
+2023-12-26 15:38:57,677 DEBUG: Copying SCEVO_HENLB.xml.log
+2023-12-26 15:38:57,677 DEBUG: Copying SCEVO_JHARDO.xml.log
+2023-12-26 15:38:57,677 DEBUG: Copying SCEVO_LCBRDO.xml.log
+2023-12-26 15:38:57,677 DEBUG: Copying SCEVO_MAMDO.xml.log
+2023-12-26 15:38:57,677 DEBUG: Copying SCEVO_MCDSWSRD.xml.log
+2023-12-26 15:38:57,677 DEBUG: Copying SCEVO_MWRDO.xml.log
+2023-12-26 15:38:57,677 DEBUG: Copying SCEVO_SCCIN5.xml.log
+2023-12-26 15:38:57,677 DEBUG: Copying SCEVO_SHELLD1.xml.log
+2023-12-26 15:38:57,677 DEBUG: Copying SCEVO_SWD1.xml.log
+2023-12-26 15:38:57,677 DEBUG: Copying SCEVO_SWS6.xml.log
+2023-12-26 15:38:57,678 DEBUG: Copying SCEVO_YULEB.xml.log
+2023-12-26 15:38:57,678 DEBUG: Copying SCEVO_SUSANB.xml.log
+2023-12-26 15:38:57,678 DEBUG: Copying SCEVO_SWN6.xml.log
+2023-12-26 15:38:57,678 DEBUG: Copying SCEVO_WANDC.xml.log
+2023-12-26 15:38:57,678 DEBUG: Copying SCEVO_perth_metro.xml.log
+2023-12-26 15:38:57,679 DEBUG: Copying SCEVO_ARM_b.xml.log
+2023-12-26 15:38:57,679 DEBUG: Copying SCEVO_dbca_sccwq_all.xml.log
+2023-12-26 15:38:57,680 DEBUG: Copying SCEVO_BWMDBPI.xml.log
+2023-12-26 15:38:57,680 DEBUG: Copying SCEVO_CLAISB.xml.log
+2023-12-26 15:38:57,680 DEBUG: Copying SCEVO_ELLENB2.xml.log
+2023-12-26 15:38:57,680 DEBUG: Copying SCEVO_HR02.xml.log
+2023-12-26 15:38:57,680 DEBUG: Copying SCEVO_LACDD.xml.log
+2023-12-26 15:38:57,680 DEBUG: Copying SCEVO_LIMEC.xml.log
+2023-12-26 15:38:57,680 DEBUG: Copying SCEVO_MANMD1.xml.log
+2023-12-26 15:38:57,681 DEBUG: Copying SCEVO_MELDR-20.xml.log
+2023-12-26 15:38:57,681 DEBUG: Copying SCEVO_NEERB.xml.log
+2023-12-26 15:38:57,681 DEBUG: Copying SCEVO_SCCIS6.xml.log
+2023-12-26 15:38:57,681 DEBUG: Copying SCEVO_SHELLD2.xml.log
+2023-12-26 15:38:57,681 DEBUG: Copying SCEVO_SWN1.xml.log
+2023-12-26 15:38:57,681 DEBUG: Copying SCEVO_SWS8.xml.log
+2023-12-26 15:38:57,681 DEBUG: Copying SCEVO_bunbury.xml.log
+2023-12-26 15:38:57,681 DEBUG: Copying SCEVO_AIRMSD2.xml.log
+2023-12-26 15:38:57,681 DEBUG: Copying SCEVO_AIRMSD2.xml_1.log
+2023-12-26 15:38:57,681 DEBUG: Copying SCEVO_katanning_rs.xml.log
+2023-12-26 15:38:57,682 DEBUG: Copying SCEVO_MENDD.xml.log
+2023-12-26 15:38:57,682 DEBUG: Copying SCEVO_RRMDOUT.xml.log
+2023-12-26 15:38:57,682 DEBUG: Copying SCEVO_SCCIS10.xml.log
+2023-12-26 15:38:57,682 DEBUG: Copying SCEVO_STHNR.xml.log
+2023-12-26 15:38:57,682 DEBUG: Copying SCEVO_SWN2.xml.log
+2023-12-26 15:38:57,682 DEBUG: Copying SCEVO_SWS11.xml.log
+2023-12-26 15:38:57,682 DEBUG: Copying SCEVO_dbca_scewq_all.xml.log
+2023-12-26 15:38:57,683 DEBUG: Copying SCEVO_MLMDOUT.xml.log
+2023-12-26 15:38:57,683 DEBUG: Copying SCEVO_SCCIN4.xml.log
+2023-12-26 15:38:57,683 DEBUG: Copying SCEVO_SCCIS11.xml.log
+2023-12-26 15:38:57,683 DEBUG: Copying SCEVO_STLEOC.xml.log
+2023-12-26 15:38:57,683 DEBUG: Copying SCEVO_SWN4.xml.log
+2023-12-26 15:38:57,683 DEBUG: Copying SCEVO_TGDSDPOUT.xml.log
+2023-12-26 15:38:57,683 DEBUG: Copying SCEVO_cape_naturaliste.xml.log
+2023-12-26 15:38:57,683 DEBUG: Copying SCEVO_SWS9.xml.log
+2023-12-26 15:38:57,683 DEBUG: Copying SCEVO_BAC_b.xml.log
+2023-12-26 15:38:57,684 DEBUG: Copying SCEVO_lake_grace.xml.log
+2023-12-26 15:38:57,684 DEBUG: Copying SCEVO_dbca_sccwq_all.xml_1.log
+2023-12-26 15:38:57,684 DEBUG: Copying SCEVO_CBDMD.xml.log
+2023-12-26 15:38:57,684 DEBUG: Copying SCEVO_ELLENB1.xml.log
+2023-12-26 15:38:57,684 DEBUG: Copying SCEVO_HELENR.xml.log
+2023-12-26 15:38:57,684 DEBUG: Copying SCEVO_JANEB.xml.log
+2023-12-26 15:38:57,684 DEBUG: Copying SCEVO_LAMDO.xml.log
+2023-12-26 15:38:57,684 DEBUG: Copying SCEVO_MADDD.xml.log
+2023-12-26 15:38:57,684 DEBUG: Copying SCEVO_MAYMD.xml.log
+2023-12-26 15:38:57,684 DEBUG: Copying SCEVO_MILLMD.xml.log
+2023-12-26 15:38:57,684 DEBUG: Copying SCEVO_SBELMD.xml.log
+2023-12-26 15:38:57,684 DEBUG: Copying SCEVO_SCCIS8.xml.log
+2023-12-26 15:38:57,684 DEBUG: Copying SCEVO_SJMPLO.xml.log
+2023-12-26 15:38:57,685 DEBUG: Copying SCEVO_SWANR.xml.log
+2023-12-26 15:38:57,685 DEBUG: Copying SCEVO_SWS5.xml.log
+2023-12-26 15:38:57,685 DEBUG: Copying SCEVO_WILMD.xml.log
+2023-12-26 15:38:57,685 DEBUG: Copying SCEVO_BAYMD2.xml.log
+2023-12-26 15:38:57,685 DEBUG: Copying SCEVO_perth_airport.xml.log
+2023-12-26 15:38:57,686 DEBUG: Copying SCEVO_OXY_ALL.xml.log
+2023-12-26 15:38:57,686 DEBUG: Copying SCEVO_anacondadrive.xml.log
+2023-12-26 15:38:57,686 DEBUG: Copying SCEVO_BACD600_s.xml.log
+2023-12-26 15:38:57,686 DEBUG: Copying SCEVO_AIRMSD.xml.log
+2023-12-26 15:38:57,686 DEBUG: Copying SCEVO_BAC_s.xml.log
+2023-12-26 15:38:57,686 DEBUG: Copying SCEVO_BACD25_b.xml.log
+2023-12-26 15:38:57,686 DEBUG: Copying SCEVO_KS7_b.xml.log
+2023-12-26 15:38:57,686 DEBUG: Copying SCEVO_BACD25_s.xml.log
+2023-12-26 15:38:57,686 DEBUG: Copying SCEVO_MAS_b.xml.log
+2023-12-26 15:38:57,687 DEBUG: Copying SCEVO_MAY_b.xml.log
+2023-12-26 15:38:57,687 DEBUG: Copying SCEVO_MAY_s.xml.log
+2023-12-26 15:38:57,687 DEBUG: Copying SCEVO_FP1_s.xml.log
+2023-12-26 15:38:57,687 DEBUG: Copying SCEVO_BENNB.xml_1.log
+2023-12-26 15:38:57,687 DEBUG: Copying SCEVO_wiski_split_execute.xml.log
+2023-12-26 15:38:57,687 DEBUG: Copying SCEVO_sensorsummary.xml.log
+2023-12-26 15:38:57,687 DEBUG: Copying SCEVO_delete_ido_data.xml.log
+2023-12-26 15:38:57,687 DEBUG: Copying SCEVO_data_delete_dpird_met.xml.log
+2023-12-26 15:38:57,687 DEBUG: Copying SCEVO_ocean_reef.xml.log
+2023-12-26 15:38:57,688 DEBUG: Copying SCEVO_aed_ALL.xml.log
+2023-12-26 15:38:57,697 DEBUG: Copying SCEVO_HELENR2.xml.log
+2023-12-26 15:38:57,697 DEBUG: Copying SCEVO_FPMQ_ALL.xml.log
+2023-12-26 15:38:57,697 DEBUG: Copying SCEVO_dbca_scesb_all.xml.log
+2023-12-26 15:38:57,698  INFO: Transfered 155 files.
+2023-12-26 15:38:57,698  INFO:  -- END  -- Tue Dec 26 15:38:57 AWST 2023
+2023-12-26 15:54:15,106 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 15:54:15,161 ERROR: CAUGHT EXCEPTION: 
+XML Format Error in file: /ARMS/Workspaces/scevo/scevo//config/services/system_gitpush.xml
+Message: cvc-complex-type.2.4.d: Invalid content was found starting with element 'command'. No child element is expected at this point.
+Line:6
+Column:12
+Method: setTaskConfig
+
+cwr.arms.tasks.TaskException: 
+XML Format Error in file: /ARMS/Workspaces/scevo/scevo//config/services/system_gitpush.xml
+Message: cvc-complex-type.2.4.d: Invalid content was found starting with element 'command'. No child element is expected at this point.
+Line:6
+Column:12
+Method: setTaskConfig
+
+	at cwr.arms.tasks.TaskFactory.setTaskConfig(TaskFactory.java:43)
+	at cwr.arms.tasks.system.SystemExecuteTaskFactory.getInstance(SystemExecuteTaskFactory.java:39)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:278)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 15:58:17,088 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 15:58:17,096 DEBUG: Task list loaded.
+2023-12-26 15:58:17,096 DEBUG: Total number of tasks: 3
+2023-12-26 15:58:17,096  INFO:  -- START  -- sensorsummary.xml
+2023-12-26 15:58:17,124  INFO:  -- Tue Dec 26 15:58:17 AWST 2023
+2023-12-26 15:58:17,124  INFO:  -- TASK 1/3 -- /scevo/config/services/sensorsummary_log.xml 3:58:17 pm
+2023-12-26 15:58:17,931  INFO:  -- TASK 2/3 -- /scevo/config/services/copy_logs.xml 3:58:17 pm
+2023-12-26 15:58:17,931  INFO: Copying files
+2023-12-26 15:58:17,935 DEBUG: Copying SCEVO_AIRSMD.xml.log
+2023-12-26 15:58:17,936 DEBUG: Copying Port_Communications.log
+2023-12-26 15:58:17,936 DEBUG: Copying DBStatistics.log
+2023-12-26 15:58:17,936 DEBUG: Copying SCEVO_WRF_LOWERLAKES_RUN.xml.log
+2023-12-26 15:58:17,937 DEBUG: Copying SCEVO_BANNC.xml.log
+2023-12-26 15:58:17,937 DEBUG: Copying SCEVO_matilda_met.xml.log
+2023-12-26 15:58:17,937 DEBUG: Copying Main_ARMS_Log.log
+2023-12-26 15:58:17,937 DEBUG: Copying SCEVO_importDB.xml.log
+2023-12-26 15:58:17,938 DEBUG: Copying SCEVO_ASHD.xml.log
+2023-12-26 15:58:17,938 DEBUG: Copying SCEVO_IDW_ALL.xml.log
+2023-12-26 15:58:17,939 DEBUG: Copying SCEVO_ARM_s.xml.log
+2023-12-26 15:58:17,940 DEBUG: Copying SCEVO_all.xml.log
+2023-12-26 15:58:17,940 DEBUG: Copying SCEVO_fremantle_tide.xml.log
+2023-12-26 15:58:17,940 DEBUG: Copying SCEVO_BAYMD.xml.log
+2023-12-26 15:58:17,944 DEBUG: Copying SCEVO_Scheduler.log
+2023-12-26 15:58:17,944 DEBUG: Copying Movie.log
+2023-12-26 15:58:17,944 DEBUG: Copying SCEVO_IDW_ALL.xml_1.log
+2023-12-26 15:58:17,945 DEBUG: Copying SCEVO_barrack_tide.xml.log
+2023-12-26 15:58:17,945 DEBUG: Copying SCEVO_DBCA_ALL.xml.log
+2023-12-26 15:58:17,946 DEBUG: Copying SCEVO_ftp.xml_1.log
+2023-12-26 15:58:17,946 DEBUG: Copying SCEVO_HINDCAST_MONTHLY_RUN.xml.log
+2023-12-26 15:58:17,946 DEBUG: Copying SCEVO_matilda_wq.xml.log
+2023-12-26 15:58:17,946 DEBUG: Copying SCEVO_RT_TIDE_ALL.xml.log
+2023-12-26 15:58:17,947 DEBUG: Copying SCEVO_badgingarra.xml.log
+2023-12-26 15:58:17,948 DEBUG: Copying SCEVO_createDB.xml.log
+2023-12-26 15:58:17,948 DEBUG: Copying SCEVO_kwilena_wq.xml.log
+2023-12-26 15:58:17,965 DEBUG: Copying SCEVO_BENNB.xml.log
+2023-12-26 15:58:17,966 DEBUG: Copying SCEVO_busselton_airport.xml.log
+2023-12-26 15:58:17,966 DEBUG: Copying SCEVO_jandakot.xml.log
+2023-12-26 15:58:17,967 DEBUG: Copying SCEVO_WRF_HINDCAST_MONTHLY_RUN.xml.log
+2023-12-26 15:58:17,967 DEBUG: Copying SCEVO_BICKB.xml.log
+2023-12-26 15:58:17,967 DEBUG: Copying SCEVO_WRF_FORECAST_RUN.xml.log
+2023-12-26 15:58:17,968 DEBUG: Copying SCEVO_BLACKC.xml.log
+2023-12-26 15:58:17,968 DEBUG: Copying SCEVO_sp.xml.log
+2023-12-26 15:58:17,968 DEBUG: Copying SCEVO_yackaboon.xml.log
+2023-12-26 15:58:17,969 DEBUG: Copying SCEVO_BODD.xml.log
+2023-12-26 15:58:17,969 DEBUG: Copying SCEVO_TUFLOW_HINDCAST_MONTHLY_RUN.xml.log
+2023-12-26 15:58:17,969 DEBUG: Copying SCEVO_matilda_met.xml_1.log
+2023-12-26 15:58:17,970 DEBUG: Copying SCEVO_BRD01.xml.log
+2023-12-26 15:58:17,971 DEBUG: Copying SCEVO_champion_lakes.xml.log
+2023-12-26 15:58:17,971 DEBUG: Copying SCEVO_NIGHTLY_FORECAST_RUN.xml.log
+2023-12-26 15:58:17,972 DEBUG: Copying SCEVO_RT_MOZ_ALL.xml_1.log
+2023-12-26 15:58:17,972 DEBUG: Copying SCEVO_IDY_ALL.xml.log
+2023-12-26 15:58:17,973 DEBUG: Copying SCEVO_IDO_ALL.xml.log
+2023-12-26 15:58:17,973 DEBUG: Copying SCEVO_launch.xml.log
+2023-12-26 15:58:17,973 DEBUG: Copying SCEVO_BWAMDO.xml.log
+2023-12-26 15:58:17,976 DEBUG: Copying SCEVO_ftp.xml.log
+2023-12-26 15:58:17,976 DEBUG: Copying SCEVO_RT_MOZ_ALL.xml.log
+2023-12-26 15:58:17,977 DEBUG: Copying SCEVO_data_delete_kwilena.xml.log
+2023-12-26 15:58:17,977 DEBUG: Copying SCEVO_TUFLOW_FORECAST_RUN.xml.log
+2023-12-26 15:58:17,977 DEBUG: Copying SCEVO_DWER_ALL.xml.log
+2023-12-26 15:58:17,981 DEBUG: Copying SCEVO_melville_water.xml.log
+2023-12-26 15:58:17,982 DEBUG: Copying SCEVO_6163950.xml.log
+2023-12-26 15:58:17,982 DEBUG: Copying SCEVO_data_delete_matilda.xml.log
+2023-12-26 15:58:17,982 DEBUG: Copying SCEVO_CANND.xml.log
+2023-12-26 15:58:17,982 DEBUG: Copying SCEVO_kwilena_sys.xml.log
+2023-12-26 15:58:17,983 DEBUG: Copying SCEVO_hillarys.xml.log
+2023-12-26 15:58:17,984 DEBUG: Copying SCEVO_data_delete_dbca.xml.log
+2023-12-26 15:58:17,984 DEBUG: Copying SCEVO_data_delete_idw.xml.log
+2023-12-26 15:58:17,984 DEBUG: Copying SCEVO_data_delete_dot.xml.log
+2023-12-26 15:58:17,984 DEBUG: Copying SCEVO_kwilena_ben.xml.log
+2023-12-26 15:58:17,985 DEBUG: Copying SCEVO_BCMDBPI.xml.log
+2023-12-26 15:58:17,985 DEBUG: Copying SCEVO_CANNR.xml.log
+2023-12-26 15:58:17,985 DEBUG: Copying SCEVO_EBAC.xml.log
+2023-12-26 15:58:17,985 DEBUG: Copying SCEVO_ELLISB.xml.log
+2023-12-26 15:58:17,985 DEBUG: Copying SCEVO_HENLB.xml.log
+2023-12-26 15:58:17,986 DEBUG: Copying SCEVO_JHARDO.xml.log
+2023-12-26 15:58:17,986 DEBUG: Copying SCEVO_LCBRDO.xml.log
+2023-12-26 15:58:17,986 DEBUG: Copying SCEVO_MAMDO.xml.log
+2023-12-26 15:58:17,986 DEBUG: Copying SCEVO_MCDSWSRD.xml.log
+2023-12-26 15:58:17,987 DEBUG: Copying SCEVO_MWRDO.xml.log
+2023-12-26 15:58:17,987 DEBUG: Copying SCEVO_SCCIN5.xml.log
+2023-12-26 15:58:17,987 DEBUG: Copying SCEVO_SHELLD1.xml.log
+2023-12-26 15:58:17,987 DEBUG: Copying SCEVO_SWD1.xml.log
+2023-12-26 15:58:17,987 DEBUG: Copying SCEVO_SWS6.xml.log
+2023-12-26 15:58:17,988 DEBUG: Copying SCEVO_YULEB.xml.log
+2023-12-26 15:58:17,988 DEBUG: Copying SCEVO_SUSANB.xml.log
+2023-12-26 15:58:17,988 DEBUG: Copying SCEVO_SWN6.xml.log
+2023-12-26 15:58:17,988 DEBUG: Copying SCEVO_WANDC.xml.log
+2023-12-26 15:58:17,988 DEBUG: Copying SCEVO_perth_metro.xml.log
+2023-12-26 15:58:17,989 DEBUG: Copying SCEVO_ARM_b.xml.log
+2023-12-26 15:58:17,990 DEBUG: Copying SCEVO_dbca_sccwq_all.xml.log
+2023-12-26 15:58:17,993 DEBUG: Copying SCEVO_BWMDBPI.xml.log
+2023-12-26 15:58:17,993 DEBUG: Copying SCEVO_CLAISB.xml.log
+2023-12-26 15:58:17,994 DEBUG: Copying SCEVO_ELLENB2.xml.log
+2023-12-26 15:58:17,995 DEBUG: Copying SCEVO_HR02.xml.log
+2023-12-26 15:58:17,996 DEBUG: Copying SCEVO_LACDD.xml.log
+2023-12-26 15:58:17,996 DEBUG: Copying SCEVO_LIMEC.xml.log
+2023-12-26 15:58:17,996 DEBUG: Copying SCEVO_MANMD1.xml.log
+2023-12-26 15:58:17,996 DEBUG: Copying SCEVO_MELDR-20.xml.log
+2023-12-26 15:58:17,997 DEBUG: Copying SCEVO_NEERB.xml.log
+2023-12-26 15:58:17,997 DEBUG: Copying SCEVO_SCCIS6.xml.log
+2023-12-26 15:58:17,997 DEBUG: Copying SCEVO_SHELLD2.xml.log
+2023-12-26 15:58:17,997 DEBUG: Copying SCEVO_SWN1.xml.log
+2023-12-26 15:58:17,997 DEBUG: Copying SCEVO_SWS8.xml.log
+2023-12-26 15:58:17,998 DEBUG: Copying SCEVO_bunbury.xml.log
+2023-12-26 15:58:17,998 DEBUG: Copying SCEVO_AIRMSD2.xml.log
+2023-12-26 15:58:17,998 DEBUG: Copying SCEVO_AIRMSD2.xml_1.log
+2023-12-26 15:58:17,998 DEBUG: Copying SCEVO_katanning_rs.xml.log
+2023-12-26 15:58:17,999 DEBUG: Copying SCEVO_MENDD.xml.log
+2023-12-26 15:58:17,999 DEBUG: Copying SCEVO_RRMDOUT.xml.log
+2023-12-26 15:58:17,999 DEBUG: Copying SCEVO_SCCIS10.xml.log
+2023-12-26 15:58:17,999 DEBUG: Copying SCEVO_STHNR.xml.log
+2023-12-26 15:58:18,000 DEBUG: Copying SCEVO_SWN2.xml.log
+2023-12-26 15:58:18,000 DEBUG: Copying SCEVO_SWS11.xml.log
+2023-12-26 15:58:18,000 DEBUG: Copying SCEVO_dbca_scewq_all.xml.log
+2023-12-26 15:58:18,001 DEBUG: Copying SCEVO_MLMDOUT.xml.log
+2023-12-26 15:58:18,001 DEBUG: Copying SCEVO_SCCIN4.xml.log
+2023-12-26 15:58:18,001 DEBUG: Copying SCEVO_SCCIS11.xml.log
+2023-12-26 15:58:18,001 DEBUG: Copying SCEVO_STLEOC.xml.log
+2023-12-26 15:58:18,003 DEBUG: Copying SCEVO_SWN4.xml.log
+2023-12-26 15:58:18,003 DEBUG: Copying SCEVO_TGDSDPOUT.xml.log
+2023-12-26 15:58:18,003 DEBUG: Copying SCEVO_cape_naturaliste.xml.log
+2023-12-26 15:58:18,003 DEBUG: Copying SCEVO_SWS9.xml.log
+2023-12-26 15:58:18,004 DEBUG: Copying SCEVO_BAC_b.xml.log
+2023-12-26 15:58:18,004 DEBUG: Copying SCEVO_lake_grace.xml.log
+2023-12-26 15:58:18,004 DEBUG: Copying SCEVO_dbca_sccwq_all.xml_1.log
+2023-12-26 15:58:18,004 DEBUG: Copying SCEVO_CBDMD.xml.log
+2023-12-26 15:58:18,005 DEBUG: Copying SCEVO_ELLENB1.xml.log
+2023-12-26 15:58:18,005 DEBUG: Copying SCEVO_HELENR.xml.log
+2023-12-26 15:58:18,005 DEBUG: Copying SCEVO_JANEB.xml.log
+2023-12-26 15:58:18,006 DEBUG: Copying SCEVO_LAMDO.xml.log
+2023-12-26 15:58:18,006 DEBUG: Copying SCEVO_MADDD.xml.log
+2023-12-26 15:58:18,006 DEBUG: Copying SCEVO_MAYMD.xml.log
+2023-12-26 15:58:18,006 DEBUG: Copying SCEVO_MILLMD.xml.log
+2023-12-26 15:58:18,006 DEBUG: Copying SCEVO_SBELMD.xml.log
+2023-12-26 15:58:18,007 DEBUG: Copying SCEVO_SCCIS8.xml.log
+2023-12-26 15:58:18,007 DEBUG: Copying SCEVO_SJMPLO.xml.log
+2023-12-26 15:58:18,007 DEBUG: Copying SCEVO_SWANR.xml.log
+2023-12-26 15:58:18,008 DEBUG: Copying SCEVO_SWS5.xml.log
+2023-12-26 15:58:18,008 DEBUG: Copying SCEVO_WILMD.xml.log
+2023-12-26 15:58:18,008 DEBUG: Copying SCEVO_BAYMD2.xml.log
+2023-12-26 15:58:18,009 DEBUG: Copying SCEVO_perth_airport.xml.log
+2023-12-26 15:58:18,009 DEBUG: Copying SCEVO_OXY_ALL.xml.log
+2023-12-26 15:58:18,010 DEBUG: Copying SCEVO_anacondadrive.xml.log
+2023-12-26 15:58:18,012 DEBUG: Copying SCEVO_BACD600_s.xml.log
+2023-12-26 15:58:18,012 DEBUG: Copying SCEVO_AIRMSD.xml.log
+2023-12-26 15:58:18,012 DEBUG: Copying SCEVO_BAC_s.xml.log
+2023-12-26 15:58:18,012 DEBUG: Copying SCEVO_BACD25_b.xml.log
+2023-12-26 15:58:18,013 DEBUG: Copying SCEVO_KS7_b.xml.log
+2023-12-26 15:58:18,013 DEBUG: Copying SCEVO_BACD25_s.xml.log
+2023-12-26 15:58:18,013 DEBUG: Copying SCEVO_MAS_b.xml.log
+2023-12-26 15:58:18,014 DEBUG: Copying SCEVO_MAY_b.xml.log
+2023-12-26 15:58:18,014 DEBUG: Copying SCEVO_MAY_s.xml.log
+2023-12-26 15:58:18,014 DEBUG: Copying SCEVO_FP1_s.xml.log
+2023-12-26 15:58:18,014 DEBUG: Copying SCEVO_BENNB.xml_1.log
+2023-12-26 15:58:18,015 DEBUG: Copying SCEVO_wiski_split_execute.xml.log
+2023-12-26 15:58:18,015 DEBUG: Copying SCEVO_sensorsummary.xml.log
+2023-12-26 15:58:18,015 DEBUG: Copying SCEVO_delete_ido_data.xml.log
+2023-12-26 15:58:18,017 DEBUG: Copying SCEVO_data_delete_dpird_met.xml.log
+2023-12-26 15:58:18,017 DEBUG: Copying SCEVO_ocean_reef.xml.log
+2023-12-26 15:58:18,017 DEBUG: Copying SCEVO_aed_ALL.xml.log
+2023-12-26 15:58:18,018 DEBUG: Copying SCEVO_HELENR2.xml.log
+2023-12-26 15:58:18,018 DEBUG: Copying SCEVO_FPMQ_ALL.xml.log
+2023-12-26 15:58:18,018 DEBUG: Copying SCEVO_dbca_scesb_all.xml.log
+2023-12-26 15:58:18,019  INFO: Transfered 155 files.
+2023-12-26 15:58:18,019  INFO:  -- TASK 3/3 -- /scevo/config/services/system_gitpush.xml 3:58:18 pm
+2023-12-26 15:58:18,019 ERROR: Directory /../scevo-arms missing
+cwr.arms.tasks.TaskException: Directory /../scevo-arms missing
+	at cwr.arms.tasks.system.SystemExecuteTask.executeTask(SystemExecuteTask.java:55)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 15:58:18,019 ERROR: CAUGHT EXCEPTION: 
+Directory /../scevo-arms missing
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/services/system_gitpush.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Directory /../scevo-arms missing
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/services/system_gitpush.xml
+Method: executeTask
+
+	at cwr.arms.tasks.system.SystemExecuteTask.executeTask(SystemExecuteTask.java:81)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 15:58:18,020  INFO:  -- END  -- Tue Dec 26 15:58:18 AWST 2023
+2023-12-26 15:58:18,020  INFO: Number of errors: 1
+2023-12-26 15:58:53,055 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 15:58:53,060 DEBUG: Task list loaded.
+2023-12-26 15:58:53,060 DEBUG: Total number of tasks: 3
+2023-12-26 15:58:53,060  INFO:  -- START  -- sensorsummary.xml
+2023-12-26 15:58:53,060  INFO:  -- Tue Dec 26 15:58:53 AWST 2023
+2023-12-26 15:58:53,060  INFO:  -- TASK 1/3 -- /scevo/config/services/sensorsummary_log.xml 3:58:53 pm
+2023-12-26 15:58:53,816  INFO:  -- TASK 2/3 -- /scevo/config/services/copy_logs.xml 3:58:53 pm
+2023-12-26 15:58:53,816  INFO: Copying files
+2023-12-26 15:58:53,818 DEBUG: Copying SCEVO_AIRSMD.xml.log
+2023-12-26 15:58:53,819 DEBUG: Copying Port_Communications.log
+2023-12-26 15:58:53,819 DEBUG: Copying DBStatistics.log
+2023-12-26 15:58:53,819 DEBUG: Copying SCEVO_WRF_LOWERLAKES_RUN.xml.log
+2023-12-26 15:58:53,819 DEBUG: Copying SCEVO_BANNC.xml.log
+2023-12-26 15:58:53,820 DEBUG: Copying SCEVO_matilda_met.xml.log
+2023-12-26 15:58:53,820 DEBUG: Copying Main_ARMS_Log.log
+2023-12-26 15:58:53,820 DEBUG: Copying SCEVO_importDB.xml.log
+2023-12-26 15:58:53,821 DEBUG: Copying SCEVO_ASHD.xml.log
+2023-12-26 15:58:53,821 DEBUG: Copying SCEVO_IDW_ALL.xml.log
+2023-12-26 15:58:53,822 DEBUG: Copying SCEVO_ARM_s.xml.log
+2023-12-26 15:58:53,822 DEBUG: Copying SCEVO_all.xml.log
+2023-12-26 15:58:53,823 DEBUG: Copying SCEVO_fremantle_tide.xml.log
+2023-12-26 15:58:53,823 DEBUG: Copying SCEVO_BAYMD.xml.log
+2023-12-26 15:58:53,823 DEBUG: Copying SCEVO_Scheduler.log
+2023-12-26 15:58:53,823 DEBUG: Copying Movie.log
+2023-12-26 15:58:53,823 DEBUG: Copying SCEVO_IDW_ALL.xml_1.log
+2023-12-26 15:58:53,827 DEBUG: Copying SCEVO_barrack_tide.xml.log
+2023-12-26 15:58:53,827 DEBUG: Copying SCEVO_DBCA_ALL.xml.log
+2023-12-26 15:58:53,828 DEBUG: Copying SCEVO_ftp.xml_1.log
+2023-12-26 15:58:53,828 DEBUG: Copying SCEVO_HINDCAST_MONTHLY_RUN.xml.log
+2023-12-26 15:58:53,828 DEBUG: Copying SCEVO_matilda_wq.xml.log
+2023-12-26 15:58:53,828 DEBUG: Copying SCEVO_RT_TIDE_ALL.xml.log
+2023-12-26 15:58:53,829 DEBUG: Copying SCEVO_badgingarra.xml.log
+2023-12-26 15:58:53,830 DEBUG: Copying SCEVO_createDB.xml.log
+2023-12-26 15:58:53,830 DEBUG: Copying SCEVO_kwilena_wq.xml.log
+2023-12-26 15:58:53,830 DEBUG: Copying SCEVO_BENNB.xml.log
+2023-12-26 15:58:53,830 DEBUG: Copying SCEVO_busselton_airport.xml.log
+2023-12-26 15:58:53,831 DEBUG: Copying SCEVO_jandakot.xml.log
+2023-12-26 15:58:53,831 DEBUG: Copying SCEVO_WRF_HINDCAST_MONTHLY_RUN.xml.log
+2023-12-26 15:58:53,835 DEBUG: Copying SCEVO_BICKB.xml.log
+2023-12-26 15:58:53,835 DEBUG: Copying SCEVO_WRF_FORECAST_RUN.xml.log
+2023-12-26 15:58:53,835 DEBUG: Copying SCEVO_BLACKC.xml.log
+2023-12-26 15:58:53,836 DEBUG: Copying SCEVO_sp.xml.log
+2023-12-26 15:58:53,836 DEBUG: Copying SCEVO_yackaboon.xml.log
+2023-12-26 15:58:53,836 DEBUG: Copying SCEVO_BODD.xml.log
+2023-12-26 15:58:53,837 DEBUG: Copying SCEVO_TUFLOW_HINDCAST_MONTHLY_RUN.xml.log
+2023-12-26 15:58:53,837 DEBUG: Copying SCEVO_matilda_met.xml_1.log
+2023-12-26 15:58:53,837 DEBUG: Copying SCEVO_BRD01.xml.log
+2023-12-26 15:58:53,837 DEBUG: Copying SCEVO_champion_lakes.xml.log
+2023-12-26 15:58:53,838 DEBUG: Copying SCEVO_NIGHTLY_FORECAST_RUN.xml.log
+2023-12-26 15:58:53,839 DEBUG: Copying SCEVO_RT_MOZ_ALL.xml_1.log
+2023-12-26 15:58:53,839 DEBUG: Copying SCEVO_IDY_ALL.xml.log
+2023-12-26 15:58:53,840 DEBUG: Copying SCEVO_IDO_ALL.xml.log
+2023-12-26 15:58:53,840 DEBUG: Copying SCEVO_launch.xml.log
+2023-12-26 15:58:53,840 DEBUG: Copying SCEVO_BWAMDO.xml.log
+2023-12-26 15:58:53,840 DEBUG: Copying SCEVO_ftp.xml.log
+2023-12-26 15:58:53,841 DEBUG: Copying SCEVO_RT_MOZ_ALL.xml.log
+2023-12-26 15:58:53,842 DEBUG: Copying SCEVO_data_delete_kwilena.xml.log
+2023-12-26 15:58:53,842 DEBUG: Copying SCEVO_TUFLOW_FORECAST_RUN.xml.log
+2023-12-26 15:58:53,842 DEBUG: Copying SCEVO_DWER_ALL.xml.log
+2023-12-26 15:58:53,843 DEBUG: Copying SCEVO_melville_water.xml.log
+2023-12-26 15:58:53,844 DEBUG: Copying SCEVO_6163950.xml.log
+2023-12-26 15:58:53,844 DEBUG: Copying SCEVO_data_delete_matilda.xml.log
+2023-12-26 15:58:53,850 DEBUG: Copying SCEVO_CANND.xml.log
+2023-12-26 15:58:53,850 DEBUG: Copying SCEVO_kwilena_sys.xml.log
+2023-12-26 15:58:53,850 DEBUG: Copying SCEVO_hillarys.xml.log
+2023-12-26 15:58:53,850 DEBUG: Copying SCEVO_data_delete_dbca.xml.log
+2023-12-26 15:58:53,850 DEBUG: Copying SCEVO_data_delete_idw.xml.log
+2023-12-26 15:58:53,851 DEBUG: Copying SCEVO_data_delete_dot.xml.log
+2023-12-26 15:58:53,851 DEBUG: Copying SCEVO_kwilena_ben.xml.log
+2023-12-26 15:58:53,851 DEBUG: Copying SCEVO_BCMDBPI.xml.log
+2023-12-26 15:58:53,851 DEBUG: Copying SCEVO_CANNR.xml.log
+2023-12-26 15:58:53,851 DEBUG: Copying SCEVO_EBAC.xml.log
+2023-12-26 15:58:53,852 DEBUG: Copying SCEVO_ELLISB.xml.log
+2023-12-26 15:58:53,852 DEBUG: Copying SCEVO_HENLB.xml.log
+2023-12-26 15:58:53,852 DEBUG: Copying SCEVO_JHARDO.xml.log
+2023-12-26 15:58:53,852 DEBUG: Copying SCEVO_LCBRDO.xml.log
+2023-12-26 15:58:53,852 DEBUG: Copying SCEVO_MAMDO.xml.log
+2023-12-26 15:58:53,853 DEBUG: Copying SCEVO_MCDSWSRD.xml.log
+2023-12-26 15:58:53,853 DEBUG: Copying SCEVO_MWRDO.xml.log
+2023-12-26 15:58:53,853 DEBUG: Copying SCEVO_SCCIN5.xml.log
+2023-12-26 15:58:53,853 DEBUG: Copying SCEVO_SHELLD1.xml.log
+2023-12-26 15:58:53,853 DEBUG: Copying SCEVO_SWD1.xml.log
+2023-12-26 15:58:53,853 DEBUG: Copying SCEVO_SWS6.xml.log
+2023-12-26 15:58:53,854 DEBUG: Copying SCEVO_YULEB.xml.log
+2023-12-26 15:58:53,854 DEBUG: Copying SCEVO_SUSANB.xml.log
+2023-12-26 15:58:53,854 DEBUG: Copying SCEVO_SWN6.xml.log
+2023-12-26 15:58:53,855 DEBUG: Copying SCEVO_WANDC.xml.log
+2023-12-26 15:58:53,855 DEBUG: Copying SCEVO_perth_metro.xml.log
+2023-12-26 15:58:53,856 DEBUG: Copying SCEVO_ARM_b.xml.log
+2023-12-26 15:58:53,856 DEBUG: Copying SCEVO_dbca_sccwq_all.xml.log
+2023-12-26 15:58:53,857 DEBUG: Copying SCEVO_BWMDBPI.xml.log
+2023-12-26 15:58:53,857 DEBUG: Copying SCEVO_CLAISB.xml.log
+2023-12-26 15:58:53,858 DEBUG: Copying SCEVO_ELLENB2.xml.log
+2023-12-26 15:58:53,858 DEBUG: Copying SCEVO_HR02.xml.log
+2023-12-26 15:58:53,862 DEBUG: Copying SCEVO_LACDD.xml.log
+2023-12-26 15:58:53,862 DEBUG: Copying SCEVO_LIMEC.xml.log
+2023-12-26 15:58:53,862 DEBUG: Copying SCEVO_MANMD1.xml.log
+2023-12-26 15:58:53,863 DEBUG: Copying SCEVO_MELDR-20.xml.log
+2023-12-26 15:58:53,863 DEBUG: Copying SCEVO_NEERB.xml.log
+2023-12-26 15:58:53,863 DEBUG: Copying SCEVO_SCCIS6.xml.log
+2023-12-26 15:58:53,863 DEBUG: Copying SCEVO_SHELLD2.xml.log
+2023-12-26 15:58:53,863 DEBUG: Copying SCEVO_SWN1.xml.log
+2023-12-26 15:58:53,863 DEBUG: Copying SCEVO_SWS8.xml.log
+2023-12-26 15:58:53,864 DEBUG: Copying SCEVO_bunbury.xml.log
+2023-12-26 15:58:53,864 DEBUG: Copying SCEVO_AIRMSD2.xml.log
+2023-12-26 15:58:53,864 DEBUG: Copying SCEVO_AIRMSD2.xml_1.log
+2023-12-26 15:58:53,864 DEBUG: Copying SCEVO_katanning_rs.xml.log
+2023-12-26 15:58:53,864 DEBUG: Copying SCEVO_MENDD.xml.log
+2023-12-26 15:58:53,865 DEBUG: Copying SCEVO_RRMDOUT.xml.log
+2023-12-26 15:58:53,865 DEBUG: Copying SCEVO_SCCIS10.xml.log
+2023-12-26 15:58:53,865 DEBUG: Copying SCEVO_STHNR.xml.log
+2023-12-26 15:58:53,865 DEBUG: Copying SCEVO_SWN2.xml.log
+2023-12-26 15:58:53,865 DEBUG: Copying SCEVO_SWS11.xml.log
+2023-12-26 15:58:53,866 DEBUG: Copying SCEVO_dbca_scewq_all.xml.log
+2023-12-26 15:58:53,866 DEBUG: Copying SCEVO_MLMDOUT.xml.log
+2023-12-26 15:58:53,866 DEBUG: Copying SCEVO_SCCIN4.xml.log
+2023-12-26 15:58:53,867 DEBUG: Copying SCEVO_SCCIS11.xml.log
+2023-12-26 15:58:53,867 DEBUG: Copying SCEVO_STLEOC.xml.log
+2023-12-26 15:58:53,867 DEBUG: Copying SCEVO_SWN4.xml.log
+2023-12-26 15:58:53,867 DEBUG: Copying SCEVO_TGDSDPOUT.xml.log
+2023-12-26 15:58:53,867 DEBUG: Copying SCEVO_cape_naturaliste.xml.log
+2023-12-26 15:58:53,868 DEBUG: Copying SCEVO_SWS9.xml.log
+2023-12-26 15:58:53,868 DEBUG: Copying SCEVO_BAC_b.xml.log
+2023-12-26 15:58:53,869 DEBUG: Copying SCEVO_lake_grace.xml.log
+2023-12-26 15:58:53,869 DEBUG: Copying SCEVO_dbca_sccwq_all.xml_1.log
+2023-12-26 15:58:53,869 DEBUG: Copying SCEVO_CBDMD.xml.log
+2023-12-26 15:58:53,870 DEBUG: Copying SCEVO_ELLENB1.xml.log
+2023-12-26 15:58:53,870 DEBUG: Copying SCEVO_HELENR.xml.log
+2023-12-26 15:58:53,870 DEBUG: Copying SCEVO_JANEB.xml.log
+2023-12-26 15:58:53,870 DEBUG: Copying SCEVO_LAMDO.xml.log
+2023-12-26 15:58:53,870 DEBUG: Copying SCEVO_MADDD.xml.log
+2023-12-26 15:58:53,870 DEBUG: Copying SCEVO_MAYMD.xml.log
+2023-12-26 15:58:53,871 DEBUG: Copying SCEVO_MILLMD.xml.log
+2023-12-26 15:58:53,871 DEBUG: Copying SCEVO_SBELMD.xml.log
+2023-12-26 15:58:53,871 DEBUG: Copying SCEVO_SCCIS8.xml.log
+2023-12-26 15:58:53,871 DEBUG: Copying SCEVO_SJMPLO.xml.log
+2023-12-26 15:58:53,871 DEBUG: Copying SCEVO_SWANR.xml.log
+2023-12-26 15:58:53,871 DEBUG: Copying SCEVO_SWS5.xml.log
+2023-12-26 15:58:53,872 DEBUG: Copying SCEVO_WILMD.xml.log
+2023-12-26 15:58:53,872 DEBUG: Copying SCEVO_BAYMD2.xml.log
+2023-12-26 15:58:53,872 DEBUG: Copying SCEVO_perth_airport.xml.log
+2023-12-26 15:58:53,873 DEBUG: Copying SCEVO_OXY_ALL.xml.log
+2023-12-26 15:58:53,873 DEBUG: Copying SCEVO_anacondadrive.xml.log
+2023-12-26 15:58:53,873 DEBUG: Copying SCEVO_BACD600_s.xml.log
+2023-12-26 15:58:53,873 DEBUG: Copying SCEVO_AIRMSD.xml.log
+2023-12-26 15:58:53,874 DEBUG: Copying SCEVO_BAC_s.xml.log
+2023-12-26 15:58:53,874 DEBUG: Copying SCEVO_BACD25_b.xml.log
+2023-12-26 15:58:53,877 DEBUG: Copying SCEVO_KS7_b.xml.log
+2023-12-26 15:58:53,877 DEBUG: Copying SCEVO_BACD25_s.xml.log
+2023-12-26 15:58:53,877 DEBUG: Copying SCEVO_MAS_b.xml.log
+2023-12-26 15:58:53,877 DEBUG: Copying SCEVO_MAY_b.xml.log
+2023-12-26 15:58:53,878 DEBUG: Copying SCEVO_MAY_s.xml.log
+2023-12-26 15:58:53,878 DEBUG: Copying SCEVO_FP1_s.xml.log
+2023-12-26 15:58:53,878 DEBUG: Copying SCEVO_BENNB.xml_1.log
+2023-12-26 15:58:53,878 DEBUG: Copying SCEVO_wiski_split_execute.xml.log
+2023-12-26 15:58:53,878 DEBUG: Copying SCEVO_sensorsummary.xml.log
+2023-12-26 15:58:53,879 DEBUG: Copying SCEVO_delete_ido_data.xml.log
+2023-12-26 15:58:53,879 DEBUG: Copying SCEVO_data_delete_dpird_met.xml.log
+2023-12-26 15:58:53,879 DEBUG: Copying SCEVO_ocean_reef.xml.log
+2023-12-26 15:58:53,879 DEBUG: Copying SCEVO_aed_ALL.xml.log
+2023-12-26 15:58:53,880 DEBUG: Copying SCEVO_HELENR2.xml.log
+2023-12-26 15:58:53,880 DEBUG: Copying SCEVO_FPMQ_ALL.xml.log
+2023-12-26 15:58:53,880 DEBUG: Copying SCEVO_dbca_scesb_all.xml.log
+2023-12-26 15:58:53,881  INFO: Transfered 155 files.
+2023-12-26 15:58:53,881  INFO:  -- TASK 3/3 -- /scevo/config/services/system_gitpush.xml 3:58:53 pm
+2023-12-26 15:58:53,881  INFO: Executing: ls
+2023-12-26 15:58:53,919  INFO: README.md
+2023-12-26 15:58:53,919  INFO: logs
+2023-12-26 15:58:53,919  INFO: summary
+2023-12-26 15:58:54,918  INFO:  -- END  -- Tue Dec 26 15:58:54 AWST 2023
+2023-12-26 15:59:52,536 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 15:59:52,546 ERROR: CAUGHT EXCEPTION: 
+XML Format Error in file: /ARMS/Workspaces/scevo/scevo//config/services/system_gitpush.xml
+Message: cvc-complex-type.2.4.d: Invalid content was found starting with element 'command'. No child element is expected at this point.
+Line:6
+Column:11
+Method: setTaskConfig
+
+cwr.arms.tasks.TaskException: 
+XML Format Error in file: /ARMS/Workspaces/scevo/scevo//config/services/system_gitpush.xml
+Message: cvc-complex-type.2.4.d: Invalid content was found starting with element 'command'. No child element is expected at this point.
+Line:6
+Column:11
+Method: setTaskConfig
+
+	at cwr.arms.tasks.TaskFactory.setTaskConfig(TaskFactory.java:43)
+	at cwr.arms.tasks.system.SystemExecuteTaskFactory.getInstance(SystemExecuteTaskFactory.java:39)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:278)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 16:00:10,856 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 16:00:10,861 DEBUG: Task list loaded.
+2023-12-26 16:00:10,861 DEBUG: Total number of tasks: 3
+2023-12-26 16:00:10,861  INFO:  -- START  -- sensorsummary.xml
+2023-12-26 16:00:10,862  INFO:  -- Tue Dec 26 16:00:10 AWST 2023
+2023-12-26 16:00:10,862  INFO:  -- TASK 1/3 -- /scevo/config/services/sensorsummary_log.xml 4:00:10 pm
+2023-12-26 16:00:11,597  INFO:  -- TASK 2/3 -- /scevo/config/services/copy_logs.xml 4:00:11 pm
+2023-12-26 16:00:11,597  INFO: Copying files
+2023-12-26 16:00:11,599 DEBUG: Copying SCEVO_AIRSMD.xml.log
+2023-12-26 16:00:11,600 DEBUG: Copying Port_Communications.log
+2023-12-26 16:00:11,600 DEBUG: Copying DBStatistics.log
+2023-12-26 16:00:11,600 DEBUG: Copying SCEVO_WRF_LOWERLAKES_RUN.xml.log
+2023-12-26 16:00:11,601 DEBUG: Copying SCEVO_BANNC.xml.log
+2023-12-26 16:00:11,601 DEBUG: Copying SCEVO_matilda_met.xml.log
+2023-12-26 16:00:11,601 DEBUG: Copying Main_ARMS_Log.log
+2023-12-26 16:00:11,602 DEBUG: Copying SCEVO_importDB.xml.log
+2023-12-26 16:00:11,603 DEBUG: Copying SCEVO_ASHD.xml.log
+2023-12-26 16:00:11,603 DEBUG: Copying SCEVO_IDW_ALL.xml.log
+2023-12-26 16:00:11,604 DEBUG: Copying SCEVO_ARM_s.xml.log
+2023-12-26 16:00:11,604 DEBUG: Copying SCEVO_all.xml.log
+2023-12-26 16:00:11,604 DEBUG: Copying SCEVO_fremantle_tide.xml.log
+2023-12-26 16:00:11,605 DEBUG: Copying SCEVO_BAYMD.xml.log
+2023-12-26 16:00:11,605 DEBUG: Copying SCEVO_Scheduler.log
+2023-12-26 16:00:11,605 DEBUG: Copying Movie.log
+2023-12-26 16:00:11,605 DEBUG: Copying SCEVO_IDW_ALL.xml_1.log
+2023-12-26 16:00:11,605 DEBUG: Copying SCEVO_barrack_tide.xml.log
+2023-12-26 16:00:11,605 DEBUG: Copying SCEVO_DBCA_ALL.xml.log
+2023-12-26 16:00:11,608 DEBUG: Copying SCEVO_ftp.xml_1.log
+2023-12-26 16:00:11,609 DEBUG: Copying SCEVO_HINDCAST_MONTHLY_RUN.xml.log
+2023-12-26 16:00:11,609 DEBUG: Copying SCEVO_matilda_wq.xml.log
+2023-12-26 16:00:11,609 DEBUG: Copying SCEVO_RT_TIDE_ALL.xml.log
+2023-12-26 16:00:11,610 DEBUG: Copying SCEVO_badgingarra.xml.log
+2023-12-26 16:00:11,611 DEBUG: Copying SCEVO_createDB.xml.log
+2023-12-26 16:00:11,611 DEBUG: Copying SCEVO_kwilena_wq.xml.log
+2023-12-26 16:00:11,611 DEBUG: Copying SCEVO_BENNB.xml.log
+2023-12-26 16:00:11,611 DEBUG: Copying SCEVO_busselton_airport.xml.log
+2023-12-26 16:00:11,612 DEBUG: Copying SCEVO_jandakot.xml.log
+2023-12-26 16:00:11,612 DEBUG: Copying SCEVO_WRF_HINDCAST_MONTHLY_RUN.xml.log
+2023-12-26 16:00:11,618 DEBUG: Copying SCEVO_BICKB.xml.log
+2023-12-26 16:00:11,618 DEBUG: Copying SCEVO_WRF_FORECAST_RUN.xml.log
+2023-12-26 16:00:11,619 DEBUG: Copying SCEVO_BLACKC.xml.log
+2023-12-26 16:00:11,619 DEBUG: Copying SCEVO_sp.xml.log
+2023-12-26 16:00:11,619 DEBUG: Copying SCEVO_yackaboon.xml.log
+2023-12-26 16:00:11,620 DEBUG: Copying SCEVO_BODD.xml.log
+2023-12-26 16:00:11,620 DEBUG: Copying SCEVO_TUFLOW_HINDCAST_MONTHLY_RUN.xml.log
+2023-12-26 16:00:11,620 DEBUG: Copying SCEVO_matilda_met.xml_1.log
+2023-12-26 16:00:11,620 DEBUG: Copying SCEVO_BRD01.xml.log
+2023-12-26 16:00:11,620 DEBUG: Copying SCEVO_champion_lakes.xml.log
+2023-12-26 16:00:11,621 DEBUG: Copying SCEVO_NIGHTLY_FORECAST_RUN.xml.log
+2023-12-26 16:00:11,622 DEBUG: Copying SCEVO_RT_MOZ_ALL.xml_1.log
+2023-12-26 16:00:11,622 DEBUG: Copying SCEVO_IDY_ALL.xml.log
+2023-12-26 16:00:11,622 DEBUG: Copying SCEVO_IDO_ALL.xml.log
+2023-12-26 16:00:11,623 DEBUG: Copying SCEVO_launch.xml.log
+2023-12-26 16:00:11,623 DEBUG: Copying SCEVO_BWAMDO.xml.log
+2023-12-26 16:00:11,623 DEBUG: Copying SCEVO_ftp.xml.log
+2023-12-26 16:00:11,624 DEBUG: Copying SCEVO_RT_MOZ_ALL.xml.log
+2023-12-26 16:00:11,625 DEBUG: Copying SCEVO_data_delete_kwilena.xml.log
+2023-12-26 16:00:11,625 DEBUG: Copying SCEVO_TUFLOW_FORECAST_RUN.xml.log
+2023-12-26 16:00:11,625 DEBUG: Copying SCEVO_DWER_ALL.xml.log
+2023-12-26 16:00:11,626 DEBUG: Copying SCEVO_melville_water.xml.log
+2023-12-26 16:00:11,626 DEBUG: Copying SCEVO_6163950.xml.log
+2023-12-26 16:00:11,627 DEBUG: Copying SCEVO_data_delete_matilda.xml.log
+2023-12-26 16:00:11,632 DEBUG: Copying SCEVO_CANND.xml.log
+2023-12-26 16:00:11,633 DEBUG: Copying SCEVO_kwilena_sys.xml.log
+2023-12-26 16:00:11,633 DEBUG: Copying SCEVO_hillarys.xml.log
+2023-12-26 16:00:11,633 DEBUG: Copying SCEVO_data_delete_dbca.xml.log
+2023-12-26 16:00:11,633 DEBUG: Copying SCEVO_data_delete_idw.xml.log
+2023-12-26 16:00:11,633 DEBUG: Copying SCEVO_data_delete_dot.xml.log
+2023-12-26 16:00:11,634 DEBUG: Copying SCEVO_kwilena_ben.xml.log
+2023-12-26 16:00:11,634 DEBUG: Copying SCEVO_BCMDBPI.xml.log
+2023-12-26 16:00:11,634 DEBUG: Copying SCEVO_CANNR.xml.log
+2023-12-26 16:00:11,634 DEBUG: Copying SCEVO_EBAC.xml.log
+2023-12-26 16:00:11,634 DEBUG: Copying SCEVO_ELLISB.xml.log
+2023-12-26 16:00:11,635 DEBUG: Copying SCEVO_HENLB.xml.log
+2023-12-26 16:00:11,635 DEBUG: Copying SCEVO_JHARDO.xml.log
+2023-12-26 16:00:11,635 DEBUG: Copying SCEVO_LCBRDO.xml.log
+2023-12-26 16:00:11,635 DEBUG: Copying SCEVO_MAMDO.xml.log
+2023-12-26 16:00:11,636 DEBUG: Copying SCEVO_MCDSWSRD.xml.log
+2023-12-26 16:00:11,636 DEBUG: Copying SCEVO_MWRDO.xml.log
+2023-12-26 16:00:11,636 DEBUG: Copying SCEVO_SCCIN5.xml.log
+2023-12-26 16:00:11,636 DEBUG: Copying SCEVO_SHELLD1.xml.log
+2023-12-26 16:00:11,636 DEBUG: Copying SCEVO_SWD1.xml.log
+2023-12-26 16:00:11,636 DEBUG: Copying SCEVO_SWS6.xml.log
+2023-12-26 16:00:11,637 DEBUG: Copying SCEVO_YULEB.xml.log
+2023-12-26 16:00:11,637 DEBUG: Copying SCEVO_SUSANB.xml.log
+2023-12-26 16:00:11,637 DEBUG: Copying SCEVO_SWN6.xml.log
+2023-12-26 16:00:11,637 DEBUG: Copying SCEVO_WANDC.xml.log
+2023-12-26 16:00:11,637 DEBUG: Copying SCEVO_perth_metro.xml.log
+2023-12-26 16:00:11,638 DEBUG: Copying SCEVO_ARM_b.xml.log
+2023-12-26 16:00:11,639 DEBUG: Copying SCEVO_dbca_sccwq_all.xml.log
+2023-12-26 16:00:11,640 DEBUG: Copying SCEVO_BWMDBPI.xml.log
+2023-12-26 16:00:11,640 DEBUG: Copying SCEVO_CLAISB.xml.log
+2023-12-26 16:00:11,640 DEBUG: Copying SCEVO_ELLENB2.xml.log
+2023-12-26 16:00:11,640 DEBUG: Copying SCEVO_HR02.xml.log
+2023-12-26 16:00:11,640 DEBUG: Copying SCEVO_LACDD.xml.log
+2023-12-26 16:00:11,645 DEBUG: Copying SCEVO_LIMEC.xml.log
+2023-12-26 16:00:11,645 DEBUG: Copying SCEVO_MANMD1.xml.log
+2023-12-26 16:00:11,645 DEBUG: Copying SCEVO_MELDR-20.xml.log
+2023-12-26 16:00:11,645 DEBUG: Copying SCEVO_NEERB.xml.log
+2023-12-26 16:00:11,645 DEBUG: Copying SCEVO_SCCIS6.xml.log
+2023-12-26 16:00:11,645 DEBUG: Copying SCEVO_SHELLD2.xml.log
+2023-12-26 16:00:11,646 DEBUG: Copying SCEVO_SWN1.xml.log
+2023-12-26 16:00:11,646 DEBUG: Copying SCEVO_SWS8.xml.log
+2023-12-26 16:00:11,646 DEBUG: Copying SCEVO_bunbury.xml.log
+2023-12-26 16:00:11,646 DEBUG: Copying SCEVO_AIRMSD2.xml.log
+2023-12-26 16:00:11,646 DEBUG: Copying SCEVO_AIRMSD2.xml_1.log
+2023-12-26 16:00:11,647 DEBUG: Copying SCEVO_katanning_rs.xml.log
+2023-12-26 16:00:11,647 DEBUG: Copying SCEVO_MENDD.xml.log
+2023-12-26 16:00:11,647 DEBUG: Copying SCEVO_RRMDOUT.xml.log
+2023-12-26 16:00:11,647 DEBUG: Copying SCEVO_SCCIS10.xml.log
+2023-12-26 16:00:11,647 DEBUG: Copying SCEVO_STHNR.xml.log
+2023-12-26 16:00:11,648 DEBUG: Copying SCEVO_SWN2.xml.log
+2023-12-26 16:00:11,648 DEBUG: Copying SCEVO_SWS11.xml.log
+2023-12-26 16:00:11,648 DEBUG: Copying SCEVO_dbca_scewq_all.xml.log
+2023-12-26 16:00:11,649 DEBUG: Copying SCEVO_MLMDOUT.xml.log
+2023-12-26 16:00:11,649 DEBUG: Copying SCEVO_SCCIN4.xml.log
+2023-12-26 16:00:11,649 DEBUG: Copying SCEVO_SCCIS11.xml.log
+2023-12-26 16:00:11,649 DEBUG: Copying SCEVO_STLEOC.xml.log
+2023-12-26 16:00:11,649 DEBUG: Copying SCEVO_SWN4.xml.log
+2023-12-26 16:00:11,649 DEBUG: Copying SCEVO_TGDSDPOUT.xml.log
+2023-12-26 16:00:11,650 DEBUG: Copying SCEVO_cape_naturaliste.xml.log
+2023-12-26 16:00:11,650 DEBUG: Copying SCEVO_SWS9.xml.log
+2023-12-26 16:00:11,651 DEBUG: Copying SCEVO_BAC_b.xml.log
+2023-12-26 16:00:11,652 DEBUG: Copying SCEVO_lake_grace.xml.log
+2023-12-26 16:00:11,652 DEBUG: Copying SCEVO_dbca_sccwq_all.xml_1.log
+2023-12-26 16:00:11,652 DEBUG: Copying SCEVO_CBDMD.xml.log
+2023-12-26 16:00:11,652 DEBUG: Copying SCEVO_ELLENB1.xml.log
+2023-12-26 16:00:11,652 DEBUG: Copying SCEVO_HELENR.xml.log
+2023-12-26 16:00:11,652 DEBUG: Copying SCEVO_JANEB.xml.log
+2023-12-26 16:00:11,652 DEBUG: Copying SCEVO_LAMDO.xml.log
+2023-12-26 16:00:11,653 DEBUG: Copying SCEVO_MADDD.xml.log
+2023-12-26 16:00:11,653 DEBUG: Copying SCEVO_MAYMD.xml.log
+2023-12-26 16:00:11,653 DEBUG: Copying SCEVO_MILLMD.xml.log
+2023-12-26 16:00:11,653 DEBUG: Copying SCEVO_SBELMD.xml.log
+2023-12-26 16:00:11,653 DEBUG: Copying SCEVO_SCCIS8.xml.log
+2023-12-26 16:00:11,653 DEBUG: Copying SCEVO_SJMPLO.xml.log
+2023-12-26 16:00:11,653 DEBUG: Copying SCEVO_SWANR.xml.log
+2023-12-26 16:00:11,654 DEBUG: Copying SCEVO_SWS5.xml.log
+2023-12-26 16:00:11,654 DEBUG: Copying SCEVO_WILMD.xml.log
+2023-12-26 16:00:11,654 DEBUG: Copying SCEVO_BAYMD2.xml.log
+2023-12-26 16:00:11,655 DEBUG: Copying SCEVO_perth_airport.xml.log
+2023-12-26 16:00:11,655 DEBUG: Copying SCEVO_OXY_ALL.xml.log
+2023-12-26 16:00:11,655 DEBUG: Copying SCEVO_anacondadrive.xml.log
+2023-12-26 16:00:11,656 DEBUG: Copying SCEVO_BACD600_s.xml.log
+2023-12-26 16:00:11,656 DEBUG: Copying SCEVO_AIRMSD.xml.log
+2023-12-26 16:00:11,656 DEBUG: Copying SCEVO_BAC_s.xml.log
+2023-12-26 16:00:11,656 DEBUG: Copying SCEVO_BACD25_b.xml.log
+2023-12-26 16:00:11,659 DEBUG: Copying SCEVO_KS7_b.xml.log
+2023-12-26 16:00:11,659 DEBUG: Copying SCEVO_BACD25_s.xml.log
+2023-12-26 16:00:11,660 DEBUG: Copying SCEVO_MAS_b.xml.log
+2023-12-26 16:00:11,660 DEBUG: Copying SCEVO_MAY_b.xml.log
+2023-12-26 16:00:11,660 DEBUG: Copying SCEVO_MAY_s.xml.log
+2023-12-26 16:00:11,660 DEBUG: Copying SCEVO_FP1_s.xml.log
+2023-12-26 16:00:11,660 DEBUG: Copying SCEVO_BENNB.xml_1.log
+2023-12-26 16:00:11,660 DEBUG: Copying SCEVO_wiski_split_execute.xml.log
+2023-12-26 16:00:11,660 DEBUG: Copying SCEVO_sensorsummary.xml.log

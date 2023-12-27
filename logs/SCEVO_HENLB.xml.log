@@ -1,0 +1,7 @@
+2022-11-11 14:11:47,092 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:11:47,093 DEBUG: Task list loaded.
+2022-11-11 14:11:47,093 DEBUG: Total number of tasks: 1
+2022-11-11 14:11:47,093  INFO:  -- START  -- HENLB.xml
+2022-11-11 14:11:47,093  INFO:  -- Fri Nov 11 14:11:47 AWST 2022
+2022-11-11 14:11:47,093  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/HENLB/raw/import.xml 2:11:47 pm
+2022-11-11 14:11:47,181  INFO: Importing file dbca_HENLB_2022-09-07_1802.csv

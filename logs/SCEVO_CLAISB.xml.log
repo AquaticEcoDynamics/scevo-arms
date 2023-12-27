@@ -1,0 +1,7 @@
+2022-11-11 14:08:25,085 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:08:25,087 DEBUG: Task list loaded.
+2022-11-11 14:08:25,087 DEBUG: Total number of tasks: 1
+2022-11-11 14:08:25,087  INFO:  -- START  -- CLAISB.xml
+2022-11-11 14:08:25,087  INFO:  -- Fri Nov 11 14:08:25 AWST 2022
+2022-11-11 14:08:25,087  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/CLAISB/raw/import.xml 2:08:25 pm
+2022-11-11 14:08:25,183  INFO: Importing file dbca_CLAISB_2022-09-07_1802.csv

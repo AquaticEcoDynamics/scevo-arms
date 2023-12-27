@@ -1,0 +1,38 @@
+2023-10-27 11:30:34,789 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-10-27 11:30:34,791 DEBUG: Task list loaded.
+2023-10-27 11:30:34,791 DEBUG: Total number of tasks: 1
+2023-10-27 11:30:34,791  INFO:  -- START  -- FP1_s.xml
+2023-10-27 11:30:34,791  INFO:  -- Fri Oct 27 11:30:34 AWST 2023
+2023-10-27 11:30:34,791  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/scesb/stations/FP1_s/raw/import.xml 11:30:34 am
+2023-10-27 11:30:35,099  INFO: Importing file dbca_FP1_s_2023-01-03_1328_36.csv
+2023-10-27 11:30:41,647  INFO: Importing file dbca_FP1_s_2022-10-13_0809_36.csv
+2023-10-27 11:30:44,491  INFO: Importing file dbca_FP1_s_2022-09-07_1802_36.csv
+2023-10-27 11:35:42,713  INFO:  -- END  -- Fri Oct 27 11:35:42 AWST 2023
+2023-10-30 13:59:37,902 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-10-30 13:59:37,917 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/tasks/data/dbca/fpmq/stations/FP1_s/raw/import.xml
+Method: setTaskConfig
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/tasks/data/dbca/fpmq/stations/FP1_s/raw/import.xml
+Method: setTaskConfig
+
+	at cwr.arms.tasks.TaskFactory.setTaskConfig(TaskFactory.java:43)
+	at cwr.arms.tasks.data.textfile.ImportTaskFactory.getInstance(ImportTaskFactory.java:38)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:278)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-10-30 14:01:50,295 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-10-30 14:01:50,296 DEBUG: Task list loaded.
+2023-10-30 14:01:50,296 DEBUG: Total number of tasks: 1
+2023-10-30 14:01:50,296  INFO:  -- START  -- FP1_s.xml
+2023-10-30 14:01:50,296  INFO:  -- Mon Oct 30 14:01:50 AWST 2023
+2023-10-30 14:01:50,296  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/fpmq/FP1_s/raw/import.xml 2:01:50 pm
+2023-10-30 14:01:50,331  INFO: Importing file dbca_FP1_s_2023-01-03_1328_36.csv
+2023-10-30 14:01:59,478  INFO: Importing file dbca_FP1_s_2022-10-13_0809_36.csv
+2023-10-30 14:02:02,305  INFO: Importing file dbca_FP1_s_2022-09-07_1802_36.csv
+2023-10-30 14:07:12,986  INFO:  -- END  -- Mon Oct 30 14:07:12 AWST 2023

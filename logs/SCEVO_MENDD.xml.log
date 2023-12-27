@@ -1,0 +1,7 @@
+2022-11-11 14:12:27,782 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:12:27,783 DEBUG: Task list loaded.
+2022-11-11 14:12:27,783 DEBUG: Total number of tasks: 1
+2022-11-11 14:12:27,783  INFO:  -- START  -- MENDD.xml
+2022-11-11 14:12:27,783  INFO:  -- Fri Nov 11 14:12:27 AWST 2022
+2022-11-11 14:12:27,783  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/MENDD/raw/import.xml 2:12:27 pm
+2022-11-11 14:12:27,864  INFO: Importing file dbca_MENDD_2022-09-07_1802.csv

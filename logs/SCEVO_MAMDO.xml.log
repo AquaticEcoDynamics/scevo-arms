@@ -1,0 +1,7 @@
+2022-11-11 14:12:08,110 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:12:08,111 DEBUG: Task list loaded.
+2022-11-11 14:12:08,111 DEBUG: Total number of tasks: 1
+2022-11-11 14:12:08,111  INFO:  -- START  -- MAMDO.xml
+2022-11-11 14:12:08,111  INFO:  -- Fri Nov 11 14:12:08 AWST 2022
+2022-11-11 14:12:08,111  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/MAMDO/raw/import.xml 2:12:08 pm
+2022-11-11 14:12:08,200  INFO: Importing file dbca_MAMDO_2022-09-07_1802.csv

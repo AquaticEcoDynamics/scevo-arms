@@ -1,0 +1,830 @@
+2022-10-26 15:59:20,614 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-26 15:59:20,617 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/stations/AIRSMD/raw/copy_dbca_file.xml
+Method: setTaskConfig
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/stations/AIRSMD/raw/copy_dbca_file.xml
+Method: setTaskConfig
+
+	at cwr.arms.tasks.TaskFactory.setTaskConfig(TaskFactory.java:43)
+	at cwr.arms.tasks.file.copy.CopyFilesTaskFactory.getInstance(CopyFilesTaskFactory.java:38)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:278)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 08:48:23,659 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 08:48:23,697 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/stations/AIRSMD/raw/copy_dbca_file.xml
+Method: setTaskConfig
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/stations/AIRSMD/raw/copy_dbca_file.xml
+Method: setTaskConfig
+
+	at cwr.arms.tasks.TaskFactory.setTaskConfig(TaskFactory.java:43)
+	at cwr.arms.tasks.file.copy.CopyFilesTaskFactory.getInstance(CopyFilesTaskFactory.java:38)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:278)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 08:53:41,579 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 08:53:41,582 DEBUG: Task list loaded.
+2022-10-27 08:53:41,582 DEBUG: Total number of tasks: 3
+2022-10-27 08:53:41,582  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 08:53:41,582  INFO:  -- Thu Oct 27 08:53:41 AWST 2022
+2022-10-27 08:53:41,582  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/copy_dbca_file.xml 8:53:41 am
+2022-10-27 08:53:41,582  INFO: Copying files
+2022-10-27 08:53:41,586 ERROR: CAUGHT EXCEPTION: null
+java.lang.NullPointerException
+	at cwr.arms.tasks.file.copy.CopyFilesTask.executeTask(CopyFilesTask.java:92)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 08:53:41,586  INFO:  -- END  -- Thu Oct 27 08:53:41 AWST 2022
+2022-10-27 08:53:41,586  INFO: Number of errors: 1
+2022-10-27 08:53:58,305 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 08:53:58,307 DEBUG: Task list loaded.
+2022-10-27 08:53:58,307 DEBUG: Total number of tasks: 3
+2022-10-27 08:53:58,307  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 08:53:58,307  INFO:  -- Thu Oct 27 08:53:58 AWST 2022
+2022-10-27 08:53:58,307  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/copy_dbca_file.xml 8:53:58 am
+2022-10-27 08:53:58,307  INFO: Copying files
+2022-10-27 08:53:58,307 ERROR: CAUGHT EXCEPTION: 
+Local folder data/dbca/sccwq/AIRSMD doesn't exist
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/copy_dbca_file.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Local folder data/dbca/sccwq/AIRSMD doesn't exist
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/copy_dbca_file.xml
+Method: executeTask
+
+	at cwr.arms.tasks.file.copy.CopyFilesTask.executeTask(CopyFilesTask.java:70)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 08:53:58,307  INFO:  -- END  -- Thu Oct 27 08:53:58 AWST 2022
+2022-10-27 08:53:58,307  INFO: Number of errors: 1
+2022-10-27 09:02:58,243 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 09:02:58,245 DEBUG: Task list loaded.
+2022-10-27 09:02:58,245 DEBUG: Total number of tasks: 3
+2022-10-27 09:02:58,245  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 09:02:58,245  INFO:  -- Thu Oct 27 09:02:58 AWST 2022
+2022-10-27 09:02:58,245  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/copy_dbca_file.xml 9:02:58 am
+2022-10-27 09:02:58,245  INFO: Copying files
+2022-10-27 09:02:58,246 ERROR: CAUGHT EXCEPTION: 
+Local folder data/dbca/sccwq/AIRSMD doesn't exist
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/copy_dbca_file.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+Local folder data/dbca/sccwq/AIRSMD doesn't exist
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/copy_dbca_file.xml
+Method: executeTask
+
+	at cwr.arms.tasks.file.copy.CopyFilesTask.executeTask(CopyFilesTask.java:70)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 09:02:58,246  INFO:  -- END  -- Thu Oct 27 09:02:58 AWST 2022
+2022-10-27 09:02:58,246  INFO: Number of errors: 1
+2022-10-27 09:12:34,205 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 09:12:34,206 DEBUG: Task list loaded.
+2022-10-27 09:12:34,206 DEBUG: Total number of tasks: 1
+2022-10-27 09:12:34,206  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 09:12:34,206  INFO:  -- Thu Oct 27 09:12:34 AWST 2022
+2022-10-27 09:12:34,206  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 9:12:34 am
+2022-10-27 09:12:34,332 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/AIRSMD/sensors.xml
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: getDestinationResources
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/AIRSMD/sensors.xml
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: getDestinationResources
+
+	at cwr.arms.tasks.data.FileImporterTask.getDestinationResources(FileImporterTask.java:585)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:105)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 09:12:34,332  INFO:  -- END  -- Thu Oct 27 09:12:34 AWST 2022
+2022-10-27 09:12:34,332  INFO: Number of errors: 1
+2022-10-27 09:15:15,421 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 09:15:15,423 DEBUG: Task list loaded.
+2022-10-27 09:15:15,423 DEBUG: Total number of tasks: 1
+2022-10-27 09:15:15,423  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 09:15:15,423  INFO:  -- Thu Oct 27 09:15:15 AWST 2022
+2022-10-27 09:15:15,423  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 9:15:15 am
+2022-10-27 09:15:15,549 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/AIRSMD/sensors.xml
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: getDestinationResources
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/AIRSMD/sensors.xml
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: getDestinationResources
+
+	at cwr.arms.tasks.data.FileImporterTask.getDestinationResources(FileImporterTask.java:585)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:105)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 09:15:15,549  INFO:  -- END  -- Thu Oct 27 09:15:15 AWST 2022
+2022-10-27 09:15:15,549  INFO: Number of errors: 1
+2022-10-27 09:16:03,206 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 09:16:03,207 DEBUG: Task list loaded.
+2022-10-27 09:16:03,207 DEBUG: Total number of tasks: 1
+2022-10-27 09:16:03,207  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 09:16:03,207  INFO:  -- Thu Oct 27 09:16:03 AWST 2022
+2022-10-27 09:16:03,207  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 9:16:03 am
+2022-10-27 09:16:03,332 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/AIRSMD/sensors.xml
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: getDestinationResources
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/AIRSMD/sensors.xml
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: getDestinationResources
+
+	at cwr.arms.tasks.data.FileImporterTask.getDestinationResources(FileImporterTask.java:585)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:105)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 09:16:03,333  INFO:  -- END  -- Thu Oct 27 09:16:03 AWST 2022
+2022-10-27 09:16:03,333  INFO: Number of errors: 1
+2022-10-27 09:19:31,662 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 09:19:31,664 DEBUG: Task list loaded.
+2022-10-27 09:19:31,664 DEBUG: Total number of tasks: 1
+2022-10-27 09:19:31,664  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 09:19:31,664  INFO:  -- Thu Oct 27 09:19:31 AWST 2022
+2022-10-27 09:19:31,664  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 9:19:31 am
+2022-10-27 09:19:31,677  INFO: Importing file dbca_AIRSMD_2022-09-07_1802.csv
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Site_Ref.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Program_Site_Ref.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Program Code.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sample_Type.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Collection_Method.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Depth_measuring_point.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sample_Depth_s.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sample_Depth.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sample_Depth_to.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Security_Level.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sal_Sign.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sal.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sal_QS.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Cond_Sign.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sp_Cond.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Cond_QS.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Temp Sign.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Temp.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Temp_QS.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DO_Sign.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DO.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DO_QS.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DO_%_Sign.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DO_Sat.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DO_Sat_Status.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.pH.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.pH_QS.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Turb_Sign.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Turb.
+2022-10-27 09:19:31,848 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Turb_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Secchi_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Secchi_depth.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Secchi_depth_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Bottom_Depth_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Bottom_Depth.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Bottom_Depth_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TN_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TN.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TN_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NOx-N_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NOx.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NOx-N_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NH3_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NH3.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NH3/4-N_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DON_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DON.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DON_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TKN_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TKN .
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TKN_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NO2-N_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NO2-N.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NO2-N_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NO3-N_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NO3-N.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NO3-N_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TP_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TP.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TP_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.FRP_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.FRP.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.FRP_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.AlkTot_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.AlkTot.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.AlkTot_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DOC_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw. DOC_as_NPOC .
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DOC_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.SiO2_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.SiO2_sol_react.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.SiO2_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.SiO2-Si_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.SiO2-Si_sol_react.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.SiO2-Si_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TSS_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TSS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_Lab_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_lab_by_vol.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_Lab_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlb_Lab_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlb_Lab_by_vol.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlb_Lab_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlc_Lab_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlc_Lab_by vol.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlc_Lab_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.ChlSmplVol_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chl_sample_volume.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.ChlSmplVol_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.PhaeoA_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.PhaeoA_by_vol .
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.PhaeoA_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlorophyll_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_in _situ .
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chl_ug/L_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_RFU_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_in_situ).
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_RFU_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.BGA-PC_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.BGA-PC_in_situ.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.BGA-PC_ug/L_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.BGA-PC_RFU_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.BGA-PC_in_situ_RFU .
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.BGA-PC_RFU_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Null_reading.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Cloud_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Cloud_cover.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Cloud_QS.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Flow_status.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Tide_status.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.WL_SLE_Sign.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Water_level_SLE.
+2022-10-27 09:19:31,849 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.WL_SLE_QS.
+2022-10-27 09:19:31,850 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Wind_Dir_Sign.
+2022-10-27 09:19:31,850 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Wind_Dir_deg.
+2022-10-27 09:19:31,850 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Wind_Dir_QS.
+2022-10-27 09:19:31,850 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Wind_Spd_Sign.
+2022-10-27 09:19:31,850 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Wind_Spd_knot.
+2022-10-27 09:19:31,850 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Wind_Spd_QS.
+2022-10-27 09:19:31,945  INFO:  -- END  -- Thu Oct 27 09:19:31 AWST 2022
+2022-10-27 14:12:29,584 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 14:12:29,585 DEBUG: Task list loaded.
+2022-10-27 14:12:29,586 DEBUG: Total number of tasks: 1
+2022-10-27 14:12:29,586  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 14:12:29,586  INFO:  -- Thu Oct 27 14:12:29 AWST 2022
+2022-10-27 14:12:29,586  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 2:12:29 pm
+2022-10-27 14:12:29,654  INFO: Importing file dbca_AIRSMD2022-09-07_1802.csv
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Site_Ref.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Program_Site_Ref.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Program Code.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sample_Type.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Collection_Method.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Depth_measuring_point.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sample_Depth_s.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sample_Depth.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sample_Depth_to.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Security_Level.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sal_Sign.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sal.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sal_QS.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Cond_Sign.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Sp_Cond.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Cond_QS.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Temp Sign.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Temp.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Temp_QS.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DO_Sign.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DO.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DO_QS.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DO_%_Sign.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DO_Sat.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DO_Sat_Status.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.pH.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.pH_QS.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Turb_Sign.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Turb.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Turb_QS.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Secchi_Sign.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Secchi_depth.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Secchi_depth_QS.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Bottom_Depth_Sign.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Bottom_Depth.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Bottom_Depth_QS.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TN_Sign.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TN.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TN_QS.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NOx-N_Sign.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NOx.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NOx-N_QS.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NH3_Sign.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NH3.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NH3/4-N_QS.
+2022-10-27 14:12:29,823 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DON_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DON.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DON_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TKN_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TKN .
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TKN_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NO2-N_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NO2-N.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NO2-N_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NO3-N_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NO3-N.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.NO3-N_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TP_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TP.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TP_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.FRP_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.FRP.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.FRP_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.AlkTot_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.AlkTot.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.AlkTot_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DOC_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw. DOC_as_NPOC .
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.DOC_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.SiO2_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.SiO2_sol_react.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.SiO2_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.SiO2-Si_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.SiO2-Si_sol_react.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.SiO2-Si_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TSS_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.TSS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_Lab_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_lab_by_vol.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_Lab_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlb_Lab_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlb_Lab_by_vol.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlb_Lab_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlc_Lab_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlc_Lab_by vol.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlc_Lab_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.ChlSmplVol_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chl_sample_volume.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.ChlSmplVol_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.PhaeoA_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.PhaeoA_by_vol .
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.PhaeoA_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chlorophyll_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_in _situ .
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chl_ug/L_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_RFU_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_in_situ).
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Chla_RFU_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.BGA-PC_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.BGA-PC_in_situ.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.BGA-PC_ug/L_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.BGA-PC_RFU_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.BGA-PC_in_situ_RFU .
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.BGA-PC_RFU_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Null_reading.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Cloud_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Cloud_cover.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Cloud_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Flow_status.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Tide_status.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.WL_SLE_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Water_level_SLE.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.WL_SLE_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Wind_Dir_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Wind_Dir_deg.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Wind_Dir_QS.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Wind_Spd_Sign.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Wind_Spd_knot.
+2022-10-27 14:12:29,824 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.AIRSMD.raw.Wind_Spd_QS.
+2022-10-27 14:12:29,878  INFO:  -- END  -- Thu Oct 27 14:12:29 AWST 2022
+2022-10-27 14:17:36,357 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 14:17:36,358 DEBUG: Task list loaded.
+2022-10-27 14:17:36,358 DEBUG: Total number of tasks: 1
+2022-10-27 14:17:36,358  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 14:17:36,358  INFO:  -- Thu Oct 27 14:17:36 AWST 2022
+2022-10-27 14:17:36,358  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 2:17:36 pm
+2022-10-27 14:17:36,423 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 14:17:36,423  INFO:  -- END  -- Thu Oct 27 14:17:36 AWST 2022
+2022-10-27 14:17:36,423  INFO: Number of errors: 1
+2022-10-27 14:17:43,224 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 14:17:43,225 DEBUG: Task list loaded.
+2022-10-27 14:17:43,225 DEBUG: Total number of tasks: 1
+2022-10-27 14:17:43,225  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 14:17:43,225  INFO:  -- Thu Oct 27 14:17:43 AWST 2022
+2022-10-27 14:17:43,225  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 2:17:43 pm
+2022-10-27 14:17:43,289 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 14:17:43,290  INFO:  -- END  -- Thu Oct 27 14:17:43 AWST 2022
+2022-10-27 14:17:43,290  INFO: Number of errors: 1
+2022-10-27 14:18:36,059 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 14:18:36,061 DEBUG: Task list loaded.
+2022-10-27 14:18:36,061 DEBUG: Total number of tasks: 1
+2022-10-27 14:18:36,061  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 14:18:36,061  INFO:  -- Thu Oct 27 14:18:36 AWST 2022
+2022-10-27 14:18:36,061  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 2:18:36 pm
+2022-10-27 14:18:36,124 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 14:18:36,124  INFO:  -- END  -- Thu Oct 27 14:18:36 AWST 2022
+2022-10-27 14:18:36,124  INFO: Number of errors: 1
+2022-10-27 14:20:54,018 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 14:20:54,020 DEBUG: Task list loaded.
+2022-10-27 14:20:54,020 DEBUG: Total number of tasks: 1
+2022-10-27 14:20:54,020  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 14:20:54,020  INFO:  -- Thu Oct 27 14:20:54 AWST 2022
+2022-10-27 14:20:54,020  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 2:20:54 pm
+2022-10-27 14:20:54,037 ERROR: CAUGHT EXCEPTION: File specified does not exist: config/resources/data/dbca/sites
+cwr.arms.io.IOException: File specified does not exist: config/resources/data/dbca/sites
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:181)
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:159)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:92)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 14:20:54,037 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist: config/resources/data/dbca/sites
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist: config/resources/data/dbca/sites
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 14:20:54,037  INFO:  -- END  -- Thu Oct 27 14:20:54 AWST 2022
+2022-10-27 14:20:54,037  INFO: Number of errors: 1
+2022-10-27 14:23:47,083 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 14:23:47,084 DEBUG: Task list loaded.
+2022-10-27 14:23:47,084 DEBUG: Total number of tasks: 1
+2022-10-27 14:23:47,084  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 14:23:47,084  INFO:  -- Thu Oct 27 14:23:47 AWST 2022
+2022-10-27 14:23:47,084  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 2:23:47 pm
+2022-10-27 14:23:47,147 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 14:23:47,147  INFO:  -- END  -- Thu Oct 27 14:23:47 AWST 2022
+2022-10-27 14:23:47,147  INFO: Number of errors: 1
+2022-10-27 14:25:17,642 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 14:25:17,643 DEBUG: Task list loaded.
+2022-10-27 14:25:17,643 DEBUG: Total number of tasks: 1
+2022-10-27 14:25:17,643  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 14:25:17,643  INFO:  -- Thu Oct 27 14:25:17 AWST 2022
+2022-10-27 14:25:17,644  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 2:25:17 pm
+2022-10-27 14:25:17,708 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 14:25:17,708  INFO:  -- END  -- Thu Oct 27 14:25:17 AWST 2022
+2022-10-27 14:25:17,708  INFO: Number of errors: 1
+2022-10-27 14:30:48,540 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 14:30:48,542 DEBUG: Task list loaded.
+2022-10-27 14:30:48,542 DEBUG: Total number of tasks: 1
+2022-10-27 14:30:48,542  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 14:30:48,542  INFO:  -- Thu Oct 27 14:30:48 AWST 2022
+2022-10-27 14:30:48,542  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 2:30:48 pm
+2022-10-27 14:30:48,605 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 14:30:48,605  INFO:  -- END  -- Thu Oct 27 14:30:48 AWST 2022
+2022-10-27 14:30:48,605  INFO: Number of errors: 1
+2022-10-27 14:37:03,109 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 14:37:03,110 DEBUG: Task list loaded.
+2022-10-27 14:37:03,111 DEBUG: Total number of tasks: 1
+2022-10-27 14:37:03,111  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 14:37:03,111  INFO:  -- Thu Oct 27 14:37:03 AWST 2022
+2022-10-27 14:37:03,111  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 2:37:03 pm
+2022-10-27 14:37:03,176 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 14:37:03,177  INFO:  -- END  -- Thu Oct 27 14:37:03 AWST 2022
+2022-10-27 14:37:03,177  INFO: Number of errors: 1
+2022-10-27 14:40:31,829 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-27 14:40:31,831 DEBUG: Task list loaded.
+2022-10-27 14:40:31,831 DEBUG: Total number of tasks: 1
+2022-10-27 14:40:31,831  INFO:  -- START  -- AIRMSD2.xml
+2022-10-27 14:40:31,831  INFO:  -- Thu Oct 27 14:40:31 AWST 2022
+2022-10-27 14:40:31,831  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 2:40:31 pm
+2022-10-27 14:40:31,833 ERROR: CAUGHT EXCEPTION: File specified does not exist: scevo/data/dbca/sites
+cwr.arms.io.IOException: File specified does not exist: scevo/data/dbca/sites
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:181)
+	at cwr.arms.tasks.data.FileImporterTask.getNewFiles(FileImporterTask.java:159)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:92)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 14:40:31,833 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist: scevo/data/dbca/sites
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist: scevo/data/dbca/sites
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:230)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-27 14:40:31,833  INFO:  -- END  -- Thu Oct 27 14:40:31 AWST 2022
+2022-10-27 14:40:31,833  INFO: Number of errors: 1
+2022-10-31 15:31:17,231 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-10-31 15:31:17,315 DEBUG: Task list loaded.
+2022-10-31 15:31:17,316 DEBUG: Total number of tasks: 1
+2022-10-31 15:31:17,316  INFO:  -- START  -- AIRMSD2.xml
+2022-10-31 15:31:17,316  INFO:  -- Mon Oct 31 15:31:17 AWST 2022
+2022-10-31 15:31:17,316  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml 3:31:17 pm
+2022-10-31 15:31:17,461 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/AIRSMD/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-10-31 15:31:17,461  INFO:  -- END  -- Mon Oct 31 15:31:17 AWST 2022
+2022-10-31 15:31:17,461  INFO: Number of errors: 1

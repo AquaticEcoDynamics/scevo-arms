@@ -1,0 +1,7 @@
+2022-11-11 14:13:16,386 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:13:16,388 DEBUG: Task list loaded.
+2022-11-11 14:13:16,388 DEBUG: Total number of tasks: 1
+2022-11-11 14:13:16,388  INFO:  -- START  -- SWANR.xml
+2022-11-11 14:13:16,388  INFO:  -- Fri Nov 11 14:13:16 AWST 2022
+2022-11-11 14:13:16,388  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/SWANR/raw/import.xml 2:13:16 pm
+2022-11-11 14:13:16,474  INFO: Importing file dbca_SWANR_2022-09-07_1802.csv

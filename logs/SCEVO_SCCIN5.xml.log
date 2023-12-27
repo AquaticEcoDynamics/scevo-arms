@@ -1,0 +1,7 @@
+2022-11-11 14:12:48,382 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:12:48,383 DEBUG: Task list loaded.
+2022-11-11 14:12:48,383 DEBUG: Total number of tasks: 1
+2022-11-11 14:12:48,383  INFO:  -- START  -- SCCIN5.xml
+2022-11-11 14:12:48,383  INFO:  -- Fri Nov 11 14:12:48 AWST 2022
+2022-11-11 14:12:48,383  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/SCCIN5/raw/import.xml 2:12:48 pm
+2022-11-11 14:12:48,468  INFO: Importing file dbca_SCCIN5_2022-09-07_1802.csv

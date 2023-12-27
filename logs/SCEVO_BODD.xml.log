@@ -1,0 +1,7 @@
+2022-11-11 13:57:32,839 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 13:57:32,840 DEBUG: Task list loaded.
+2022-11-11 13:57:32,840 DEBUG: Total number of tasks: 1
+2022-11-11 13:57:32,840  INFO:  -- START  -- BODD.xml
+2022-11-11 13:57:32,841  INFO:  -- Fri Nov 11 13:57:32 AWST 2022
+2022-11-11 13:57:32,841  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/BODD/raw/import.xml 1:57:32 pm
+2022-11-11 13:57:32,934  INFO: Importing file dbca_BODD_2022-09-07_1802.csv

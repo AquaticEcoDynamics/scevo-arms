@@ -1,0 +1,7 @@
+2022-11-11 14:08:22,339 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:08:22,341 DEBUG: Task list loaded.
+2022-11-11 14:08:22,341 DEBUG: Total number of tasks: 1
+2022-11-11 14:08:22,341  INFO:  -- START  -- CBDMD.xml
+2022-11-11 14:08:22,341  INFO:  -- Fri Nov 11 14:08:22 AWST 2022
+2022-11-11 14:08:22,341  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/CBDMD/raw/import.xml 2:08:22 pm
+2022-11-11 14:08:22,424  INFO: Importing file dbca_CBDMD_2022-09-07_1802.csv

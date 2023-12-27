@@ -1,0 +1,7 @@
+2022-11-11 14:13:08,040 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:13:08,041 DEBUG: Task list loaded.
+2022-11-11 14:13:08,041 DEBUG: Total number of tasks: 1
+2022-11-11 14:13:08,041  INFO:  -- START  -- SJMPLO.xml
+2022-11-11 14:13:08,041  INFO:  -- Fri Nov 11 14:13:08 AWST 2022
+2022-11-11 14:13:08,041  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/SJMPLO/raw/import.xml 2:13:08 pm
+2022-11-11 14:13:08,132  INFO: Importing file dbca_SJMPLO_2022-09-07_1802.csv

@@ -1,0 +1,41 @@
+2022-11-11 13:57:38,201 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 13:57:38,203 DEBUG: Task list loaded.
+2022-11-11 13:57:38,203 DEBUG: Total number of tasks: 1
+2022-11-11 13:57:38,203  INFO:  -- START  -- BWAMDO.xml
+2022-11-11 13:57:38,203  INFO:  -- Fri Nov 11 13:57:38 AWST 2022
+2022-11-11 13:57:38,203  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/BWAMDO/raw/import.xml 1:57:38 pm
+2022-11-11 13:57:38,288 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/BWAMDO/sensors.xml
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/BWAMDO/raw/import.xml
+Method: getDestinationResources
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/BWAMDO/sensors.xml
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/BWAMDO/raw/import.xml
+Method: getDestinationResources
+
+	at cwr.arms.tasks.data.FileImporterTask.getDestinationResources(FileImporterTask.java:585)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:105)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-11-11 13:57:38,288  INFO:  -- END  -- Fri Nov 11 13:57:38 AWST 2022
+2022-11-11 13:57:38,288  INFO: Number of errors: 1
+2022-11-11 14:00:12,783 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 14:00:12,785 DEBUG: Task list loaded.
+2022-11-11 14:00:12,785 DEBUG: Total number of tasks: 1
+2022-11-11 14:00:12,785  INFO:  -- START  -- BWAMDO.xml
+2022-11-11 14:00:12,785  INFO:  -- Fri Nov 11 14:00:12 AWST 2022
+2022-11-11 14:00:12,785  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/BWAMDO/raw/import.xml 2:00:12 pm
+2022-11-11 14:00:12,870  INFO: Importing file dbca_BWAMDO_2022-09-07_1802.csv

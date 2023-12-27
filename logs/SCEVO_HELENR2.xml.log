@@ -1,0 +1,12 @@
+2023-11-29 13:25:21,214 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-29 13:25:21,216 DEBUG: Task list loaded.
+2023-11-29 13:25:21,216 DEBUG: Total number of tasks: 1
+2023-11-29 13:25:21,216  INFO:  -- START  -- HELENR2.xml
+2023-11-29 13:25:21,217  INFO:  -- Wed Nov 29 13:25:21 AWST 2023
+2023-11-29 13:25:21,217  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/HELENR2/raw/import.xml 1:25:21 pm
+2023-11-29 13:25:21,503  INFO: Importing file dbca_HELENR2_2023-11-03_0525_new.csv
+2023-11-29 13:25:31,174  INFO: Importing file dbca_HELENR2_2023-10-27_new.csv
+2023-11-29 13:25:33,550  INFO: Importing file dbca_HELENR2_2023-11-10_new.csv
+2023-11-29 13:25:36,043  INFO: Importing file dbca_HELENR2_new_2023-11-10_new.csv
+2023-11-29 13:25:39,085  INFO: Importing file dbca_HELENR2_2023-11-24_new.csv
+2023-11-29 13:25:42,252  INFO:  -- END  -- Wed Nov 29 13:25:42 AWST 2023

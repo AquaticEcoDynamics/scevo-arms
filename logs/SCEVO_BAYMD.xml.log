@@ -1,0 +1,19 @@
+2022-11-11 13:55:03,366 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 13:55:03,368 DEBUG: Task list loaded.
+2022-11-11 13:55:03,368 DEBUG: Total number of tasks: 1
+2022-11-11 13:55:03,368  INFO:  -- START  -- BAYMD.xml
+2022-11-11 13:55:03,368  INFO:  -- Fri Nov 11 13:55:03 AWST 2022
+2022-11-11 13:55:03,368  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/BAYMD/raw/import.xml 1:55:03 pm
+2022-11-11 13:55:03,461  INFO: Importing file dbca_BAYMD_2022-09-07_1802_2.csv
+2022-11-11 14:16:43,354  INFO:  -- END  -- Fri Nov 11 14:16:43 AWST 2022
+2023-11-29 14:40:23,219 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-11-29 14:40:23,231 DEBUG: Task list loaded.
+2023-11-29 14:40:23,231 DEBUG: Total number of tasks: 1
+2023-11-29 14:40:23,231  INFO:  -- START  -- BAYMD.xml
+2023-11-29 14:40:23,231  INFO:  -- Wed Nov 29 14:40:23 AWST 2023
+2023-11-29 14:40:23,231  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/BAYMD/raw/import.xml 2:40:23 pm
+2023-11-29 14:40:23,526  INFO: Importing file dbca_BAYMD_2023-11-03_0525_new.csv
+2023-11-29 15:03:07,676  INFO: Importing file dbca_BAYMD_2023-10-27_new.csv
+2023-11-29 15:03:11,102  INFO: Importing file dbca_BAYMD_2023-11-10_new.csv
+2023-11-29 15:03:14,025  INFO: Importing file dbca_BAYMD_2023-11-24_new.csv
+2023-11-29 15:03:16,755  INFO:  -- END  -- Wed Nov 29 15:03:16 AWST 2023

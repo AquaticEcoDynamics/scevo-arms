@@ -1,0 +1,8 @@
+2022-11-11 11:35:04,825 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 11:35:04,827 DEBUG: Task list loaded.
+2022-11-11 11:35:04,827 DEBUG: Total number of tasks: 1
+2022-11-11 11:35:04,827  INFO:  -- START  -- BANNC.xml
+2022-11-11 11:35:04,827  INFO:  -- Fri Nov 11 11:35:04 AWST 2022
+2022-11-11 11:35:04,827  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/BANNC/raw/import.xml 11:35:04 am
+2022-11-11 11:35:04,996  INFO: Importing file dbca_BANNC_2022-09-07_1802_2.csv
+2022-11-11 11:55:42,106  INFO:  -- END  -- Fri Nov 11 11:55:42 AWST 2022

@@ -1,0 +1,574 @@
+2022-11-10 16:13:28,621 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-10 16:13:28,658 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/tasks/data/dbca/wq/stations/ASHD/raw/import.xml
+Method: setTaskConfig
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/tasks/data/dbca/wq/stations/ASHD/raw/import.xml
+Method: setTaskConfig
+
+	at cwr.arms.tasks.TaskFactory.setTaskConfig(TaskFactory.java:43)
+	at cwr.arms.tasks.data.textfile.ImportTaskFactory.getInstance(ImportTaskFactory.java:38)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:278)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-11-10 16:13:54,040 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-10 16:13:54,042 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/tasks/data/dbca/wq/stations/ASHD/raw/import.xml
+Method: setTaskConfig
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/tasks/data/dbca/wq/stations/ASHD/raw/import.xml
+Method: setTaskConfig
+
+	at cwr.arms.tasks.TaskFactory.setTaskConfig(TaskFactory.java:43)
+	at cwr.arms.tasks.data.textfile.ImportTaskFactory.getInstance(ImportTaskFactory.java:38)
+	at cwr.arms.tasks.TaskList.addTask_(TaskList.java:278)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:169)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-11-10 16:15:52,490 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-10 16:15:52,493 DEBUG: Task list loaded.
+2022-11-10 16:15:52,493 DEBUG: Total number of tasks: 1
+2022-11-10 16:15:52,493  INFO:  -- START  -- ASHD.xml
+2022-11-10 16:15:52,493  INFO:  -- Thu Nov 10 16:15:52 AWST 2022
+2022-11-10 16:15:52,493  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml 4:15:52 pm
+2022-11-10 16:15:52,576 ERROR: CAUGHT EXCEPTION: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/ASHD/sensors.xml
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml
+Method: getDestinationResources
+
+cwr.arms.tasks.TaskException: 
+File specified does not exist in database: /scevo/config/resources/data/dbca/sccwq/ASHD/sensors.xml
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml
+Method: getDestinationResources
+
+	at cwr.arms.tasks.data.FileImporterTask.getDestinationResources(FileImporterTask.java:585)
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:105)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-11-10 16:15:52,577  INFO:  -- END  -- Thu Nov 10 16:15:52 AWST 2022
+2022-11-10 16:15:52,577  INFO: Number of errors: 1
+2022-11-11 10:28:23,243 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 10:28:23,263 DEBUG: Task list loaded.
+2022-11-11 10:28:23,263 DEBUG: Total number of tasks: 1
+2022-11-11 10:28:23,263  INFO:  -- START  -- ASHD.xml
+2022-11-11 10:28:23,263  INFO:  -- Fri Nov 11 10:28:23 AWST 2022
+2022-11-11 10:28:23,263  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml 10:28:23 am
+2022-11-11 10:28:23,354  INFO: Importing file dbca_ASHD2022-09-07_1802_2.csv
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Site_Ref.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Program_Site_Ref.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Program Code.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sample_Type.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Collection_Method.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Depth_measuring_point.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sample_Depth_s.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sample_Depth.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sample_Depth_to.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Security_Level.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sal_Sign.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sal.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sal_QS.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cond_Sign.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sp_Cond.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cond_QS.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Temp Sign.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Temp.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Temp_QS.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_Sign.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_QS.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_%_Sign.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_Sat.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_Sat_Status.
+2022-11-11 10:28:23,641 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.pH.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.pH_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Turb_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Turb.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Turb_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Secchi_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Secchi_depth.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Secchi_depth_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Bottom_Depth_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Bottom_Depth.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Bottom_Depth_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TN_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TN.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TN_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NOx-N_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NOx.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NOx-N_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NH3_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NH3.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NH3/4-N_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DON_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DON.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DON_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TKN_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TKN .
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TKN_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO2-N_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO2-N.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO2-N_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO3-N_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO3-N.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO3-N_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TP_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TP.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TP_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.FRP_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.FRP.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.FRP_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.AlkTot_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.AlkTot.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.AlkTot_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DOC_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw. DOC_as_NPOC .
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DOC_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2_sol_react.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2-Si_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2-Si_sol_react.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2-Si_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TSS_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TSS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_Lab_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_lab_by_vol.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_Lab_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlb_Lab_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlb_Lab_by_vol.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlb_Lab_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlc_Lab_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlc_Lab_by vol.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlc_Lab_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.ChlSmplVol_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chl_sample_volume.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.ChlSmplVol_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.PhaeoA_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.PhaeoA_by_vol .
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.PhaeoA_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlorophyll_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_in _situ .
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chl_ug/L_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_RFU_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_in_situ).
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_RFU_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_in_situ.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_ug/L_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_RFU_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_in_situ_RFU .
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_RFU_QS.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Null_reading.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cloud_Sign.
+2022-11-11 10:28:23,642 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cloud_cover.
+2022-11-11 10:28:23,643 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cloud_QS.
+2022-11-11 10:28:23,643 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Flow_status.
+2022-11-11 10:28:23,643 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Tide_status.
+2022-11-11 10:28:23,643 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.WL_SLE_Sign.
+2022-11-11 10:28:23,643 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Water_level_SLE.
+2022-11-11 10:28:23,643 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.WL_SLE_QS.
+2022-11-11 10:28:23,643 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Dir_Sign.
+2022-11-11 10:28:23,643 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Dir_deg.
+2022-11-11 10:28:23,643 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Dir_QS.
+2022-11-11 10:28:23,643 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Spd_Sign.
+2022-11-11 10:28:23,643 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Spd_knot.
+2022-11-11 10:28:23,643 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Spd_QS.
+2022-11-11 10:28:23,703  INFO:  -- END  -- Fri Nov 11 10:28:23 AWST 2022
+2022-11-11 10:33:07,556 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 10:33:07,557 DEBUG: Task list loaded.
+2022-11-11 10:33:07,557 DEBUG: Total number of tasks: 1
+2022-11-11 10:33:07,557  INFO:  -- START  -- ASHD.xml
+2022-11-11 10:33:07,557  INFO:  -- Fri Nov 11 10:33:07 AWST 2022
+2022-11-11 10:33:07,557  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml 10:33:07 am
+2022-11-11 10:33:07,644  INFO: Importing file dbca_ASHD2022-09-07_1802_3.csv
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Site_Ref.
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Program_Site_Ref.
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Program Code.
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sample_Type.
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Collection_Method.
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Depth_measuring_point.
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sample_Depth_s.
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sample_Depth.
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sample_Depth_to.
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Security_Level.
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sal_Sign.
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sal.
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sal_QS.
+2022-11-11 10:33:07,865 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cond_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sp_Cond.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cond_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Temp Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Temp.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Temp_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_%_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_Sat.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_Sat_Status.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.pH.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.pH_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Turb_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Turb.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Turb_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Secchi_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Secchi_depth.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Secchi_depth_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Bottom_Depth_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Bottom_Depth.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Bottom_Depth_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TN_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TN.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TN_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NOx-N_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NOx.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NOx-N_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NH3_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NH3.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NH3/4-N_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DON_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DON.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DON_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TKN_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TKN .
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TKN_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO2-N_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO2-N.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO2-N_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO3-N_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO3-N.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO3-N_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TP_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TP.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TP_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.FRP_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.FRP.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.FRP_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.AlkTot_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.AlkTot.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.AlkTot_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DOC_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw. DOC_as_NPOC .
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DOC_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2_sol_react.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2-Si_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2-Si_sol_react.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2-Si_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TSS_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TSS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_Lab_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_lab_by_vol.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_Lab_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlb_Lab_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlb_Lab_by_vol.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlb_Lab_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlc_Lab_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlc_Lab_by vol.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlc_Lab_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.ChlSmplVol_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chl_sample_volume.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.ChlSmplVol_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.PhaeoA_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.PhaeoA_by_vol .
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.PhaeoA_QS.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlorophyll_Sign.
+2022-11-11 10:33:07,866 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_in _situ .
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chl_ug/L_QS.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_RFU_Sign.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_in_situ).
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_RFU_QS.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_Sign.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_in_situ.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_ug/L_QS.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_RFU_Sign.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_in_situ_RFU .
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_RFU_QS.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Null_reading.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cloud_Sign.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cloud_cover.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cloud_QS.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Flow_status.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Tide_status.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.WL_SLE_Sign.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Water_level_SLE.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.WL_SLE_QS.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Dir_Sign.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Dir_deg.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Dir_QS.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Spd_Sign.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Spd_knot.
+2022-11-11 10:33:07,867 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Spd_QS.
+2022-11-11 10:33:07,937  INFO:  -- END  -- Fri Nov 11 10:33:07 AWST 2022
+2022-11-11 10:35:09,557 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 10:35:09,578 DEBUG: Task list loaded.
+2022-11-11 10:35:09,578 DEBUG: Total number of tasks: 1
+2022-11-11 10:35:09,579  INFO:  -- START  -- ASHD.xml
+2022-11-11 10:35:09,579  INFO:  -- Fri Nov 11 10:35:09 AWST 2022
+2022-11-11 10:35:09,579  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml 10:35:09 am
+2022-11-11 10:35:09,682  INFO: Importing file dbca_ASHD2022-09-07_1802_4.csv
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Site_Ref.
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Program_Site_Ref.
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Program Code.
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sample_Type.
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Collection_Method.
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Depth_measuring_point.
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sample_Depth_s.
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sample_Depth.
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sample_Depth_to.
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Security_Level.
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sal_Sign.
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sal.
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sal_QS.
+2022-11-11 10:35:09,993 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cond_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Sp_Cond.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cond_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Temp Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Temp.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Temp_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_%_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_Sat.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DO_Sat_Status.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.pH.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.pH_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Turb_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Turb.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Turb_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Secchi_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Secchi_depth.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Secchi_depth_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Bottom_Depth_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Bottom_Depth.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Bottom_Depth_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TN_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TN.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TN_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NOx-N_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NOx.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NOx-N_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NH3_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NH3.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NH3/4-N_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DON_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DON.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DON_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TKN_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TKN .
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TKN_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO2-N_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO2-N.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO2-N_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO3-N_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO3-N.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.NO3-N_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TP_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TP.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TP_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.FRP_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.FRP.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.FRP_QS.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.AlkTot_Sign.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.AlkTot.
+2022-11-11 10:35:09,994 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.AlkTot_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DOC_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw. DOC_as_NPOC .
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.DOC_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2_sol_react.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2-Si_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2-Si_sol_react.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.SiO2-Si_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TSS_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.TSS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_Lab_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_lab_by_vol.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_Lab_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlb_Lab_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlb_Lab_by_vol.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlb_Lab_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlc_Lab_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlc_Lab_by vol.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlc_Lab_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.ChlSmplVol_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chl_sample_volume.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.ChlSmplVol_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.PhaeoA_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.PhaeoA_by_vol .
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.PhaeoA_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chlorophyll_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_in _situ .
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chl_ug/L_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_RFU_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_in_situ).
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Chla_RFU_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_in_situ.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_ug/L_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_RFU_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_in_situ_RFU .
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.BGA-PC_RFU_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Null_reading.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cloud_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cloud_cover.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Cloud_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Flow_status.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Tide_status.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.WL_SLE_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Water_level_SLE.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.WL_SLE_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Dir_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Dir_deg.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Dir_QS.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Spd_Sign.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Spd_knot.
+2022-11-11 10:35:09,995 DEBUG: Text file imported no rows for scevo.data.dbca.sccwq.ASHD.raw.Wind_Spd_QS.
+2022-11-11 10:35:10,051  INFO:  -- END  -- Fri Nov 11 10:35:10 AWST 2022
+2022-11-11 11:12:20,868 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-11-11 11:12:20,872 DEBUG: Task list loaded.
+2022-11-11 11:12:20,872 DEBUG: Total number of tasks: 1
+2022-11-11 11:12:20,872  INFO:  -- START  -- ASHD.xml
+2022-11-11 11:12:20,872  INFO:  -- Fri Nov 11 11:12:20 AWST 2022
+2022-11-11 11:12:20,872  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml 11:12:20 am
+2022-11-11 11:12:21,044  INFO: Importing file dbca_ASHD_2022-09-07_1802.csv
+2022-11-11 11:22:21,463  INFO:  -- END  -- Fri Nov 11 11:22:21 AWST 2022
+2022-12-29 14:58:37,316 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-29 14:58:37,319 DEBUG: Task list loaded.
+2022-12-29 14:58:37,319 DEBUG: Total number of tasks: 1
+2022-12-29 14:58:37,319  INFO:  -- START  -- ASHD.xml
+2022-12-29 14:58:37,319  INFO:  -- Thu Dec 29 14:58:37 AWST 2022
+2022-12-29 14:58:37,319  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml 2:58:37 pm
+2022-12-29 14:58:37,439  INFO: Importing file dbca_ASHD_2022-09-07_1802_7.csv
+2022-12-29 15:10:46,222  INFO:  -- END  -- Thu Dec 29 15:10:46 AWST 2022
+2022-12-29 17:47:54,383 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-29 17:47:54,385 DEBUG: Task list loaded.
+2022-12-29 17:47:54,385 DEBUG: Total number of tasks: 1
+2022-12-29 17:47:54,385  INFO:  -- START  -- ASHD.xml
+2022-12-29 17:47:54,386  INFO:  -- Thu Dec 29 17:47:54 AWST 2022
+2022-12-29 17:47:54,386  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml 5:47:54 pm
+2022-12-29 17:47:54,480 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022-12-29 17:47:54,481  INFO:  -- END  -- Thu Dec 29 17:47:54 AWST 2022
+2022-12-29 17:47:54,481  INFO: Number of errors: 1
+2022-12-29 17:49:17,782 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2022-12-29 17:49:17,784 DEBUG: Task list loaded.
+2022-12-29 17:49:17,784 DEBUG: Total number of tasks: 1
+2022-12-29 17:49:17,784  INFO:  -- START  -- ASHD.xml
+2022-12-29 17:49:17,785  INFO:  -- Thu Dec 29 17:49:17 AWST 2022
+2022-12-29 17:49:17,785  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml 5:49:17 pm
+2022-12-29 17:49:17,878  INFO: Importing file dbca_ASHD_2022-09-07_1802_8.csv
+2022-12-29 17:58:51,372  INFO:  -- END  -- Thu Dec 29 17:58:51 AWST 2022
+2023-01-16 08:30:20,102 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-01-16 08:30:20,138 DEBUG: Task list loaded.
+2023-01-16 08:30:20,138 DEBUG: Total number of tasks: 1
+2023-01-16 08:30:20,138  INFO:  -- START  -- ASHD.xml
+2023-01-16 08:30:20,138  INFO:  -- Mon Jan 16 08:30:20 AWST 2023
+2023-01-16 08:30:20,138  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml 8:30:20 am
+2023-01-16 08:30:20,315 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-16 08:30:20,315  INFO:  -- END  -- Mon Jan 16 08:30:20 AWST 2023
+2023-01-16 08:30:20,315  INFO: Number of errors: 1
+2023-01-16 08:30:25,422 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-01-16 08:30:25,423 DEBUG: Task list loaded.
+2023-01-16 08:30:25,423 DEBUG: Total number of tasks: 1
+2023-01-16 08:30:25,423  INFO:  -- START  -- ASHD.xml
+2023-01-16 08:30:25,423  INFO:  -- Mon Jan 16 08:30:25 AWST 2023
+2023-01-16 08:30:25,423  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml 8:30:25 am
+2023-01-16 08:30:25,601 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/sccwq/stations/ASHD/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.TaskListManager$1.run(TaskListManager.java:144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-16 08:30:25,601  INFO:  -- END  -- Mon Jan 16 08:30:25 AWST 2023
+2023-01-16 08:30:25,601  INFO: Number of errors: 1
