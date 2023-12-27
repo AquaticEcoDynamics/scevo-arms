@@ -1,23 +1,23 @@
-ARMS Sensor Summary Generated at 2023-12-26 16:00:10
+ARMS Sensor Summary Generated at 2023-12-27 00:00:01
 
 UWA Stations
   Matilda Buoy                          	: 2019-12-04 09:00:00 to 2021-10-23 09:30:00
   Kwilena Buoy                          	: 2019-12-04 09:00:00 to 2023-12-26 09:55:00
 
 BOM Perth Weather Stations
-  IDY Garden Island                     	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
+  IDY Garden Island                     	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
   IDY Gingin Airport                    	: 2021-07-15 08:00:00 to 2021-11-16 12:00:00
-  IDY Jandakot                          	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Melville Water                    	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
+  IDY Jandakot                          	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Melville Water                    	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
   IDY OceanReef                         	: 2021-07-15 08:00:00 to 2023-12-19 13:30:00
-  IDY Perth Airport                     	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Perth Metro                       	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Rottnest                          	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Swanbourne                        	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
+  IDY Perth Airport                     	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Perth Metro                       	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Rottnest                          	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Swanbourne                        	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
   IDO Hillarys                          	: 1992-01-01 00:00:00 to 2023-06-30 22:00:00
-  IDW Meadow St Bridge                  	: 2021-11-24 00:10:00 to 2023-12-26 08:55:00
-  IDW Kent St Weir                      	: 2021-11-24 00:10:00 to 2023-12-26 08:55:00
-  IDW Barrack St Jetty                  	: 2021-11-24 00:20:00 to 2023-12-26 08:37:00
+  IDW Meadow St Bridge                  	: 2021-11-24 00:10:00 to 2023-12-26 19:55:00
+  IDW Kent St Weir                      	: 2021-11-24 00:10:00 to 2023-12-26 19:55:00
+  IDW Barrack St Jetty                  	: 2021-11-24 00:20:00 to 2023-12-26 20:37:00
 
 DWER Flow Gauging Stations
   [616092] Walyunga                     	: 2019-12-21 17:00:00 to 2023-12-25 20:00:00
@@ -32,13 +32,13 @@ DWER Flow Gauging Stations
   [616086] Whiteman Rd                  	: 2018-10-17 01:00:00 to 2022-04-05 11:00:00
 
 DOT Tide Monitoring Stations
-  Barrack Street                        	: 2021-12-07 10:30:00 to 2023-12-26 15:30:00
-  Fremantle                             	: 2021-12-07 10:30:00 to 2023-12-26 15:30:00
-  Mandurah                              	: 2021-12-07 10:30:00 to 2023-12-26 15:15:00
-  Peel Inlet                            	: 2021-12-07 10:30:00 to 2023-12-26 15:30:00
+  Barrack Street                        	: 2021-12-07 10:30:00 to 2023-12-26 21:30:00
+  Fremantle                             	: 2021-12-07 10:30:00 to 2023-12-26 21:15:00
+  Mandurah                              	: 2021-12-07 10:30:00 to 2023-12-26 21:15:00
+  Peel Inlet                            	: 2021-12-07 10:30:00 to 2023-12-26 21:30:00
 
 DBCA Oxygenation Stations
-  Guildford Downstream                  	: 2023-01-01 00:00:00 to 2023-12-26 09:10:00
+  Guildford Downstream                  	: 2023-01-01 00:00:00 to 2023-12-26 23:30:00
   Guildford Upstream                    	: 2023-01-01 00:00:00 to 2023-12-26 09:00:00
   Caversham Downstream                  	: 2023-01-01 00:00:00 to 2023-12-26 09:00:00
   Caversham Downstream                  	: 2023-01-01 00:00:00 to 2023-12-26 09:00:00
@@ -145,37 +145,37 @@ WRF Historical
   Domain 2                              	: 2018-01-01 08:00:00 to 2018-01-31 08:00:00
 
 BOM IDY Weather Stations (ALL)
-  IDY Badgingarra                       	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Bickley                           	: 2021-07-15 08:00:00 to 2023-12-26 14:00:00
-  IDY Bridgetown                        	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Bunbury                           	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Busselton Airport                 	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Cape Naturaliste                  	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
+  IDY Badgingarra                       	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Bickley                           	: 2021-07-15 08:00:00 to 2023-12-26 22:00:00
+  IDY Bridgetown                        	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Bunbury                           	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Busselton Airport                 	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Cape Naturaliste                  	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
   IDY Champion Lakes                    	:  Unknown
   IDY Collie East                       	:  Unknown
-  IDY Dalwallinu                        	: 2021-07-15 08:00:00 to 2023-12-26 14:00:00
-  IDY Dwellingup                        	: 2021-07-15 08:00:00 to 2023-12-26 14:00:00
-  IDY Garden Island                     	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Geraldton Airport                 	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
+  IDY Dalwallinu                        	: 2021-07-15 08:00:00 to 2023-12-26 22:00:00
+  IDY Dwellingup                        	: 2021-07-15 08:00:00 to 2023-12-26 22:00:00
+  IDY Garden Island                     	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Geraldton Airport                 	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
   IDY Gingin Airport                    	: 2021-07-15 08:00:00 to 2021-11-16 12:00:00
-  IDY Hopetoun North                    	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Jacup                             	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Jandakot                          	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Kalgoorlie                        	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Katanning RS                      	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Lake Grace                        	: 2021-07-15 08:00:00 to 2023-12-26 14:00:00
-  IDY Mandurah                          	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Manjimup                          	: 2021-07-15 08:00:00 to 2023-12-26 14:00:00
-  IDY Marowa Airport                    	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Melville Water                    	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Munglinup West                    	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Newdegate                         	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
+  IDY Hopetoun North                    	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Jacup                             	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Jandakot                          	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Kalgoorlie                        	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Katanning RS                      	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Lake Grace                        	: 2021-07-15 08:00:00 to 2023-12-26 22:00:00
+  IDY Mandurah                          	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Manjimup                          	: 2021-07-15 08:00:00 to 2023-12-26 22:00:00
+  IDY Marowa Airport                    	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Melville Water                    	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Munglinup West                    	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Newdegate                         	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
   IDY OceanReef                         	: 2021-07-15 08:00:00 to 2023-12-19 13:30:00
-  IDY Perth Airport                     	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Perth Metro                       	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Rottnest                          	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Southern Cross Airport            	: 2021-07-15 08:00:00 to 2023-12-26 14:00:00
-  IDY Swanbourne                        	: 2021-07-15 08:00:00 to 2023-12-26 14:30:00
-  IDY Wandering                         	: 2021-07-15 08:00:00 to 2023-12-26 14:00:00
+  IDY Perth Airport                     	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Perth Metro                       	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Rottnest                          	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Southern Cross Airport            	: 2021-07-15 08:00:00 to 2023-12-26 22:00:00
+  IDY Swanbourne                        	: 2021-07-15 08:00:00 to 2023-12-26 22:30:00
+  IDY Wandering                         	: 2021-07-15 08:00:00 to 2023-12-26 22:00:00
   IDY Witchcliffe                       	: 2021-07-15 08:00:00 to 2021-08-01 16:30:00
 

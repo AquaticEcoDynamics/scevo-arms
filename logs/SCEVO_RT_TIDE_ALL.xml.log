@@ -12888,3 +12888,162 @@ Method: executeTask
 2023-12-26 16:00:05,600 DEBUG: Deleting web/dot_peel_20231226.csv
 2023-12-26 16:00:05,600  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
 2023-12-26 16:00:05,600  INFO:  -- END  -- Tue Dec 26 16:00:05 AWST 2023
+2023-12-26 18:00:01,742 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 18:00:01,767 DEBUG: Task list loaded.
+2023-12-26 18:00:01,767 DEBUG: Total number of tasks: 12
+2023-12-26 18:00:01,767  INFO:  -- START  -- RT_TIDE_ALL.xml
+2023-12-26 18:00:01,767  INFO:  -- Tue Dec 26 18:00:01 AWST 2023
+2023-12-26 18:00:01,767  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_tide/barrack/web/copy_dot_file.xml 6:00:01 pm
+2023-12-26 18:00:01,767  INFO: Copying files
+2023-12-26 18:00:01,825 DEBUG: Copying dot_barrack_20231226.csv
+2023-12-26 18:00:01,826  INFO: Transfered 1 files.
+2023-12-26 18:00:01,826  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_tide/barrack/web/import.xml 6:00:01 pm
+2023-12-26 18:00:03,189  INFO: Importing file dot_barrack_20231226_1000.csv
+2023-12-26 18:00:40,124  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_tide/barrack/web/delete_dot_web_dl.xml 6:00:40 pm
+2023-12-26 18:00:40,124  INFO: Deleting files
+2023-12-26 18:00:40,128 DEBUG: Deleting web/dot_barrack_20231226.csv
+2023-12-26 18:00:40,128  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2023-12-26 18:00:40,128  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_tide/fremantle/web/copy_dot_file.xml 6:00:40 pm
+2023-12-26 18:00:40,128  INFO: Copying files
+2023-12-26 18:00:40,167 DEBUG: Copying dot_fremantle_20231226.csv
+2023-12-26 18:00:40,167  INFO: Transfered 1 files.
+2023-12-26 18:00:40,167  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_tide/fremantle/web/import.xml 6:00:40 pm
+2023-12-26 18:00:40,804  INFO: Importing file dot_fremantle_20231226_1000.csv
+2023-12-26 18:00:41,227  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_tide/fremantle/web/delete_dot_web_dl.xml 6:00:41 pm
+2023-12-26 18:00:41,227  INFO: Deleting files
+2023-12-26 18:00:41,229 DEBUG: Deleting web/dot_fremantle_20231226.csv
+2023-12-26 18:00:41,229  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2023-12-26 18:00:41,229  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_tide/mandurah/web/copy_dot_file.xml 6:00:41 pm
+2023-12-26 18:00:41,229  INFO: Copying files
+2023-12-26 18:00:41,265 DEBUG: Copying dot_mandurah_20231226.csv
+2023-12-26 18:00:41,265  INFO: Transfered 1 files.
+2023-12-26 18:00:41,265  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_tide/mandurah/web/import.xml 6:00:41 pm
+2023-12-26 18:00:41,769  INFO: Importing file dot_mandurah_20231226_1000.csv
+2023-12-26 18:00:42,261  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_tide/mandurah/web/delete_dot_web_dl.xml 6:00:42 pm
+2023-12-26 18:00:42,261  INFO: Deleting files
+2023-12-26 18:00:42,264 DEBUG: Deleting web/dot_mandurah_20231226.csv
+2023-12-26 18:00:42,264  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2023-12-26 18:00:42,264  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_tide/peel/web/copy_dot_file.xml 6:00:42 pm
+2023-12-26 18:00:42,264  INFO: Copying files
+2023-12-26 18:00:42,299 DEBUG: Copying dot_peel_20231226.csv
+2023-12-26 18:00:42,300  INFO: Transfered 1 files.
+2023-12-26 18:00:42,300  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_tide/peel/web/import.xml 6:00:42 pm
+2023-12-26 18:00:43,177  INFO: Importing file dot_peel_20231226_1000.csv
+2023-12-26 18:00:44,190  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_tide/peel/web/delete_dot_web_dl.xml 6:00:44 pm
+2023-12-26 18:00:44,190  INFO: Deleting files
+2023-12-26 18:00:44,192 DEBUG: Deleting web/dot_peel_20231226.csv
+2023-12-26 18:00:44,192  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2023-12-26 18:00:44,192  INFO:  -- END  -- Tue Dec 26 18:00:44 AWST 2023
+2023-12-26 20:00:01,743 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 20:00:01,749 DEBUG: Task list loaded.
+2023-12-26 20:00:01,749 DEBUG: Total number of tasks: 12
+2023-12-26 20:00:01,749  INFO:  -- START  -- RT_TIDE_ALL.xml
+2023-12-26 20:00:01,749  INFO:  -- Tue Dec 26 20:00:01 AWST 2023
+2023-12-26 20:00:01,749  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_tide/barrack/web/copy_dot_file.xml 8:00:01 pm
+2023-12-26 20:00:01,750  INFO: Copying files
+2023-12-26 20:00:01,787 DEBUG: Copying dot_barrack_20231226.csv
+2023-12-26 20:00:01,787  INFO: Transfered 1 files.
+2023-12-26 20:00:01,787  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_tide/barrack/web/import.xml 8:00:01 pm
+2023-12-26 20:00:02,311  INFO: Importing file dot_barrack_20231226_1200.csv
+2023-12-26 20:00:02,650  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_tide/barrack/web/delete_dot_web_dl.xml 8:00:02 pm
+2023-12-26 20:00:02,650  INFO: Deleting files
+2023-12-26 20:00:02,653 DEBUG: Deleting web/dot_barrack_20231226.csv
+2023-12-26 20:00:02,653  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2023-12-26 20:00:02,653  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_tide/fremantle/web/copy_dot_file.xml 8:00:02 pm
+2023-12-26 20:00:02,653  INFO: Copying files
+2023-12-26 20:00:02,691 DEBUG: Copying dot_fremantle_20231226.csv
+2023-12-26 20:00:02,691  INFO: Transfered 1 files.
+2023-12-26 20:00:02,692  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_tide/fremantle/web/import.xml 8:00:02 pm
+2023-12-26 20:00:03,684  INFO: Importing file dot_fremantle_20231226_1200.csv
+2023-12-26 20:00:03,959  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_tide/fremantle/web/delete_dot_web_dl.xml 8:00:03 pm
+2023-12-26 20:00:03,959  INFO: Deleting files
+2023-12-26 20:00:03,962 DEBUG: Deleting web/dot_fremantle_20231226.csv
+2023-12-26 20:00:03,963  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2023-12-26 20:00:03,963  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_tide/mandurah/web/copy_dot_file.xml 8:00:03 pm
+2023-12-26 20:00:03,963  INFO: Copying files
+2023-12-26 20:00:03,999 DEBUG: Copying dot_mandurah_20231226.csv
+2023-12-26 20:00:03,999  INFO: Transfered 1 files.
+2023-12-26 20:00:03,999  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_tide/mandurah/web/import.xml 8:00:03 pm
+2023-12-26 20:00:04,476  INFO: Importing file dot_mandurah_20231226_1200.csv
+2023-12-26 20:00:04,668  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_tide/mandurah/web/delete_dot_web_dl.xml 8:00:04 pm
+2023-12-26 20:00:04,668  INFO: Deleting files
+2023-12-26 20:00:04,670 DEBUG: Deleting web/dot_mandurah_20231226.csv
+2023-12-26 20:00:04,671  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2023-12-26 20:00:04,671  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_tide/peel/web/copy_dot_file.xml 8:00:04 pm
+2023-12-26 20:00:04,671  INFO: Copying files
+2023-12-26 20:00:04,708 DEBUG: Copying dot_peel_20231226.csv
+2023-12-26 20:00:04,708  INFO: Transfered 1 files.
+2023-12-26 20:00:04,708  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_tide/peel/web/import.xml 8:00:04 pm
+2023-12-26 20:00:05,296  INFO: Importing file dot_peel_20231226_1200.csv
+2023-12-26 20:00:05,530  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_tide/peel/web/delete_dot_web_dl.xml 8:00:05 pm
+2023-12-26 20:00:05,530  INFO: Deleting files
+2023-12-26 20:00:05,534 DEBUG: Deleting web/dot_peel_20231226.csv
+2023-12-26 20:00:05,534  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2023-12-26 20:00:05,534  INFO:  -- END  -- Tue Dec 26 20:00:05 AWST 2023
+2023-12-26 22:00:01,742 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 22:00:01,749 DEBUG: Task list loaded.
+2023-12-26 22:00:01,749 DEBUG: Total number of tasks: 12
+2023-12-26 22:00:01,749  INFO:  -- START  -- RT_TIDE_ALL.xml
+2023-12-26 22:00:01,749  INFO:  -- Tue Dec 26 22:00:01 AWST 2023
+2023-12-26 22:00:01,749  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_tide/barrack/web/copy_dot_file.xml 10:00:01 pm
+2023-12-26 22:00:01,749  INFO: Copying files
+2023-12-26 22:00:01,786 DEBUG: Copying dot_barrack_20231226.csv
+2023-12-26 22:00:01,786  INFO: Transfered 1 files.
+2023-12-26 22:00:01,786  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_tide/barrack/web/import.xml 10:00:01 pm
+2023-12-26 22:00:02,366  INFO: Importing file dot_barrack_20231226_1400.csv
+2023-12-26 22:00:02,698  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_tide/barrack/web/delete_dot_web_dl.xml 10:00:02 pm
+2023-12-26 22:00:02,698  INFO: Deleting files
+2023-12-26 22:00:02,701 DEBUG: Deleting web/dot_barrack_20231226.csv
+2023-12-26 22:00:02,701  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2023-12-26 22:00:02,701  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_tide/fremantle/web/copy_dot_file.xml 10:00:02 pm
+2023-12-26 22:00:02,701  INFO: Copying files
+2023-12-26 22:00:02,739 DEBUG: Copying dot_fremantle_20231226.csv
+2023-12-26 22:00:02,739  INFO: Transfered 1 files.
+2023-12-26 22:00:02,739  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_tide/fremantle/web/import.xml 10:00:02 pm
+2023-12-26 22:00:03,532  INFO: Importing file dot_fremantle_20231226_1400.csv
+2023-12-26 22:00:03,756  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_tide/fremantle/web/delete_dot_web_dl.xml 10:00:03 pm
+2023-12-26 22:00:03,756  INFO: Deleting files
+2023-12-26 22:00:03,760 DEBUG: Deleting web/dot_fremantle_20231226.csv
+2023-12-26 22:00:03,760  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2023-12-26 22:00:03,760  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_tide/mandurah/web/copy_dot_file.xml 10:00:03 pm
+2023-12-26 22:00:03,760  INFO: Copying files
+2023-12-26 22:00:03,796 DEBUG: Copying dot_mandurah_20231226.csv
+2023-12-26 22:00:03,796  INFO: Transfered 1 files.
+2023-12-26 22:00:03,797  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_tide/mandurah/web/import.xml 10:00:03 pm
+2023-12-26 22:00:04,273  INFO: Importing file dot_mandurah_20231226_1400.csv
+2023-12-26 22:00:04,457  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_tide/mandurah/web/delete_dot_web_dl.xml 10:00:04 pm
+2023-12-26 22:00:04,457  INFO: Deleting files
+2023-12-26 22:00:04,460 DEBUG: Deleting web/dot_mandurah_20231226.csv
+2023-12-26 22:00:04,460  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2023-12-26 22:00:04,460  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_tide/peel/web/copy_dot_file.xml 10:00:04 pm
+2023-12-26 22:00:04,460  INFO: Copying files
+2023-12-26 22:00:04,495 DEBUG: Copying dot_peel_20231226.csv
+2023-12-26 22:00:04,495  INFO: Transfered 1 files.
+2023-12-26 22:00:04,495  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_tide/peel/web/import.xml 10:00:04 pm
+2023-12-26 22:00:05,074  INFO: Importing file dot_peel_20231226_1400.csv
+2023-12-26 22:00:05,274  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_tide/peel/web/delete_dot_web_dl.xml 10:00:05 pm
+2023-12-26 22:00:05,274  INFO: Deleting files
+2023-12-26 22:00:05,277 DEBUG: Deleting web/dot_peel_20231226.csv
+2023-12-26 22:00:05,277  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2023-12-26 22:00:05,277  INFO:  -- END  -- Tue Dec 26 22:00:05 AWST 2023
+2023-12-27 00:00:01,742 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-27 00:00:01,752 DEBUG: Task list loaded.
+2023-12-27 00:00:01,752 DEBUG: Total number of tasks: 12
+2023-12-27 00:00:01,752  INFO:  -- START  -- RT_TIDE_ALL.xml
+2023-12-27 00:00:01,752  INFO:  -- Wed Dec 27 00:00:01 AWST 2023
+2023-12-27 00:00:01,752  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_tide/barrack/web/copy_dot_file.xml 12:00:01 am
+2023-12-27 00:00:01,752  INFO: Copying files
+2023-12-27 00:00:01,795 DEBUG: Copying dot_barrack_20231226.csv
+2023-12-27 00:00:01,818  INFO: Transfered 1 files.
+2023-12-27 00:00:01,818  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_tide/barrack/web/import.xml 12:00:01 am
+2023-12-27 00:00:02,942  INFO: Importing file dot_barrack_20231226_1600.csv
+2023-12-27 00:00:52,084  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_tide/barrack/web/delete_dot_web_dl.xml 12:00:52 am
+2023-12-27 00:00:52,084  INFO: Deleting files
+2023-12-27 00:00:52,088 DEBUG: Deleting web/dot_barrack_20231226.csv
+2023-12-27 00:00:52,088  INFO: Folder: web - Deleted 1 files. Failed to delete 0.
+2023-12-27 00:00:52,088  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_tide/fremantle/web/copy_dot_file.xml 12:00:52 am
+2023-12-27 00:00:52,088  INFO: Copying files
+2023-12-27 00:00:52,127 DEBUG: Copying dot_fremantle_20231226.csv
+2023-12-27 00:00:52,127  INFO: Transfered 1 files.
+2023-12-27 00:00:52,127  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_tide/fremantle/web/import.xml 12:00:52 am
+2023-12-27 00:00:53,164  INFO: Importing file dot_fremantle_20231226_1600.csv

@@ -2094,3 +2094,19 @@ cwr.arms.tasks.TaskException: Unable to locate and initialise class: cwr.arms.ta
 2023-12-26 12:00:01,299  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 pm
 2023-12-26 12:00:01,299  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
 2023-12-26 12:00:02,574  INFO:  -- END  -- Tue Dec 26 12:00:02 AWST 2023
+2023-12-26 18:00:01,755 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 18:00:01,767 DEBUG: Task list loaded.
+2023-12-26 18:00:01,767 DEBUG: Total number of tasks: 1
+2023-12-26 18:00:01,767  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-26 18:00:01,767  INFO:  -- Tue Dec 26 18:00:01 AWST 2023
+2023-12-26 18:00:01,767  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 6:00:01 pm
+2023-12-26 18:00:01,767  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-26 18:00:03,667  INFO:  -- END  -- Tue Dec 26 18:00:03 AWST 2023
+2023-12-27 00:00:01,743 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-27 00:00:01,754 DEBUG: Task list loaded.
+2023-12-27 00:00:01,754 DEBUG: Total number of tasks: 1
+2023-12-27 00:00:01,754  INFO:  -- START  -- wiski_split_execute.xml
+2023-12-27 00:00:01,754  INFO:  -- Wed Dec 27 00:00:01 AWST 2023
+2023-12-27 00:00:01,754  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dbca/utils/wiski_split_execute.xml 12:00:01 am
+2023-12-27 00:00:01,754  INFO: Executing: Rscript /ARMS/Workspaces/scevo/scevo/data/utils/wiski/split_dbca_data_by_site_ARMS.R
+2023-12-27 00:00:03,020  INFO:  -- END  -- Wed Dec 27 00:00:03 AWST 2023

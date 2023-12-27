@@ -15585,3 +15585,607 @@ Method: executeTask
 2023-12-26 16:00:03,301  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
 2023-12-26 16:00:03,301  INFO:  -- END  -- Tue Dec 26 16:00:03 AWST 2023
 2023-12-26 16:00:03,301  INFO: Number of errors: 4
+2023-12-26 18:00:01,743 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 18:00:01,771 DEBUG: Task list loaded.
+2023-12-26 18:00:01,772 DEBUG: Total number of tasks: 12
+2023-12-26 18:00:01,772  INFO:  -- START  -- RT_MOZ_ALL.xml
+2023-12-26 18:00:01,772  INFO:  -- Tue Dec 26 18:00:01 AWST 2023
+2023-12-26 18:00:01,773  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 6:00:01 pm
+2023-12-26 18:00:01,773  INFO: Copying files
+2023-12-26 18:00:01,805  INFO: Transfered 0 files.
+2023-12-26 18:00:01,805  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 6:00:01 pm
+2023-12-26 18:00:02,734 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:02,734  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 6:00:02 pm
+2023-12-26 18:00:02,734  INFO: Deleting files
+2023-12-26 18:00:02,736  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-26 18:00:02,736  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 6:00:02 pm
+2023-12-26 18:00:02,736  INFO: Copying files
+2023-12-26 18:00:02,756  INFO: Transfered 0 files.
+2023-12-26 18:00:02,756  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 6:00:02 pm
+2023-12-26 18:00:03,920 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:03,920  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 6:00:03 pm
+2023-12-26 18:00:03,920  INFO: Deleting files
+2023-12-26 18:00:03,923  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-26 18:00:03,923  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 6:00:03 pm
+2023-12-26 18:00:03,923  INFO: Copying files
+2023-12-26 18:00:03,945  INFO: Transfered 0 files.
+2023-12-26 18:00:03,946  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 6:00:03 pm
+2023-12-26 18:00:05,769 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:05,769  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 6:00:05 pm
+2023-12-26 18:00:05,769  INFO: Deleting files
+2023-12-26 18:00:05,771  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-26 18:00:05,771  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 6:00:05 pm
+2023-12-26 18:00:05,771  INFO: Copying files
+2023-12-26 18:00:05,793  INFO: Transfered 0 files.
+2023-12-26 18:00:05,793  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 6:00:05 pm
+2023-12-26 18:00:07,647 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 11
+
+Error in Task: 11
+Config file: /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 11
+
+Error in Task: 11
+Config file: /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:07,647  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 6:00:07 pm
+2023-12-26 18:00:07,647  INFO: Deleting files
+2023-12-26 18:00:07,649  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-26 18:00:07,649  INFO:  -- END  -- Tue Dec 26 18:00:07 AWST 2023
+2023-12-26 18:00:07,649  INFO: Number of errors: 4
+2023-12-26 20:00:01,743 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 20:00:01,750 DEBUG: Task list loaded.
+2023-12-26 20:00:01,750 DEBUG: Total number of tasks: 12
+2023-12-26 20:00:01,750  INFO:  -- START  -- RT_MOZ_ALL.xml
+2023-12-26 20:00:01,750  INFO:  -- Tue Dec 26 20:00:01 AWST 2023
+2023-12-26 20:00:01,750  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 8:00:01 pm
+2023-12-26 20:00:01,750  INFO: Copying files
+2023-12-26 20:00:01,771  INFO: Transfered 0 files.
+2023-12-26 20:00:01,772  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 8:00:01 pm
+2023-12-26 20:00:02,036 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 20:00:02,036  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 8:00:02 pm
+2023-12-26 20:00:02,036  INFO: Deleting files
+2023-12-26 20:00:02,038  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-26 20:00:02,038  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 8:00:02 pm
+2023-12-26 20:00:02,038  INFO: Copying files
+2023-12-26 20:00:02,057  INFO: Transfered 0 files.
+2023-12-26 20:00:02,057  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 8:00:02 pm
+2023-12-26 20:00:02,426 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 20:00:02,427  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 8:00:02 pm
+2023-12-26 20:00:02,427  INFO: Deleting files
+2023-12-26 20:00:02,429  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-26 20:00:02,429  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 8:00:02 pm
+2023-12-26 20:00:02,429  INFO: Copying files
+2023-12-26 20:00:02,451  INFO: Transfered 0 files.
+2023-12-26 20:00:02,451  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 8:00:02 pm
+2023-12-26 20:00:02,866 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 20:00:02,866  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 8:00:02 pm
+2023-12-26 20:00:02,866  INFO: Deleting files
+2023-12-26 20:00:02,868  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-26 20:00:02,868  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 8:00:02 pm
+2023-12-26 20:00:02,868  INFO: Copying files
+2023-12-26 20:00:02,889  INFO: Transfered 0 files.
+2023-12-26 20:00:02,889  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 8:00:02 pm
+2023-12-26 20:00:03,122 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 11
+
+Error in Task: 11
+Config file: /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 11
+
+Error in Task: 11
+Config file: /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 20:00:03,122  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 8:00:03 pm
+2023-12-26 20:00:03,122  INFO: Deleting files
+2023-12-26 20:00:03,124  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-26 20:00:03,124  INFO:  -- END  -- Tue Dec 26 20:00:03 AWST 2023
+2023-12-26 20:00:03,124  INFO: Number of errors: 4
+2023-12-26 22:00:01,743 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 22:00:01,749 DEBUG: Task list loaded.
+2023-12-26 22:00:01,749 DEBUG: Total number of tasks: 12
+2023-12-26 22:00:01,749  INFO:  -- START  -- RT_MOZ_ALL.xml
+2023-12-26 22:00:01,750  INFO:  -- Tue Dec 26 22:00:01 AWST 2023
+2023-12-26 22:00:01,750  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 10:00:01 pm
+2023-12-26 22:00:01,750  INFO: Copying files
+2023-12-26 22:00:01,773  INFO: Transfered 0 files.
+2023-12-26 22:00:01,773  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 10:00:01 pm
+2023-12-26 22:00:02,093 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 22:00:02,093  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 10:00:02 pm
+2023-12-26 22:00:02,093  INFO: Deleting files
+2023-12-26 22:00:02,095  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-26 22:00:02,095  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 10:00:02 pm
+2023-12-26 22:00:02,095  INFO: Copying files
+2023-12-26 22:00:02,114  INFO: Transfered 0 files.
+2023-12-26 22:00:02,114  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 10:00:02 pm
+2023-12-26 22:00:02,485 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 22:00:02,485  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 10:00:02 pm
+2023-12-26 22:00:02,485  INFO: Deleting files
+2023-12-26 22:00:02,487  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-26 22:00:02,488  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 10:00:02 pm
+2023-12-26 22:00:02,488  INFO: Copying files
+2023-12-26 22:00:02,509  INFO: Transfered 0 files.
+2023-12-26 22:00:02,509  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 10:00:02 pm
+2023-12-26 22:00:02,922 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 22:00:02,922  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 10:00:02 pm
+2023-12-26 22:00:02,922  INFO: Deleting files
+2023-12-26 22:00:02,924  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-26 22:00:02,924  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 10:00:02 pm
+2023-12-26 22:00:02,924  INFO: Copying files
+2023-12-26 22:00:02,945  INFO: Transfered 0 files.
+2023-12-26 22:00:02,945  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 10:00:02 pm
+2023-12-26 22:00:03,179 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 11
+
+Error in Task: 11
+Config file: /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 11
+
+Error in Task: 11
+Config file: /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 22:00:03,179  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 10:00:03 pm
+2023-12-26 22:00:03,179  INFO: Deleting files
+2023-12-26 22:00:03,181  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-26 22:00:03,181  INFO:  -- END  -- Tue Dec 26 22:00:03 AWST 2023
+2023-12-26 22:00:03,181  INFO: Number of errors: 4
+2023-12-27 00:00:01,742 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-27 00:00:01,747 DEBUG: Task list loaded.
+2023-12-27 00:00:01,748 DEBUG: Total number of tasks: 12
+2023-12-27 00:00:01,748  INFO:  -- START  -- RT_MOZ_ALL.xml
+2023-12-27 00:00:01,748  INFO:  -- Wed Dec 27 00:00:01 AWST 2023
+2023-12-27 00:00:01,748  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/copy_dot_file.xml 12:00:01 am
+2023-12-27 00:00:01,748  INFO: Copying files
+2023-12-27 00:00:01,777  INFO: Transfered 0 files.
+2023-12-27 00:00:01,778  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml 12:00:01 am
+2023-12-27 00:00:02,774 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dot/rt_moz/canning/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-27 00:00:02,775  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dot/rt_moz/canning/web/delete_dot_web_dl.xml 12:00:02 am
+2023-12-27 00:00:02,775  INFO: Deleting files
+2023-12-27 00:00:02,778  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-27 00:00:02,778  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/copy_dot_file.xml 12:00:02 am
+2023-12-27 00:00:02,778  INFO: Copying files
+2023-12-27 00:00:02,799  INFO: Transfered 0 files.
+2023-12-27 00:00:02,799  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml 12:00:02 am
+2023-12-27 00:00:03,681 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dot/rt_moz/serpentine/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-27 00:00:03,681  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dot/rt_moz/serpentine/web/delete_dot_web_dl.xml 12:00:03 am
+2023-12-27 00:00:03,681  INFO: Deleting files
+2023-12-27 00:00:03,683  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-27 00:00:03,683  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/copy_dot_file.xml 12:00:03 am
+2023-12-27 00:00:03,683  INFO: Copying files
+2023-12-27 00:00:03,704  INFO: Transfered 0 files.
+2023-12-27 00:00:03,704  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml 12:00:03 am
+2023-12-27 00:00:04,696 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dot/rt_moz/garrat/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-27 00:00:04,696  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dot/rt_moz/garrat/web/delete_dot_web_dl.xml 12:00:04 am
+2023-12-27 00:00:04,696  INFO: Deleting files
+2023-12-27 00:00:04,698  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-27 00:00:04,698  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/copy_dot_file.xml 12:00:04 am
+2023-12-27 00:00:04,698  INFO: Copying files
+2023-12-27 00:00:04,719  INFO: Transfered 0 files.
+2023-12-27 00:00:04,719  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml 12:00:04 am
+2023-12-27 00:00:05,433 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 11
+
+Error in Task: 11
+Config file: /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 11
+
+Error in Task: 11
+Config file: /scevo/config/tasks/data/dot/rt_moz/guildford/web/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-27 00:00:05,433  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dot/rt_moz/guildford/web/delete_dot_web_dl.xml 12:00:05 am
+2023-12-27 00:00:05,433  INFO: Deleting files
+2023-12-27 00:00:05,435  INFO: Folder: web - Deleted 0 files. Failed to delete 0.
+2023-12-27 00:00:05,435  INFO:  -- END  -- Wed Dec 27 00:00:05 AWST 2023
+2023-12-27 00:00:05,435  INFO: Number of errors: 4

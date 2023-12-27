@@ -16014,3 +16014,121 @@ Method: executeTask
 	at java.base/java.lang.Thread.run(Thread.java:829)
 2023-12-26 15:00:01,734  INFO:  -- END  -- Tue Dec 26 15:00:01 AWST 2023
 2023-12-26 15:00:01,735  INFO: Number of errors: 3
+2023-12-26 18:00:01,742 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 18:00:01,805 DEBUG: Task list loaded.
+2023-12-26 18:00:01,805 DEBUG: Total number of tasks: 3
+2023-12-26 18:00:01,805  INFO:  -- START  -- IDW_ALL.xml
+2023-12-26 18:00:01,805  INFO:  -- Tue Dec 26 18:00:01 AWST 2023
+2023-12-26 18:00:01,805  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/import.xml 6:00:01 pm
+2023-12-26 18:00:02,082 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/bom/idw/barrackstjetty/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/bom/idw/barrackstjetty/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:02,082  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/bom/idw/kentstweir/import.xml 6:00:02 pm
+2023-12-26 18:00:03,016 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/bom/idw/kentstweir/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/bom/idw/kentstweir/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:03,017  INFO:  -- TASK 3/3 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/import.xml 6:00:03 pm
+2023-12-26 18:00:04,648 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/bom/idw/meadowstbridge/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/bom/idw/meadowstbridge/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:04,649  INFO:  -- END  -- Tue Dec 26 18:00:04 AWST 2023
+2023-12-26 18:00:04,649  INFO: Number of errors: 3
+2023-12-26 21:00:01,742 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 21:00:01,745 DEBUG: Task list loaded.
+2023-12-26 21:00:01,745 DEBUG: Total number of tasks: 3
+2023-12-26 21:00:01,745  INFO:  -- START  -- IDW_ALL.xml
+2023-12-26 21:00:01,745  INFO:  -- Tue Dec 26 21:00:01 AWST 2023
+2023-12-26 21:00:01,745  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/import.xml 9:00:01 pm
+2023-12-26 21:00:01,901  INFO: Importing file 20231226_2037.csv
+2023-12-26 21:00:03,212  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/bom/idw/kentstweir/import.xml 9:00:03 pm
+2023-12-26 21:00:03,361  INFO: Importing file 20231226_2000.csv
+2023-12-26 21:00:05,517  INFO:  -- TASK 3/3 -- /scevo/config/tasks/data/bom/idw/meadowstbridge/import.xml 9:00:05 pm
+2023-12-26 21:00:05,665  INFO: Importing file 20231226_2000.csv
+2023-12-26 21:00:07,876  INFO:  -- END  -- Tue Dec 26 21:00:07 AWST 2023
+2023-12-27 00:00:01,742 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-27 00:00:01,746 DEBUG: Task list loaded.
+2023-12-27 00:00:01,747 DEBUG: Total number of tasks: 3
+2023-12-27 00:00:01,747  INFO:  -- START  -- IDW_ALL.xml
+2023-12-27 00:00:01,747  INFO:  -- Wed Dec 27 00:00:01 AWST 2023
+2023-12-27 00:00:01,747  INFO:  -- TASK 1/3 -- /scevo/config/tasks/data/bom/idw/barrackstjetty/import.xml 12:00:01 am
+2023-12-27 00:00:02,098  INFO: Importing file 20231226_2337.csv
+2023-12-27 00:00:54,062  INFO:  -- TASK 2/3 -- /scevo/config/tasks/data/bom/idw/kentstweir/import.xml 12:00:54 am
+2023-12-27 00:00:54,208  INFO: Importing file 20231226_2300.csv

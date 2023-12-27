@@ -2167,3 +2167,379 @@ Method: executeTask
 2023-12-26 12:09:36,409  INFO: Importing file 20231226_0910.csv
 2023-12-26 12:10:24,946  INFO:  -- END  -- Tue Dec 26 12:10:24 AWST 2023
 2023-12-26 12:10:24,947  INFO: Number of errors: 2
+2023-12-26 18:00:01,755 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 18:00:01,821 DEBUG: Task list loaded.
+2023-12-26 18:00:01,821 DEBUG: Total number of tasks: 12
+2023-12-26 18:00:01,821  INFO:  -- START  -- OXY_ALL.xml
+2023-12-26 18:00:01,821  INFO:  -- Tue Dec 26 18:00:01 AWST 2023
+2023-12-26 18:00:01,821  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dbca/oxy/guildford_ds_s/raw/import.xml 6:00:01 pm
+2023-12-26 18:00:02,770 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/oxy/guildford_ds_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dbca/oxy/guildford_ds_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:02,770  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dbca/oxy/guildford_ds_b/raw/import.xml 6:00:02 pm
+2023-12-26 18:00:05,218 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/oxy/guildford_ds_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 2
+
+Error in Task: 2
+Config file: /scevo/config/tasks/data/dbca/oxy/guildford_ds_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:05,218  INFO:  -- TASK 3/12 -- /scevo/config/tasks/data/dbca/oxy/guildford_us_s/raw/import.xml 6:00:05 pm
+2023-12-26 18:00:07,236 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/oxy/guildford_us_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 3
+
+Error in Task: 3
+Config file: /scevo/config/tasks/data/dbca/oxy/guildford_us_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:07,237  INFO:  -- TASK 4/12 -- /scevo/config/tasks/data/dbca/oxy/guildford_us_b/raw/import.xml 6:00:07 pm
+2023-12-26 18:00:08,840 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/oxy/guildford_us_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 4
+
+Error in Task: 4
+Config file: /scevo/config/tasks/data/dbca/oxy/guildford_us_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:08,840  INFO:  -- TASK 5/12 -- /scevo/config/tasks/data/dbca/oxy/caversham_ds_s/raw/import.xml 6:00:08 pm
+2023-12-26 18:00:10,471 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/oxy/caversham_ds_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 5
+
+Error in Task: 5
+Config file: /scevo/config/tasks/data/dbca/oxy/caversham_ds_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:10,471  INFO:  -- TASK 6/12 -- /scevo/config/tasks/data/dbca/oxy/caversham_ds_b/raw/import.xml 6:00:10 pm
+2023-12-26 18:00:11,007 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/oxy/caversham_ds_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 6
+
+Error in Task: 6
+Config file: /scevo/config/tasks/data/dbca/oxy/caversham_ds_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:11,008  INFO:  -- TASK 7/12 -- /scevo/config/tasks/data/dbca/oxy/caversham_us_s/raw/import.xml 6:00:11 pm
+2023-12-26 18:00:11,333 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/oxy/caversham_us_s/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 7
+
+Error in Task: 7
+Config file: /scevo/config/tasks/data/dbca/oxy/caversham_us_s/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:11,333  INFO:  -- TASK 8/12 -- /scevo/config/tasks/data/dbca/oxy/caversham_us_b/raw/import.xml 6:00:11 pm
+2023-12-26 18:00:12,246 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/oxy/caversham_us_b/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 8
+
+Error in Task: 8
+Config file: /scevo/config/tasks/data/dbca/oxy/caversham_us_b/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:12,247  INFO:  -- TASK 9/12 -- /scevo/config/tasks/data/dbca/oxy/nicholson_us/raw/import.xml 6:00:12 pm
+2023-12-26 18:00:13,698 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 9
+
+Error in Task: 9
+Config file: /scevo/config/tasks/data/dbca/oxy/nicholson_us/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 9
+
+Error in Task: 9
+Config file: /scevo/config/tasks/data/dbca/oxy/nicholson_us/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:13,699  INFO:  -- TASK 10/12 -- /scevo/config/tasks/data/dbca/oxy/nicholson_ds/raw/import.xml 6:00:13 pm
+2023-12-26 18:00:15,151 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 10
+
+Error in Task: 10
+Config file: /scevo/config/tasks/data/dbca/oxy/nicholson_ds/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 10
+
+Error in Task: 10
+Config file: /scevo/config/tasks/data/dbca/oxy/nicholson_ds/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:15,152  INFO:  -- TASK 11/12 -- /scevo/config/tasks/data/dbca/oxy/bacon_us/raw/import.xml 6:00:15 pm
+2023-12-26 18:00:16,128 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 11
+
+Error in Task: 11
+Config file: /scevo/config/tasks/data/dbca/oxy/bacon_us/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 11
+
+Error in Task: 11
+Config file: /scevo/config/tasks/data/dbca/oxy/bacon_us/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:16,129  INFO:  -- TASK 12/12 -- /scevo/config/tasks/data/dbca/oxy/bacon_ds/raw/import.xml 6:00:16 pm
+2023-12-26 18:00:17,090 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 12
+
+Error in Task: 12
+Config file: /scevo/config/tasks/data/dbca/oxy/bacon_ds/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 12
+
+Error in Task: 12
+Config file: /scevo/config/tasks/data/dbca/oxy/bacon_ds/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:17,090  INFO:  -- END  -- Tue Dec 26 18:00:17 AWST 2023
+2023-12-26 18:00:17,091  INFO: Number of errors: 12
+2023-12-27 00:00:01,743 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-27 00:00:01,764 DEBUG: Task list loaded.
+2023-12-27 00:00:01,764 DEBUG: Total number of tasks: 12
+2023-12-27 00:00:01,764  INFO:  -- START  -- OXY_ALL.xml
+2023-12-27 00:00:01,765  INFO:  -- Wed Dec 27 00:00:01 AWST 2023
+2023-12-27 00:00:01,765  INFO:  -- TASK 1/12 -- /scevo/config/tasks/data/dbca/oxy/guildford_ds_s/raw/import.xml 12:00:01 am
+2023-12-27 00:00:02,034  INFO: Importing file 20231226_2330.csv
+2023-12-27 00:00:08,089  INFO:  -- TASK 2/12 -- /scevo/config/tasks/data/dbca/oxy/guildford_ds_b/raw/import.xml 12:00:08 am
+2023-12-27 00:00:10,263  INFO: Importing file 20231226_2330.csv

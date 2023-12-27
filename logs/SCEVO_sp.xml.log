@@ -5841,3 +5841,77 @@ Method: executeTask
 	at java.base/java.lang.Thread.run(Thread.java:829)
 2023-12-26 12:00:01,796  INFO:  -- END  -- Tue Dec 26 12:00:01 AWST 2023
 2023-12-26 12:00:01,796  INFO: Number of errors: 1
+2023-12-26 18:00:01,750 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-26 18:00:01,773 DEBUG: Task list loaded.
+2023-12-26 18:00:01,773 DEBUG: Total number of tasks: 1
+2023-12-26 18:00:01,773  INFO:  -- START  -- sp.xml
+2023-12-26 18:00:01,773  INFO:  -- Tue Dec 26 18:00:01 AWST 2023
+2023-12-26 18:00:01,773  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dpird/met/stations/sp/raw/import.xml 6:00:01 pm
+2023-12-26 18:00:02,201 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dpird/met/stations/sp/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dpird/met/stations/sp/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-26 18:00:02,201  INFO:  -- END  -- Tue Dec 26 18:00:02 AWST 2023
+2023-12-26 18:00:02,201  INFO: Number of errors: 1
+2023-12-27 00:00:01,745 DEBUG:  -- START OF ARMS SYSTEM PROCESSING -- 
+2023-12-27 00:00:01,748 DEBUG: Task list loaded.
+2023-12-27 00:00:01,749 DEBUG: Total number of tasks: 1
+2023-12-27 00:00:01,749  INFO:  -- START  -- sp.xml
+2023-12-27 00:00:01,749  INFO:  -- Wed Dec 27 00:00:01 AWST 2023
+2023-12-27 00:00:01,750  INFO:  -- TASK 1/1 -- /scevo/config/tasks/data/dpird/met/stations/sp/raw/import.xml 12:00:01 am
+2023-12-27 00:00:02,254 ERROR: CAUGHT EXCEPTION: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dpird/met/stations/sp/raw/import.xml
+Method: executeTask
+
+cwr.arms.tasks.TaskException: 
+No files to process
+
+Error in Task: 1
+
+Error in Task: 1
+Config file: /scevo/config/tasks/data/dpird/met/stations/sp/raw/import.xml
+Method: executeTask
+
+	at cwr.arms.tasks.data.textfile.ImportTask.executeTask(ImportTask.java:98)
+	at cwr.arms.tasks.TaskList.runTasksList(TaskList.java:218)
+	at cwr.arms.tasks.TaskListManager.runTaskListFileUnThreaded(TaskListManager.java:109)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.runTask(SchedulerTaskListRunner.java:187)
+	at cwr.arms.tasks.scheduler.SchedulerTaskListRunner.run(SchedulerTaskListRunner.java:135)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-12-27 00:00:02,255  INFO:  -- END  -- Wed Dec 27 00:00:02 AWST 2023
+2023-12-27 00:00:02,255  INFO: Number of errors: 1
